@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.yayarepo" name="Yaya Test Repo" version="0.0.1" provider-name="Me">
+	<extension point="xbmc.addon.repository" name="Yaya Test Repo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/pbound/repository.yayarepo/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/pbound/repository.yayarepo/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/pbound/repository.yayarepo/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Quick one liner about the repository</summary>
+		<description lang="en">Full repository description.</description>
+		<genre>livetv,asian</genre>
+	</extension>
+</addon>
