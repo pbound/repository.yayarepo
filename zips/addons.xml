@@ -162,7 +162,7 @@
 	</extension>
 </addon>
 
-<addon id="repository.yayarepo" name="Yaya Test Repo" version="0.0.1" provider-name="Me">
+<addon id="repository.yayarepo" name="Yaya Test Repo" version="0.0.2" provider-name="Me">
 	<extension point="xbmc.addon.repository" name="Yaya Test Repo">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
