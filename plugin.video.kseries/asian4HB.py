@@ -68,118 +68,67 @@ def getStreams(url):
 
 
 
-def k_getEpisodes(url):
+
+
+
+def exactkSeries(url):
     r = requests.get(url)
+    r.encoding = "utf-8"
     soup = BeautifulSoup(r.text, 'html5lib')
-    ul = soup.select("p  > a")
-    episodesList = []
-    for item in ul:
-        episodesList.append({"title": item.text, "url": k_getStreams(item.get('href'))})
-    return episodesList
+    soup.prettify()
+    inp = soup.findAll('input', {"type": "button"})
+    # print inp
+    seriesList = []
+    for bt in inp:
 
+            id = bt.get('id')
+            kstrm = kstream(url,id)
+            for src in kstrm:
+                label=src.get('label')
+                if label is None:
+                    label = ''
+                title = bt.get('value')+'  '+label
+                seriesList.append({'title': title, 'url': src.get('curl')})
+    return seriesList
 
-def k_getStreams(url):
+def kstream(url,id):
+
+    # url = 'http://www.kseries.co/clip/play.php?id=1582765&width=1005&height=540&dh=30-5&dh2=30-4&n=1'
+    url = url.replace('clip/','clip/play.php?id=')
+    url = url +'&width=1005&height=540&dh=30-4&dh2=30-3&n='+id
     r = requests.get(url)
-    r.encoding = 'utf-8'
+    r.encoding = "utf-8"
+    gsrc = re.compile('mobile.*\n.*src="([^"]+)"').findall(r.text)
     soup = BeautifulSoup(r.text, 'html5lib')
-    h3 = soup.find_all('input', {"class": "sublink"})
-    turl = url.replace('clip/','clip/play.php?id=') + '&width=1005&height=550&dh=5-10&dh2=5-9&n='
-    for link in h3:
-        kstream = k_stream(turl+link.get('id'))
-        if kstream is not None:
-            return kstream
-
-
-def adFly(url):
-    r = requests.get('http://skizzerz.net/scripts/adfly.php?url='+url)
-    soup = BeautifulSoup(r.text , 'html5lib')
-    return soup.find('a').get('href')
-
-def yandex(url):
-    try:
-        s = requests.Session()
-        r = s.get(url)
-        r = re.sub(r'[^\x00-\x7F]+',' ', r.text)
-
-        sk = re.findall('"sk"\s*:\s*"([^"]+)', r)[0]
-
-        idstring = re.findall('"id"\s*:\s*"([^"]+)', r)[0]
-
-        idclient = binascii.b2a_hex(os.urandom(16))
-
-        post = {'idClient': idclient, 'version': '3.9.2', 'sk': sk, '_model.0': 'do-get-resource-url', 'id.0': idstring}
-        #post = urllib.urlencode(post)
-
-        r = s.post('https://yadi.sk/models/?_m=do-get-resource-url', data=post)
-        r = json.loads(r.text)
-
-        url = r['models'][0]['data']['file']
-
-        return url
-    except:
-        return
-
-def getSpecialEpisodes(url,find='p'):
-    r = requests.get(url)
-    r.encoding = 'utf-8'
-    soup = BeautifulSoup(r.text, 'html5lib')
-
-    ul = soup.find('div', {"class": "post-wrapper"})
-
-    p = ul.findAll(find)
-
-    epsList = []
-    last = None
-    for eps in p:
-        if last == None:
-            last=eps
-        a = eps.findAll('a')
-        if a != []:
-            strong = eps.find('strong')
-            subject = ''
-            if strong != None:
-                subject = strong.text
-            else:
-                laststrong = last.find('strong')
-                if laststrong != None:
-                    subject = laststrong.text
-                else:
-                    epstext = eps.text
-                    if u'פרק' in epstext:
-                        subject=epstext
-                    else:
-                        subject = last.text
-            
-            subject = re.sub('\n.*','',subject)
-            if u'פרק' in subject:
-                epsList.append({'title':subject,'url':a})
-        last = eps
-    
-    if epsList == [] and find=='p':
-        return getSpecialEpisodes(url,'address')
-        
-    return epsList
-
-def getSpecialStreams(url,episode):
-    epsList = getSpecialEpisodes(url)
-    strmList = []
-    for item in epsList:
-        if item.get('title') == episode.decode('utf-8'):
-            return item.get('url')
+    soup.prettify()
+    strmList=[]
+    src = soup.findAll('source')
+    for strm in src:
+        csrc = strm.get('src')
+        if 'cliperror' not in csrc:
+            if '\'' not in csrc:
+                if 'LoadingCircleYouTube'in csrc:
+                 csrc= gsrc[0]
+                strmList.append({'label': strm.get('label'), 'curl': csrc})
     return strmList
-def extractLinks(a):
-    linkList = []
-    for link in a:
-        linkList.append(link.get('href'))
-    return linkList
+
+
+
+
+
 
 def k_stream(url):
     r = requests.get(url)
-    s = re.compile('file.."(.*?)"').findall(r.text)
+    # s = re.compile('file.."(.*?)"').findall(r.text)
+    s = re.compile('<source src="([^"]+)"').findall(r.text)
     url = s[0]
     return url
 
 #print yandex("https://yadi.sk/i/cF7-Y0tGhZ94G")
-#print getEpisodes("http://www.asia4hb.com/view/my-dear-cat")
+# print getEpisodes("http://www.asia4hb.com/view/my-dear-cat")
 # print getSpecialStreams('http://www.asia4hb.com/view/jeon-woo-chi', u'פרק 2')
 # print getStreams()
+# url = 'http://www.kseries.co/clip/play.php?id=1407338&width=1005&height=540&dh=24-10&dh2=24-9&n=0'
+# print k_stream(url)
+# print exteact_stream('http://www.kseries.co/clip/play.php?id=1390602&width=1005&height=540&dh=29-10&dh2=29-9&n=0')
+# print  k_getStreams('http://www.kseries.co/clip/1390602/')
