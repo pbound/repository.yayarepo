@@ -131,4 +131,7 @@ def k_stream(url):
 # url = 'http://www.kseries.co/clip/play.php?id=1407338&width=1005&height=540&dh=24-10&dh2=24-9&n=0'
 # print k_stream(url)
 # print exteact_stream('http://www.kseries.co/clip/play.php?id=1390602&width=1005&height=540&dh=29-10&dh2=29-9&n=0')
-# print  k_getStreams('http://www.kseries.co/clip/1390602/')
+# print  k_stream('http://www.kseries.co/clip/58836/')
+# print getStreams('http://www.kseries.co/clip/58836/')
+# print exactkSeries('http://www.kseries.co/clip/58836/')
+# print getSeries('http://www.kseries.co/?s=man')
