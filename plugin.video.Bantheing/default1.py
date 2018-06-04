@@ -26,8 +26,9 @@ def get_main():
 
     for ctg in mainlist:
         plugintools.add_item(title=ctg.get('title'),action='showsearchmovie',url=ctg.get('url'))
-    plugintools.add_item(title=u'ซีรีส์เกาหลี', action='showseries', url='http://www.kseries.co/category/korea-series/')
-    plugintools.add_item(title=u'ดูเว็บ ซีรีส์', action='showwebseries')
+    plugintools.add_item(title=u'TV', action='showTV', url='http://psitv.tv/api/Channels')
+    # plugintools.add_item(title=u'ซีรีส์เกาหลี', action='showseries', url='http://www.kseries.co/category/korea-series/')
+
     plugintools.add_item(title=u'Slect Hosts', action='showhosts')
     plugintools.add_item(title=u'ค้นหา หนัง', action='showsearch')
     plugintools.close_item_list()
@@ -96,6 +97,7 @@ def get_mov(url):
             plugintools.add_item(title=show.get('title'),action='streamslist',url=show.get('url'),thumbnail=thumb)
         else:
             plugintools.add_item(title=show.get('title'),action='showmovie',url=show.get('url'),thumbnail=nextimg)
+    # xbmc.executebuiltin('Container.SetViewMode(500)')
     plugintools.close_item_list()
 
 
@@ -174,7 +176,21 @@ def get_streams(url,thumbnail,title):
         stitle = title.decode('utf8')+' '+stream.get('title')
         plugintools.add_item(title=stitle, action='stream',url=stream.get('url'),thumbnail=urllib.unquote(thumbnail).decode('utf8'))
     plugintools.close_item_list()
-    
+
+def get_tv(url):
+    # xbmcgui.Dialog().ok('get_stream', title)
+    # arg(title)
+    from resources.sites import _psi
+    strmList = _psi.getstreams(url)
+
+    for stream in strmList:
+        stitle = stream.get('title')
+        # stitle = stitle.decode('utf8')
+        # plugintools.add_item(title=u'stitle', action='stream',url=stream.get('url'),thumbnail=stream.get('thumbnail'))
+        plugintools.add_item(title=stitle, action='stream',url=stream.get('url'),thumbnail=stream.get('thumbnail'))
+    xbmc.executebuiltin('Container.SetViewMode(500)')
+    plugintools.close_item_list()
+
 def stream(url,title,thumbnail):
     # xbmcgui.Dialog().ok('strems', url)
     resolved_url = select(url)
@@ -316,6 +332,8 @@ def run():
         get_streams(params.get('url'),params.get('thumbnail'),params.get('title'))
     elif action == 'searchstreamslist':
         get_searchstreams(params.get('title'),params.get('thumbnail'))
+    elif action == 'showTV':
+        get_tv(params.get('url'))
     elif action == 'stream':
         # stream(urllib.unquote_plus(params.get('url')),params.get('title'),params.get('thumbnail'))
         stream(params.get('url'), params.get('title'), params.get('thumbnail'))
