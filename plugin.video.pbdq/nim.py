@@ -117,14 +117,10 @@ def getstreams(url,title=None):
     sub = curproduct['subtitle']
     print len(sub)
     if sub != []:
-        sumsub = len(sub)
-
-        if len(sub)>1:
-            thsubtitle = sub[3]
-        elif len(sub)== 1:
-            thsubtitle = sub[0]
-        subtitleurl = thsubtitle['url']
-        download_subtitle(subtitleurl)
+        for s in sub:
+            if s['is_default'] == 1:
+                subtitleurl = s['url']
+                download_subtitle(subtitleurl)
     else:
         del_sub()
         # os.remove("/resources/temp/s.srt")
