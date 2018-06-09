@@ -106,7 +106,7 @@ def stream(url, title, thumbnail):
     path = url
     li = xbmcgui.ListItem(label=title, iconImage=thumbnail, thumbnailImage=thumbnail, path=path)
     li.setInfo(type='Video', infoLabels={"Title": str(title)})
-    li.setSubtitles([sys.path[0] + '/resources/temp/s.srt'])
+    li.setSubtitles([plugintools.get_temp_path()+'s.srt'])
     xbmc.Player().play(path, li)
 
 

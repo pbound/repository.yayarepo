@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import json
+import json,plugintools
 
 import os
 import requests
@@ -38,12 +38,12 @@ def getseries(url):
     response = requests.get(url)
     todos = json.loads(response.text)
     # print todos == response.json()
-    print len(todos)
+    # print len(todos)
     # dictodo = {}
     data = todos['data']['series']
     total = todos['data']['category_series_total'][0]['series_total']
     print 'series total = ' + total
-    print len(data)
+    # print len(data)
     # print data
     seriesList = []
     for serie in data:
@@ -86,9 +86,10 @@ def getepisode(url):
                            'thumbnail': ep['cover_image_url']})
     return eplist
 def download_subtitle(url):
-    r = requests.get(url)
-    dest = sys.path[0] + '/resources/temp/s.srt'
-    open(dest, 'wb').write(r.content)
+    dest = plugintools.get_temp_path() + 's.srt'
+    fi = open(dest, "w")
+    fi.write(plugintools.read(url))
+    fi.close()
 
 def getquality(url):
     response = requests.get(url)
@@ -115,7 +116,7 @@ def getstreams(url,title=None):
     curproduct = jdata['data']['current_product']
     # print len(curproduct)
     sub = curproduct['subtitle']
-    print len(sub)
+    # print len(sub)
     if sub != []:
         for s in sub:
             if s['is_default'] == 1:
@@ -123,7 +124,6 @@ def getstreams(url,title=None):
                 download_subtitle(subtitleurl)
     else:
         del_sub()
-        # os.remove("/resources/temp/s.srt")
 
     ccsproid = curproduct['ccs_product_id']
     # print 'ccs_product_id= ' + ccsproid
@@ -150,7 +150,7 @@ def getnext(url):
 
 def del_sub():
     try:
-        os.remove(sys.path[0] + '/resources/temp/s.srt')
+        os.remove(plugintools.get_temp_path() + 's.srt')
     except OSError:
         None
 
