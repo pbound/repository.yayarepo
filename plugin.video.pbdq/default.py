@@ -13,7 +13,7 @@ def get_gerne():
     gerList = nim.getgenre()
     for ger in gerList:
         plugintools.add_item(title=ger.get('title'),action='showseries',url=ger.get('url'))
-    # plugintools.add_item(title=u'ค้นหา ', action='showsearch')
+    plugintools.add_item(title=u'ค้นหา ', action='showsearch')
     plugintools.close_item_list()
 
 
@@ -24,24 +24,7 @@ def get_year(url):
         plugintools.add_item(title=year.get('title'), action='showseries', url=year.get('url'), yid=year.get('yid'))
     plugintools.close_item_list()
 def get_search():
-    # slist = site2list()
-    # menuItems = slist[1]
-    # selecturl = xbmcgui.Dialog().select('Select Sites', menuItems)
     qry =plugintools.keyboard_input('','ค้นหา')
-
-    # qry = get_keyboard('ค้นหา',default='')
-    # xbmcgui.Dialog().ok('test', str(slist[0][selecturl]))
-    # siteslist =  getsiteslist()
-
-
-    # if select == -1:
-    #     return None
-    #     break
-    # else:
-    #     return menuItems[select]
-    # strmList = importsite(url, 'getstreams')
-
-    # surl = slist[0][selecturl]
     showsList = nim.getsearch(qry)
     for show in showsList:
         thumb = show.get('thumbnail')
