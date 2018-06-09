@@ -62,7 +62,7 @@ def get_shows(url):
         if show.get('title')!= u"Next" :
             plugintools.add_item(title=show.get('title'),action='showepisodes',url=show.get('url'),thumbnail=thumb)
         else:
-            plugintools.add_item(title=show.get('title'),action='showseries',url=urllib.unquote(url).decode('utf8'),thumbnail=thumb)
+            plugintools.add_item(title=show.get('title'),action='showseries',url=show.get('url'),thumbnail=thumb)
     plugintools.close_item_list()
 
 
