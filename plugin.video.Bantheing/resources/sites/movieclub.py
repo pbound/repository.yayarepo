@@ -32,8 +32,8 @@ def getmov(url):
         for item in mlist:
             movieslist.append({'title': item[1], 'url': item[0], 'thumbnail': item[2]})
 
-    next = y_reguests(url, '<li class="">.*?href="(.*?)"')
-    # print snext
+    next = y_reguests(url, '<ul class..pagination.*?active.*?href="(.page.*?)"')
+    url = url.split('?')[0]
     if next != None:
         movieslist.append({'title': u"Next", 'url': url + next[0]})
     return movieslist

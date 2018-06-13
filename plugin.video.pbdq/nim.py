@@ -126,7 +126,7 @@ def getnext(url,total):
         offsetnum = 26
     print offsetnum
 
-    if offsetnum <= total:
+    if offsetnum <= int(total):
         return offsetnum
 
 def del_sub():

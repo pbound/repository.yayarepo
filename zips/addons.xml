@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.Bantheing" name=".oO( ... )" version="1.0.1" provider-name="The yaya Team">
+<addon id="plugin.video.Bantheing" name=".oO( ... )" version="1.0.11" provider-name="The yaya Team">
   <requires>
  <import addon="xbmc.python" version="2.1.0"/>
  <import addon="script.module.beautifulsoup4"/>
@@ -143,7 +143,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.pbdq" name="V2" version="1.0.2" provider-name="Only me">
+<addon id="plugin.video.pbdq" name="V2" version="1.0.21" provider-name="Only me">
   <requires>
  <import addon="xbmc.python" version="2.1.0"/>
  <import addon="script.module.beautifulsoup4"/>
