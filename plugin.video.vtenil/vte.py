@@ -135,26 +135,3 @@ def getsearch(arg):
             sourcelist.append({"title": titel, "url": surl,'thumbnail':img})
 
     return sourcelist
-
-if __name__ == '__main__':
-    # url = 'https://tv.line.me/c/drama/channels/13'
-    # url = 'https://tv.line.me/sanaeraknangcin/episodes/#tab_focus'
-    # print getnext(url)
-    # print getseries('https://tv.line.me/c/drama/channels/13')
-    # print getepisode('/pentor2018')
-    # print getepisode('https://tv.line.me/sanaeraknangcin/episodes/#tab_focus')
-    # print getgenre()
-    # '92694'
-    # testfind()
-    # print getstreams('https://tv.line.me/v/2536716_เป็นต่อ-2018-ep1-1-5-11-มค-61/list/180443')
-    # print getstreams('https://tv.line.me/v/254087_%E0%B8%A5%E0%B8%B0%E0%B8%84%E0%B8%A3%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-one-sunny-day-ep01-%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%9F%E0%B9%89%E0%B8%B2%E0%B9%83%E0%B8%AA-%E0%B8%95%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88-1')
-    # print getquality('https://www.viu.com/ott/th/index.php?r=vod/ajax-detail&platform_flag_label=web&area_id=4&language_flag_id=4&product_id=92752')
-    # getsubtitle('https://d2anahhhmp1ffz.cloudfront.net/1465892297/8034239633fa77cc23c49e873c9d26566444f2a4')
-    getsearch('man')
-    # try:
-    #     os.remove(sys.path[0] + '/resources/temp/s.srt')
-    # except OSError:
-    #     None
-        # print ("Error: %s - %s." % (e.filename, e.strerror))
-
-
