@@ -51,7 +51,7 @@ def getseries(url):
 
 def getepisode(url):
     i  =  0
-    epurl = baseurl + '/api/html/channel' + url + '/playlists/0/'
+    epurl = baseurl + '/api/html/channel' + url + '/videos/recent/'
     eplist = []
     while True:
         i += 1
@@ -135,3 +135,40 @@ def getsearch(arg):
             sourcelist.append({"title": titel, "url": surl,'thumbnail':img})
 
     return sourcelist
+
+def savelast(url,title,thumbnail):
+    # path =plugintools.get_runtime_path()
+    information = {'url': url, 'title': title, 'thumbnail': thumbnail}
+    lasttitle = information['url']
+
+    with open(addonpath+"\info_.json", "r") as info_read:
+        dict_info = json.load(info_read)
+        # plugintools.message('title',str(lasttitle))
+        for n in dict_info['list']:
+            print n
+            if lasttitle == n['url']:
+                n_status=True
+                break
+            else:
+                n_status = False
+        # plugintools.message('n_status',str(n_status))
+        if n_status is False:
+            dict_info['list'].append(information)
+        if len(dict_info['list']) > 10:
+            dict_info['list'].pop(1)
+            # print '?'*20
+        # plugintools.message('len',str(len(dict_info)))
+    with open(addonpath+"\info_.json", "w") as data:
+        data.write(json.dumps(dict_info))
+        data.close()
+
+def loadlast():
+    seriesList = []
+    with open(addonpath+"\info_.json", "r") as info_read:
+        dict_info = json.load(info_read)
+        info_read.close()
+
+    for lv in dict_info['list']:
+        # print p
+        seriesList.append({'title': lv['title'], 'url': lv['url'],'thumbnail':lv['thumbnail']})
+    return seriesList
