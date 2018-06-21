@@ -1,13 +1,12 @@
 # -*- coding: utf-8 -*-
 import json,plugintools
-
 import os
 import requests
 import sys
 import xbmcgui
 from bs4 import BeautifulSoup
 from base64 import b64decode
-
+tmplastpath = plugintools.get_temp_path()+"\info_.json"
 baseurl = b64decode('aHR0cHM6Ly93d3cudml1LmNvbS9vdHQvdGgvaW5kZXgucGhw')
 srbaseurl = b64decode('aHR0cHM6Ly93d3cudml1LmNvbS9vdHQvdGgvaW5kZXgucGhwP3I9dm9kL2FqYXgtZGV0YWlsJnBsYXRmb3JtX2ZsYWdfbGFiZWw9d2ViJmFyZWFfaWQ9NCZsYW5ndWFnZV9mbGFnX2lkPTQmcHJvZHVjdF9pZD0=')
 fbaseurl = b64decode('aHR0cHM6Ly9kZnA2cmdsZ2pxc3prLmNsb3VkZnJvbnQubmV0L2luZGV4LnBocD9yPXYxL3NlYXJjaC92aWRlbyZsYW5ndWFnZV9mbGFnX2lkPTQ=')
@@ -40,7 +39,7 @@ def getseries(url):
     total = todos['data']['category_series_total'][0]['series_total']
     seriesList = []
     for serie in data:
-        seurl = baseurl + '?r=vod/ajax-detail&platform_flag_label=web&area_id=4&language_flag_id=4&product_id='+str(serie['product_id'])
+        seurl = '?r=vod/ajax-detail&platform_flag_label=web&area_id=4&language_flag_id=4&product_id='+str(serie['product_id'])
         # seurl = stmbaseurl +str(serie['product_id'])
         seriesList.append({'title':serie['name'], 'url': seurl,
                            'thumbnail': serie['cover_image_url']})
@@ -53,6 +52,7 @@ def getseries(url):
 
 def getepisode(url):
     # print url
+    url = baseurl + url
     epurl = url[:-5]
     # print epurl
     response = requests.get(url)
@@ -149,3 +149,42 @@ def getsearch(arg):
             sourcelist.append({"title": result['name'], "url": srbaseurl+result['product_id'],'thumbnail':result['cover_image_url']})
 
     return sourcelist
+
+
+def savelast(url,title,thumbnail):
+    # path =plugintools.get_runtime_path()
+    information = {'url': url, 'title': title, 'thumbnail': thumbnail}
+    lasttitle = information['url']
+    try:
+        with open(tmplastpath, "r") as info_read:
+            dict_info = json.load(info_read)
+            # plugintools.message('title',str(lasttitle))
+            for n in dict_info['list']:
+                print n
+                if lasttitle == n['url']:
+                    n_status=True
+                    break
+                else:
+                    n_status = False
+            # plugintools.message('n_status',str(n_status))
+            if n_status is False:
+                dict_info['list'].append(information)
+            if len(dict_info['list']) > 10:
+                dict_info['list'].pop(1)
+    except:
+        dict_info = {"list": [{'url': url, 'title': title, 'thumbnail': thumbnail}]}
+            # plugintools.message('len',str(len(dict_info)))
+    with open(tmplastpath, "w") as data:
+        data.write(json.dumps(dict_info))
+        data.close()
+
+def loadlast():
+    seriesList = []
+    with open(tmplastpath, "r") as info_read:
+        dict_info = json.load(info_read)
+        info_read.close()
+
+    for lv in dict_info['list'][::-1]:
+        # print p
+        seriesList.append({'title': lv['title'], 'url': lv['url'],'thumbnail':lv['thumbnail']})
+    return seriesList

@@ -14,6 +14,7 @@ def get_gerne():
     for ger in gerList:
         plugintools.add_item(title=ger.get('title'),action='showseries',url=ger.get('url'))
     plugintools.add_item(title=u'ค้นหา ', action='showsearch')
+    plugintools.add_item(title=u'Last 10 views  ', action='showlast')
     plugintools.close_item_list()
 
 
@@ -48,6 +49,14 @@ def get_shows(url):
             plugintools.add_item(title=show.get('title'),action='showseries',url=show.get('url'),thumbnail=thumb)
     plugintools.close_item_list()
 
+def get_last():
+    try:
+        showsList = nim.loadlast()
+        for show in showsList:
+            plugintools.add_item(title=show.get('title'),action='showepisodes',url=show.get('url'),thumbnail=show.get('thumbnail'))
+        plugintools.close_item_list()
+    except:
+        None
 
 def get_showsall(url):
     showsList = yaddon.getSeriesAll(url, yid)
@@ -62,7 +71,8 @@ def get_showsall(url):
     plugintools.close_item_list()
 
 
-def get_episodes(url):
+def get_episodes(url,title,thumnail):
+    nim.savelast(url,title,thumnail)
     epsList = nim.getepisode(url)
     for show in epsList:
         # print show
@@ -106,8 +116,10 @@ def run():
         get_shows(params.get('url'))
     elif action == 'showseriesall':
         get_showsall(params.get('url'))
+    elif action == 'showlast':
+        get_last()
     elif action == 'showepisodes':
-        get_episodes(params.get('url'))
+        get_episodes(params.get('url'), params.get('title'), params.get('thumbnail'))
     elif action == 'streamslist':
         get_streams(params.get('url'), params.get('title'), params.get('thumbnail'))
     elif action == 'stream':
