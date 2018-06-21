@@ -8,7 +8,7 @@ def get_gerne():
     for ger in gerList:
         plugintools.add_item(title=ger.get('title'),action='showseries',url=ger.get('url'))
     plugintools.add_item(title=u'ค้นหา ', action='showsearch')
-    plugintools.add_item(title=u'Last views ', action='showlast')
+    plugintools.add_item(title=u'Last 10 views ', action='showlast')
     xbmc.executebuiltin('Container.SetViewMode(501)')
     plugintools.close_item_list()
 
@@ -36,10 +36,13 @@ def get_shows(url):
 
 
 def get_last():
-    showsList = vte.loadlast()
-    for show in showsList:
-        plugintools.add_item(title=show.get('title'),action='showepisodes',url=show.get('url'),thumbnail=show.get('thumbnail'))
-    plugintools.close_item_list()
+    try:
+        showsList = vte.loadlast()
+        for show in showsList:
+            plugintools.add_item(title=show.get('title'),action='showepisodes',url=show.get('url'),thumbnail=show.get('thumbnail'))
+        plugintools.close_item_list()
+    except:
+        None
 
 def get_episodes(url,title,thumnail):
     vte.savelast(url,title,thumnail)

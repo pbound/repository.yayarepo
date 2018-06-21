@@ -6,9 +6,8 @@ import requests
 import xbmcaddon
 from bs4 import BeautifulSoup
 from base64 import b64decode
-addon       = xbmcaddon.Addon()
-addonname   = addon.getAddonInfo('name')
-addonpath= addon.getAddonInfo('path')
+tmpjson= plugintools.get_temp_path()+r'\json'
+addonpath= plugintools.get_runtime_path()
 nextimg =  addonpath + r'\icon.png'
 
 baseurl = b64decode('aHR0cHM6Ly90di5saW5lLm1l')
@@ -140,35 +139,34 @@ def savelast(url,title,thumbnail):
     # path =plugintools.get_runtime_path()
     information = {'url': url, 'title': title, 'thumbnail': thumbnail}
     lasttitle = information['url']
-
-    with open(addonpath+"\info_.json", "r") as info_read:
-        dict_info = json.load(info_read)
-        # plugintools.message('title',str(lasttitle))
-        for n in dict_info['list']:
-            print n
-            if lasttitle == n['url']:
-                n_status=True
-                break
-            else:
-                n_status = False
-        # plugintools.message('n_status',str(n_status))
-        if n_status is False:
-            dict_info['list'].append(information)
-        if len(dict_info['list']) > 10:
-            dict_info['list'].pop(1)
-            # print '?'*20
-        # plugintools.message('len',str(len(dict_info)))
-    with open(addonpath+"\info_.json", "w") as data:
+    try:
+        with open(tmpjson, "r") as info_read:
+            dict_info = json.load(info_read)
+            # plugintools.message('title',str(lasttitle))
+            for n in dict_info['list']:
+                print n
+                if lasttitle == n['url']:
+                    n_status = True
+                    break
+                else:
+                    n_status = False
+            # plugintools.message('n_status',str(n_status))
+            if n_status is False:
+                dict_info['list'].append(information)
+            if len(dict_info['list']) > 10:
+                dict_info['list'].pop(1)
+    except:
+        dict_info = {"list": [{'url': url, 'title': title, 'thumbnail': thumbnail}]}
+    with open(tmpjson, "w") as data:
         data.write(json.dumps(dict_info))
         data.close()
-
 def loadlast():
     seriesList = []
-    with open(addonpath+"\info_.json", "r") as info_read:
+    with open(tmpjson, "r") as info_read:
         dict_info = json.load(info_read)
         info_read.close()
 
-    for lv in dict_info['list']:
+    for lv in dict_info['list'][::-1]:
         # print p
         seriesList.append({'title': lv['title'], 'url': lv['url'],'thumbnail':lv['thumbnail']})
     return seriesList
