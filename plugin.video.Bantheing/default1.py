@@ -321,6 +321,8 @@ def run():
         get_episode(params.get('url'), params.get('title'), params.get('thumbnail'))
     elif action == 'showsearch':
         get_search()
+    elif action == 'showlast':
+        get_last()
     elif action == 'streamslist':
         get_streams(params.get('url'),params.get('thumbnail'),params.get('title'))
     elif action == 'searchstreamslist':
