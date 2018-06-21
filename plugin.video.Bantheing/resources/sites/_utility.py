@@ -14,7 +14,7 @@ addon = xbmcaddon.Addon()
 addoname = addon.getAddonInfo('name')
 addonid = addon.getAddonInfo('id')
 addonpath= addon.getAddonInfo('path')
-
+tmpjson= addonpath+r'\lib\btjson'
 numword = (('zero','0'),('one','1'),('two','2'),('nine','9'))
 webseries = ('utaseries','kseries', 'subthai', 'series-onlines')
 def name2site(word):
@@ -123,30 +123,6 @@ def importsite(url,youget,title=None):
         return getepisode(url)
 
 
-# return getespisode(url)
-# else:
-#         exec 'from resources.sites.ser.' + sitename + ' import ' + youget
-#
-        # while True:
-        # if youget == 'getgenre':
-        #     return getgenre()
-        # elif youget =='getseries':
-        #     return getseries(url)
-        # elif youget == 'getepisode':
-        #     return getespisode(url)
-        # elif youget == 'getstreams':
-        #     return getstreams(url,title)
-        # elif youget == 'getsearch':
-        #     return getsearch(title)
-        # elif youget == 'getsearchall':
-        #     return getsearchall(title)
-
-    # return yougets
-    # return youget+'('+url+')'
-# def getHoster(sHosterFileName):
-#     exec "from resources.hosters." + sHosterFileName + " import cHoster"
-
-    # return cHoster()
 
 def is_series(name):
     if name in webseries:
@@ -217,28 +193,39 @@ def get_title(title):
     else:
         orgtitle = ''
     return orgtitle
-def test_dic():
-    d = getsiteslist()
-    # d.index(0)
 
-    print d.slice
+def savelast(url,title,thumbnail,action):
+    # path =plugintools.get_runtime_path()
+    information = {'url': url, 'title': title, 'thumbnail': thumbnail,'action':action}
+    lasttitle = information['url']
+    try:
+        with open(tmpjson, "r") as info_read:
+            dict_info = json.load(info_read)
+            # plugintools.message('title',str(lasttitle))
+            for n in dict_info['list']:
+                print n
+                if lasttitle == n['url']:
+                    n_status = True
+                    break
+                else:
+                    n_status = False
+            # plugintools.message('n_status',str(n_status))
+            if n_status is False:
+                dict_info['list'].append(information)
+            if len(dict_info['list']) > 10:
+                dict_info['list'].pop(1)
+    except:
+        dict_info = {"list": [{'url': url, 'title': title, 'thumbnail': thumbnail,'action':action}]}
+    with open(tmpjson, "w") as data:
+        data.write(json.dumps(dict_info))
+        data.close()
+def loadlast():
+    seriesList = []
+    with open(tmpjson, "r") as info_read:
+        dict_info = json.load(info_read)
+        info_read.close()
 
-if __name__ == '__main__':
-    url = 'https://037hd.com/soundtrack'
-    # url = 'https://www.Mastermovie-hd.com/'
-    # print checksite(url)
-    # print addonid
-    # print addonpath
-    # print y_sites()
-    # print getnext(url)
-    # importsite(url,'getmov')
-    # print getsitename(url)
-    print getsiteslist()
-    # print site2name('9mastermovie-hd')
-    # print name2site('ninemastermovie_hd')
-    # test_dic()
-    # url = 'https://www.mastermovie-hd.com/category/%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87%E0%B9%84%E0%B8%95%E0%B8%A3%E0%B8%A0%E0%B8%B2%E0%B8%84/'
-    # rg = 'current.*?href="([^"]+)"'
-    # print y_reguests(url,regex=rg)
-    # print y_sites()
-    # print is_series('utaseries')
+    for lv in dict_info['list'][::-1]:
+        # print p
+        seriesList.append({'title': lv['title'], 'url': lv['url'],'thumbnail':lv['thumbnail'],'action':lv['action']})
+    return seriesList

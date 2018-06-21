@@ -11,7 +11,7 @@ import xbmcgui
 import my_resolved
 import plugintools
 import urlresolver
-from resources.sites._utility import importsite, y_sites,getsiteslist, site2list
+from resources.sites._utility import importsite, y_sites,getsiteslist, site2list,loadlast,savelast
 
 addon       = xbmcaddon.Addon()
 addonname   = addon.getAddonInfo('name')
@@ -43,7 +43,7 @@ def get_sites():
             plugintools.add_item(title=site.get('title'), action='showseriesgenre', url=site.get('url'))
         else:
             plugintools.add_item(title=site.get('title'),action='showgenre',url=site.get('url'))
-
+    plugintools.add_item(title=u'Last 10 views ', action='showlast')
     plugintools.close_item_list()
 
 def get_siteseries():
@@ -115,8 +115,8 @@ def get_series(url):
             plugintools.add_item(title=show.get('title'), action='showseries', url=show.get('url'), thumbnail=nextimg)
     plugintools.close_item_list()
 
-def get_episode(url):
-    # xbmcgui.Dialog().ok('url',url)
+def get_episode(url,title,thumnail):
+    savelast(url, title, thumnail, action='showepisode')
     epList = importsite(url,youget='getepisode')
     for show in epList:
         # print show
@@ -168,6 +168,7 @@ def get_searchstreams(title,thumbnail):
 
 
 def get_streams(url,thumbnail,title):
+    savelast(url=url, title=title, thumbnail=thumbnail,action = 'streamslist')
     # xbmcgui.Dialog().ok('get_stream', title)
     # arg(title)
     strmList = importsite(url,'getstreams',title=title)
@@ -285,25 +286,17 @@ def get_search():
             plugintools.add_item(title=show.get('title'), action='showmovie', url=show.get('url'), thumbnail=thumb)
     plugintools.close_item_list()
 
+def get_last():
+    try:
+        # epList = importsite(url, youget='getepisode')
+        showsList = loadlast()
+        for show in showsList:
+            plugintools.add_item(title=show.get('title'),action=show.get('action'),url=show.get('url'),thumbnail=show.get('thumbnail'))
+        plugintools.close_item_list()
+    except:
+        None
 
-def get_test():
-    slist = site2list()
-    menuItems = slist[1]
-    # typ = slist
-    # xbmcgui.Dialog().ok('test',str(typ))
-    select = xbmcgui.Dialog().select('ความละเอียด', menuItems)
 
-    # if select == -1:
-    #     return None
-        # break
-    # else:
-    #     return slist[1][select]
-    # for s in slist:
-    hurl = ''
-    hnames = slist[0][select]
-    plugintools.add_item(title=hnames, action='streamslist', url=hurl)
-
-    plugintools.close_item_list()
 def run():
     params = plugintools.get_params()
     action = params.get('action')
@@ -325,7 +318,7 @@ def run():
     elif action == 'showseries':
         get_series(params.get('url'))
     elif action == 'showepisode':
-        get_episode(params.get('url'))
+        get_episode(params.get('url'), params.get('title'), params.get('thumbnail'))
     elif action == 'showsearch':
         get_search()
     elif action == 'streamslist':
@@ -337,7 +330,7 @@ def run():
     elif action == 'stream':
         # stream(urllib.unquote_plus(params.get('url')),params.get('title'),params.get('thumbnail'))
         stream(params.get('url'), params.get('title'), params.get('thumbnail'))
-    
+
 run()
 # if __name__ == '__main__':
 # print get_sites()
