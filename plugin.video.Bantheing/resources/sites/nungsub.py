@@ -21,7 +21,7 @@ def getgenre():
     return genreslist
 
 def getmov(url):
-    mlist = y_reguests(url, 'div> <a href="([^"]+)".*?title="(.*?)".*?data.*?src="([^"]+)')
+    mlist = y_reguests(url,'<a href="([^"]+)".*?title="(.*?)".*?data.*?src="([^"]+)')
     movieslist = []
     for item in mlist:
         movieslist.append({'title': item[1], 'url': item[0], 'thumbnail': item[2]})

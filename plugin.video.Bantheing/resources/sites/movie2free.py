@@ -46,20 +46,32 @@ def getstreams(url,title=None):
 
     # orgtitle =get_title(title)
 
+############# Fraeme embed ###############
     itemslist = getitemsframe(url)
     # xbmcgui.Dialog().ok('url', str(len(itemslist)), orgtitle)
     strmlist = []
     for stm in itemslist:
+        print stm
         iurl = stm.get('url')
         ititle = stm.get('title')
         # print ititle,iurl
+
+############## Find url in Embed ##################
         streamf = y_reguests(iurl, regex='url":"([^"]+)".*?Name.."(.*?)"', referer='https://www.movie2free.com/')
-        # print streamf
+        # print (streamf)
         if streamf != None:
             # xbmcgui.Dialog().ok('url',str(len(streamf)), iurl)
             # strmlist = []
             for i in range(0,len(streamf)):
-                surl= streamf[i][0].replace('\/','/')
+                # print i
+
+                if streamf[i][1] == '\u0e2b\u0e25\u0e31\u0e01' or streamf[i][1] == 'Thai':
+                    surl = iurl
+                    # server  หลัก  and Thai
+                    # print '??????????????????????'
+                else:
+                    surl= streamf[i][0].replace('\/','/')
+
                 stitle = ititle + ' > '+ streamf[i][1].decode('unicode_escape')
 
                 # print surl
@@ -101,24 +113,9 @@ def getsearchall(title):
 
 
 
-
-
-
-
 def extractLinks(a):
     linkList = []
     for link in a:
         linkList.append(link.get('href'))
     return linkList
 
-if __name__ == '__main__':
-    # print getsearchall('battleship')
-# print yandex("https://yadi.sk/i/cF7-Y0tGhZ94G")
-# print getEpisodes("http://www.asia4hb.com/view/my-dear-cat")
-# print getSpecialStreams('http://www.asia4hb.com/view/jeon-woo-chi', u'פרק 2')
-# getMenu()
-# print getmov('https://www.movie2free.com/top-imdb/')
-#     print getgenre()
-# print getstreams('https://www.movie2free.com/black-panther-%E0%B9%81%E0%B8%9A%E0%B8%A5%E0%B9%87%E0%B8%84-%E0%B9%81%E0%B8%9E%E0%B8%99%E0%B9%80%E0%B8%98%E0%B8%AD%E0%B8%A3%E0%B9%8C-2018/')
-#     print getstreams('https://www.movie2free.com/battleship-%E0%B8%A2%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%A3%E0%B8%9A%E0%B8%9E%E0%B8%B4%E0%B8%86%E0%B8%B2%E0%B8%95%E0%B9%80%E0%B8%AD%E0%B9%80/')
-    print getstreams('https://www.movie2free.com/wedding-crashers-%E0%B8%9B%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9B%E0%B8%B4%E0%B9%8A%E0%B8%87-%E0%B9%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%8A%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B9%81/')

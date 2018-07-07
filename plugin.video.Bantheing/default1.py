@@ -2,15 +2,13 @@
 import os
 import sys
 import urllib
-
 import re
 import xbmc
 import xbmcaddon
 import xbmcgui
-
-import my_resolved
 import plugintools
 import urlresolver
+from resources import my_resolved
 from resources.sites._utility import importsite, y_sites,getsiteslist, site2list,loadlast,savelast
 
 addon       = xbmcaddon.Addon()
@@ -174,8 +172,12 @@ def get_streams(url,thumbnail,title):
     strmList = importsite(url,'getstreams',title=title)
 
     for stream in strmList:
-        stitle = title.decode('utf8')+' '+stream.get('title')
-        plugintools.add_item(title=stitle, action='stream',url=stream.get('url'),thumbnail=urllib.unquote(thumbnail).decode('utf8'))
+        stitle = title.decode('utf8') + ' ' + stream.get('title')
+        if 'sources' in stream.get('url'):
+            plugintools.add_item(title=stitle, action='qualitylist', url=stream.get('url'),
+                                 thumbnail=urllib.unquote(thumbnail).decode('utf8'))
+        else:
+            plugintools.add_item(title=stitle, action='stream',url=stream.get('url'),thumbnail=urllib.unquote(thumbnail).decode('utf8'))
     plugintools.close_item_list()
 
 def get_tv(url):
@@ -192,9 +194,20 @@ def get_tv(url):
     xbmc.executebuiltin('Container.SetViewMode(500)')
     plugintools.close_item_list()
 
+def get_quality(url,thumbnail,title):
+    # savelast(url=url, title=title, thumbnail=thumbnail,action = 'streamslist')
+    from resources.sites.movie2free import getquality
+    strmList = getquality(url,title=title)
+
+    for stream in strmList:
+        stitle = title.decode('utf8') + ' ' + stream.get('title')
+        # plugintools.message('title', stitle)
+        plugintools.add_item(title=stitle, action='stream',url=stream.get('url'),thumbnail=urllib.unquote(thumbnail).decode('utf8'))
+    plugintools.close_item_list()
+
 def stream(url,title,thumbnail):
     # xbmcgui.Dialog().ok('strems', url)
-    resolved_url = select(url)
+    resolved_url = my_resolved.run(url)
     if resolved_url is None:
     # if 'upf' in url:
         # resolved_url = upf(url.replace("upfile",'upf'))
@@ -231,19 +244,6 @@ def arg(title):
 
     xbmcgui.Dialog().ok('test', line1, line2, line3)
 
-def select(url):
-    # title = 'test'
-
-    re_url=my_resolved.run(url)
-    if re_url is not None:
-        menuItems = re_url[0]
-        select = xbmcgui.Dialog().select('ความละเอียด',menuItems)
-
-        if select == -1:
-            return None
-            # break
-        else:
-            return re_url[1][select]
 
 def get_keyboard(heading, default=''):
     keyboard = xbmc.Keyboard()
@@ -327,6 +327,8 @@ def run():
         get_streams(params.get('url'),params.get('thumbnail'),params.get('title'))
     elif action == 'searchstreamslist':
         get_searchstreams(params.get('title'),params.get('thumbnail'))
+    elif action == 'qualitylist':
+        get_quality(params.get('url'),params.get('thumbnail'),params.get('title'))
     elif action == 'showTV':
         get_tv(params.get('url'))
     elif action == 'stream':
