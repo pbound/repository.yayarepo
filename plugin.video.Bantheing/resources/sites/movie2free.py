@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import HTMLParser
-
+import json
 import re
 import requests
 import xbmcgui
@@ -81,12 +81,13 @@ def getstreams(url,title=None):
 
 def getframe(url):
     frameurl = y_reguests(url, 'style.*\s.*?<iframe.src="([^"]+)"')
+    # print frameurl
     return frameurl[0]
 
 def getitemsframe(url):
     frameurl = getframe(url)
     streamf = y_reguests(frameurl, regex='label"."(.*?)".*?url":"([^"]+)"', referer='https://www.movie2free.com/')
-    # print len(streamf)
+    # print (streamf)
     itemslist = []
     for i in range(0, len(streamf)):
         iurl = streamf[i][1].replace('\/', '/')
@@ -111,6 +112,29 @@ def getsearchall(title):
         # print surl
         return getstreams(surl,stitle)
 
+def getquality(url,title):
+    ntitle = title.split('>')[-1].strip().decode('utf8')
+    headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:45.0) Gecko/20100101 Firefox/45.0',
+               'Referer': 'https://www.movie2free.com/'}
+    r = requests.get(url, headers=headers).text
+    r = HTMLParser.HTMLParser().unescape(r)
+    r = r.decode('unicode_escape').encode('utf-8')
+    todos = json.loads(r)
+    jlist = todos['data']
+    strmlist = []
+    for i in range( len(jlist)):
+        svname = jlist[i]['providerName']
+        if svname == ntitle :
+            qualist = jlist[i]['streams']
+            for j in range(len(qualist)):
+                stitle = qualist[j]['quality']
+                surl = qualist[j]['url']
+
+                strmlist.append({"url": surl, "title": stitle})
+            break
+    return strmlist
+
+
 
 
 def extractLinks(a):
@@ -118,4 +142,3 @@ def extractLinks(a):
     for link in a:
         linkList.append(link.get('href'))
     return linkList
-
