@@ -1,645 +1,151 @@
 #EXTM3U
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/a7044c33-c776-ce9b-3ae6-ed967a0170c6.png" group-title="Movies",HBO
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/67.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/78275f2c-4cc3-9b04-0a35-ece861072400.png" group-title="Movies",FOX Movies Premium HD EN
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/59.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/8815ac7d-a4c3-27e6-195d-6436b3bf4548.png" group-title="Movies",HBO Family
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/243.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/38374bbb-8b14-fe4d-9ec7-572fbe58e433.png" group-title="Movies",FOX Family Movies HD
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/58.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/8993a5e9-b262-8b52-b5f8-6d7385e56ce6.png" group-title="Movies",Red by HBO
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/244.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/5e308335-6353-88af-92a6-a9d5bcbf4f4c.png" group-title="Movies",FOX ACTION MOVIES EN
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/56.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/f728eadf-842b-a24b-c30c-0a311d6eb14c.png" group-title="Movies",Warner TV
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/124.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/6ea73b5f-fb54-18be-050f-37656d6b052f.png" group-title="Movies",M Channel
-http://203.151.83.104:1935/tdlive/tdlivest/chunklist_w1723405755.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/5392abc0-e641-3ad1-5408-b0e8542005f0.jpg" group-title="Movies",CTB
-http://vip.login.in.th:1935/CTB/CTB/chunklist_w28655386.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/98533375-b4d4-2b4f-c119-7e854b08bc02.png" group-title="Movies",FOX Movies Premium HD TH
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/59.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/3f0ae4e0-b986-f1c6-58c0-730c2d641075.png" group-title="Movies",FOX ACTION MOVIES TH
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/56.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/30457255-bb4e-2926-8f5c-ac6bc3e04cdd.png" group-title="Movies",FOX Family Movies HD TH
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/58.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/095aac10-62ea-6acb-d584-c094bf05a5d8.png" group-title="Movies",Celestial Classic Movies
-http://27.254.64.112:1935/thflixCH/Celestial_Classic_Movies.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/668c3ee2-c109-9dbe-89b4-60e402aee064.png" group-title="Movies",True Asian Series
-http://27.254.64.112:1935/thflixCH/True_Asian_Series.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/fe08f6e0-5ff5-bcd4-09a4-96a7c7dc75b8.png" group-title="Movies",True Film Asia
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/114.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/f1829157-9a31-8b68-ea36-e7467636d22e.png" group-title="Movies",True Thai Film
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/119.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/692f4f2b-b52c-0758-21dc-e2bbfdab7d9d.png" group-title="Movies",True Movie Hits
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/115.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/66a53ddd-47d9-19a8-6f10-f2f895e7e586.png" group-title="Movies",FOX Thai
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/61.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/a5ed8d49-19d2-fa73-28e1-8fc5adfb8e79.png" group-title="Movies",FX
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/63.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/1d420735-2bd4-7fac-b38d-73b0b6c7fb6a.png" group-title="Movies",Starworld
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/102.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/fb7996e7-eff6-beb2-5e87-d66ba68d46dc.png" group-title="Movies",FOX CRIME
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/57.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/6e5f9bca-f574-9cb5-a227-6845cd0eea8d.png" group-title="Movies",HBO TH
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/67.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/464871ae-b8f1-a4b1-8023-b53ae8080f47.png" group-title="Movies",ZEE NUNG
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/125.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/f75dd3cb-d5f2-d243-177d-30418cef38ab.png" group-title="Movies",THFLIX 1
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/243.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/af71d50b-d1e5-589a-737d-47e13e942225.png" group-title="Movies",THFLIX 2
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/245.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/1bc1c167-d271-1497-69c4-d4b050735a72.png" group-title="Movies",CBS Action
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/29.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/e0005090-c4f5-cc49-63ca-466147daa8ac.jpg" group-title="Movies",CBS Drama
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/30.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/98d3639e-8d24-1666-76e0-93eb3c636730.jpg" group-title="Movies",CBS Reality
-http://27.254.64.112:1935/thflixCH/CBS_Reality.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/31067731-dc0d-e636-5692-83410a00d2f4.png" group-title="Movies",film_HD
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/246.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/934f9d9b-f63f-aea5-46a6-ed92285643ba.jpg" group-title="Movies",SkyWold_1_HD
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/243.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/5bfefea7-ccf4-2986-6aa5-05f5bde2e785.jpg" group-title="Movies",SkyWold_2_HD
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/245.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/79fe3e41-cd67-a55d-abd4-d9b66a6b625b.png" group-title="Movies",Asia_HD
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/247.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/46d2ddf8-71fa-7f72-bba3-567757260646.png" group-title="Movies",Movie HD
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/248.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/5d316890-6e85-4193-c7bb-2d51b3be6b02.jpg" group-title="Movies",Series+HD
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/249.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/ba1bf5fd-0183-a67b-2bd1-fe56d772c796.png" group-title="Movies",Moviesat HD
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/250.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/7f733bc8-f1e1-d5b7-27c2-a4502c7a2b20.png" group-title="Sports (thai)",FOX_Sport_HD.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/174.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/5c9cc3a8-e99e-428d-0b50-431b7f5a2b8b.png" group-title="Sports (thai)",FOX_Sports_2.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/177.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/59d304cf-7bb3-6fcb-0068-a1add6e36048.png" group-title="Sports (thai)",FOX_Sports_3.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/180.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/ff0f7436-5f02-0f33-dd50-05953c6fb4c6.png" group-title="Sports (thai)",Golf_Channel_HD.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/183.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/4bf964db-b3a5-526d-9b03-5e4d4ffd98ea.png" group-title="Sports (thai)",NBA_TV_HD.stream
-http://www.playontube.com:1935/sport/NBA_TV_HD.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/386cab0c-b554-c785-dc0b-af918df6335d.png" group-title="Sports (thai)",Beinsport1.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/7.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/f409915e-f127-3ec6-da6f-317117dfb770.png" group-title="Sports (thai)",Beinsport2.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/150.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/0d58dba4-0435-8276-d400-06fc759d775d.png" group-title="Sports (thai)",Beinsport3.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/8.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/01c5a42c-f735-1128-7ef8-58ba63e5600c.png" group-title="Sports (thai)",Beinsport4.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/155.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/820bb862-2ff7-1f29-b456-61325cb9ad63.png" group-title="Sports (thai)",Beinsport5.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/157.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/2cca06af-a5ae-75f9-74a4-ab5b786c031e.png" group-title="Sports (thai)",Beinsport6.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/158.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/95befa53-92c5-39d6-7e8e-0466d9a1912c.png" group-title="Sports (thai)",Beinsport1_480p_Backup.stream
-https://paona-ssl.sai8.live/streamp2p/0x777_prtv_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/19d7640e-8afb-ba1e-8724-806343a3675f.png" group-title="Sports (thai)",Beinsport2_480p_Backup.stream
-https://paona-ssl.sai8.live/streamp2p/0x777_beinsporthd2_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/78da5296-d66f-1b74-34d9-586f3638904c.png" group-title="Sports (thai)",TrueSport_HD.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/229.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/5871ad4a-b0fc-697d-76b9-b923f48f1b95.png" group-title="Sports (thai)",TrueSport_HD2.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/230.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/b5c8171a-7beb-5114-f2b4-78f4d97644cd.png" group-title="Sports (thai)",TrueSport_HD3.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/231.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/1755264d-29e4-bad7-0d2b-32d9710c8f3e.png" group-title="Sports (thai)",TrueSport_HD4.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/232.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/9b162d0d-79e1-e22d-96c5-16de3c9fbf3e.png" group-title="Sports (thai)",Ture_Tennis_HD.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/233.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/21e16af7-ed0b-8475-5d47-6af44955f2a2.png" group-title="Sports (thai)",truesport2.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/224.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/d2815169-1b15-7e72-7efe-0b1c0290f869.png" group-title="Sports (thai)",truesport5.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/226.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/38e68fd4-0f0b-7fde-633b-34d16170f736.png" group-title="Sports (thai)",truesport6.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/227.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/aafa2435-289d-aff2-b1ba-50f788453268.png" group-title="Sports (thai)",truesport7.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/228.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/abe9e147-2f7f-a31a-d806-0c66d09ce487.png" group-title="Sports (asia)",Skynet_Sport1.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/197.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/2f4ae001-788b-26c4-e65a-8871be69da6b.png" group-title="Sports (asia)",Skynet_Sport2.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/198.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/b8439ec7-8a4b-e953-8c01-a9243e7198c1.png" group-title="Sports (asia)",Skynet_Sport3.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/199.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/3c384780-936a-dfa2-eea0-2fb207b77842.png" group-title="Sports (asia)",Skynet_Sport4.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/200.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/8e97b407-68f3-cf4b-70c6-342d7d0cbda6.png" group-title="Sports (asia)",Skynet_Sport5.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/201.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/7917d863-7448-1843-4b6a-d0fdc06cdd7f.png" group-title="Sports (asia)",Skynet_Sport6.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/202.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/f0a13538-253b-9533-a0a7-53327990dc77.png" group-title="Sports (asia)",Skynet_Sport_HD.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/203.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/8785cef7-054c-e7d1-7bb6-d7139d92b56c.png" group-title="Sports (asia)",SMMTV
-http://edge4-bkk.3bb.co.th:1935/SMMTV_Livestream/smmtv_high.stream/chunklist_w508919082.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/e30eaad8-57fd-e0e2-6558-91441eac40b8.png" group-title="Sports (asia)",FOX_Sport_HD_EN.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/175.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/329c3738-dc0f-4167-793b-7f4c18346f59.png" group-title="Sports (asia)",FOX_Sport_2_EN.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/178.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/803db67c-818c-811e-35f4-e84826d6f8f7.png" group-title="Sports (asia)",FOX_Sport_3_EN.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/181.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/240548f2-3e93-ba38-18c5-5afe9d1c9da4.png" group-title="Sports (asia)",Beinsport1_EN.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/149.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/8f8fce06-5481-d7a1-4cb7-790ec84b8101.png" group-title="Sports (asia)",Beinsport2_EN.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/152.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/abb0ccaa-ff20-edb2-e88c-bf82b216ace5.png" group-title="Sports (asia)",Beinsport3_EN.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/154.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/6b4aaee9-6dc2-9e42-ebd9-9fcbfee173be.png" group-title="Sports (asia)",Beinsport4_EN.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/156.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/38163911-f1ff-ed81-1ffc-501f2c195ac8.png" group-title="Sports (inter)",beIN_Sports_1_Arabia.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/139.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/a11e9682-2e1c-718c-9ca7-6f51a3accab3.png" group-title="Sports (inter)",beIN_Sports_2_Arabia.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/140.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/a690691c-38be-9186-ad86-56d36f3c784a.png" group-title="Sports (inter)",beIN_Sports_3_Arabia.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/141.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/5c9fbd77-c416-21d1-5eaa-6e1123c871c1.png" group-title="Sports (inter)",beIN_Sports_4_Arabia.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/142.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/59dedab4-e59d-6168-07a4-8d027054e09e.png" group-title="Sports (inter)",beIN_Sports_5_Arabia.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/143.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/8268996b-fe06-701d-d391-8cfb24af9413.png" group-title="Sports (inter)",beIN_Sports_6_Arabia.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/144.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/204a8cb9-3240-1134-9a9c-613f15c0b73c.png" group-title="Sports (inter)",beIN_Sports_7_Arabia.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/145.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/eab2d57f-63bd-5d08-eacf-cfb7553579e9.png" group-title="Sports (inter)",beIN_Sports_8_Arabia.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/146.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/44c745f1-95a8-b6ea-146c-7b8ddebb6205.png" group-title="Sports (inter)",beIN_Sports_9_Arabia.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/147.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/1a3ef907-5dfe-535d-b521-03e4212f56be.png" group-title="Sports (inter)",beIN_Sports_10_Arabia.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/136.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/5aa31e59-b093-8e68-9862-268c5b5487f2.png" group-title="Sports (inter)",beIN_Sports_11_Arabia.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/137.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/f3164029-7f38-6237-d10a-f26e0170f94a.png" group-title="Sports (inter)",beIN_Sports_12_Arabia.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/138.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/0bb6435e-cf00-40fe-98c5-dec3e8f91baf.png" group-title="Sports (inter)",beIN_Sports_1_France.stream
-https://paona-ssl.sai8.live/stream41/0x444_bein1france_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/6f8452cc-7120-7aa0-b150-6184f96da119.png" group-title="Sports (inter)",beIN_Sports_2_France.stream
-https://paona-ssl.sai8.live/stream41/0x444_bein2france_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/4418ff7a-9db8-d86c-b07c-2143a8e7a796.png" group-title="Sports (inter)",beIN_Sports_1_Turkey.stream
-https://paona-ssl.sai8.live/stream41/0x444_bein1turkey_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/9ae5438b-e5c7-5d97-703c-8c5e5904113d.png" group-title="Sports (inter)",SkySports_Cricket.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/206.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/dd94553e-2fde-59cc-1be6-624679840dd8.png" group-title="Sports (inter)",beIN_Sports_2_Turkey.stream
-https://paona-ssl.sai8.live/stream41/0x444_bein2turkey_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/ebb432e0-3432-8b46-9bd3-4bdec2949693.png" group-title="Sports (inter)",SkySports_Action.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/204.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/32eae183-8be3-cbeb-5687-27e4bb1ae479.png" group-title="Sports (inter)",SkySports_Golf.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/209.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/68dbf8b0-0957-9ba9-8451-9e1394af570b.png" group-title="Sports (inter)",SkySports_Premiere.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/213.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/dbeef107-9720-7a71-9d47-c2687a1231d0.png" group-title="Sports (inter)",SkySports_Arena.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/205.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/adbe8440-9a68-3d19-75b5-aaee9cc1be56.png" group-title="Sports (inter)",SkySports_Football.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/208.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/3b4e86ec-0a61-a0ce-409f-2ad5e264bbfa.png" group-title="Sports (inter)",Sky_Sport_Austria.stream
-https://paona-ssl.sai8.live/stream54/0x444_skysportaustria_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/c50542a7-4e47-f312-8482-8ee55c700c4f.png" group-title="Sports (inter)",Sky Sports News
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/212.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/8c652803-7697-5ce2-12d8-0193d67e363f.png" group-title="Sports (inter)",SkySports_Mix.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/211.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/917fe554-3e4d-3c05-0834-8ec1be37e59c.png" group-title="Sports (inter)",SkySports_F1_Backup.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/207.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/cc9690f0-c3ad-6672-f182-595253992e96.png" group-title="Sports (inter)",Fox_Sports_1_Netherlands.stream
-https://paona-ssl.sai8.live/stream41/0x444_fox1nl_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/f6fc30d3-bb99-d60e-0902-2b671cf105ec.png" group-title="Sports (inter)",Fox_Sports_2_Netherlands.stream
-https://paona-ssl.sai8.live/stream41/0x444_fox2nl_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/0ddc0c84-e22f-d354-14f5-8aaa82415dfc.png" group-title="Sports (inter)",Fox_Sports_3_Netherlands.stream
-https://paona-ssl.sai8.live/stream53/0x444_fox3nl_360p/chunklist_w1794336443.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/67ec6290-9832-b860-11b6-c2f6eef0a397.png" group-title="Sports (inter)",Fox_Sports_1_USA.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/176.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/0a71b375-ddba-e3fc-ff15-412698568b88.png" group-title="Sports (inter)",Fox_Sports_2_USA.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/179.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/9acebeee-2746-a3a3-3377-92188d529be4.png" group-title="Sports (inter)",BTSport1_HD.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/160.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/70052197-36cb-daa4-a65d-3e54813ca262.png" group-title="Sports (inter)",BTSport2_HD.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/161.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/a7fad4af-6def-26ae-9b85-65b0233d53db.png" group-title="Sports (inter)",BTSport3_HD.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/162.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/aed5f45f-7a5b-2f38-97c5-6cde777f8679.png" group-title="Sports (inter)",BTSport_ESPN.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/163.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/ca16e631-c579-ae70-5b82-51b91137a8ea.png" group-title="Sports (inter)",ESPN.stream
-http://www.playontube.com:1935/sport/ESPN.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/0e290164-7f28-b403-4dee-dc9259ed6b89.png" group-title="Sports (inter)",Eurosport_1_UK.stream
-http://www.playontube.com:1935/sport/Eurosport_1_UK.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/2ebb14b4-a565-9091-db2f-c5426e02057a.png" group-title="Sports (inter)",Eurosport_2_UK.stream
-http://www.playontube.com:1935/sport/Eurosport_2_UK.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/3c591f31-551e-d38a-3f2f-f5c0b3f58d04.png" group-title="Sports (inter)",Futbol1.stream
-https://paona-ssl.sai8.live/stream41/0x444_futbol1ukr_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/6d513796-6a28-edf3-d58a-06ae75f8e9c5.png" group-title="Sports (inter)",Futbol2.stream
-https://paona-ssl.sai8.live/stream41/0x444_futbol2ukr_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/b03a71bd-2bd7-eac6-9360-61803ef6a96e.png" group-title="Sports (inter)",Diema_Sport1.stream
-https://paona-ssl.sai8.live/stream41/0x444_diema1bg_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/3bd83095-b4ea-0389-2156-89dacc9c032b.png" group-title="Sports (inter)",SuperSport3_Albania.stream
-https://paona-ssl.sai8.live/stream41/0x444_ss3albania_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/a1d05227-29d9-d923-0d45-08267a47cc4e.png" group-title="Sports (inter)",SuperSport4_Albania.stream
-https://paona-ssl.sai8.live/stream41/0x444_ss4albania_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/8d2879ec-76ea-04f7-9ecc-f520709f1678.png" group-title="Sports (inter)",TeleClub Sport
-https://paona-ssl.sai8.live/stream41/0x444_teleclub1sw_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/0df7aec5-c461-dc47-3770-b67f036b72bb.png" group-title="Sports (inter)",TeleClub Sport 2
-https://paona-ssl.sai8.live/stream41/0x444_teleclub2sw_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/b3ff848f-c97d-f791-d9e9-944c9997e457.png" group-title="Sports (inter)",Dolce_Sport1.stream
-https://paona-ssl.sai8.live/stream41/0x444_dolce1_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/a73ea661-e5f8-26ac-3eac-9b41b1faef9b.png" group-title="Sports (inter)",1xBet_Channel1.stream
-https://paona-ssl.sai8.live/stream53/0x444_1xbet_ch1_360p/chunklist_w249696094.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/a86323fc-163a-71ca-c200-8d0d6ac06efb.png" group-title="Sports (inter)",1xBet_Channel2.stream
-https://m88.intersteam-idc.com/streaming/ch2.stream/chunks.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/a2b0006f-7446-ed9e-6066-47c098f14349.png" group-title="Sports (inter)",1xBet_Channel3.stream
-https://m88.intersteam-idc.com/streaming/ch1.stream/chunks.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/942061da-5715-4a6e-13dc-de8f87d58d64.png" group-title="Sports (inter)",1xBet_Channel4.stream
-https://paona-ssl.sai8.live/stream53/0x444_1xbet_ch4_360p/chunklist_w249696094.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/c3f25875-ccd8-5569-9669-9def957e415f.png" group-title="Sports (inter)",1xBet_Channel5.stream
-https://paona-ssl.sai8.live/stream53/0x444_1xbet_ch5_360p/chunklist_w249696094.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/cc3a3ea0-b0df-9c15-6fe6-875cd255eaeb.png" group-title="Sports (inter)",1xBet_Channel6.stream
-https://paona-ssl.sai8.live/stream53/0x444_1xbet_ch6_360p/chunklist_w249696094.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/66dd6307-edf9-e024-746e-68b4a6a4866e.png" group-title="Sports (inter)",1xBet_Channel7.stream
-https://paona-ssl.sai8.live/stream53/0x444_betsport7_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/0478b7b9-4260-6198-0f41-01109205fb29.png" group-title="Sports (inter)",1xBet_Channel8.stream
-https://paona-ssl.sai8.live/stream53/0x444_betsport8_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/833ce6bf-aa84-ae7a-6353-45747812129f.png" group-title="Sports (inter)",1xBet_Channel9.stream
-https://paona-ssl.sai8.live/stream53/0x444_betsport9_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/07e1c180-bc94-1bff-bdec-96ce558ec9e5.png" group-title="Sports (inter)",1xBet_Channel10.stream
-https://paona-ssl.sai8.live/stream53/0x444_betsport10_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/27fb8360-755c-870a-2d8f-c6fe3199de0f.png" group-title="Sports (inter)",1xBet_Channel11.stream
-https://paona-ssl.sai8.live/stream53/0x444_betsport11_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/fdb92ad5-a078-b186-657b-314168f25a53.png" group-title="Sports (inter)",1xBet_Channel12.stream
-https://paona-ssl.sai8.live/stream53/0x444_betsport12_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/862ecbba-3c5a-34ac-ca58-920d26ca288b.png" group-title="Sports (inter)",Sony ESPN
-https://paona-ssl.sai8.live/stream41/0x444_sonyespn_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/3adb350f-d97f-f920-aa8b-e99e39bd31fb.png" group-title="Sports (inter)",TV3_Sport_HD_Sweden.stream
-https://paona-ssl.sai8.live/stream41/0x444_tv3sport1dk_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/120451a2-6038-86db-7c22-0199c1d9a39b.png" group-title="Sports (inter)",sportdigital.stream
-https://paona-ssl.sai8.live/stream41/0x444_sportv1br_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/45b5329a-ff7d-9e0a-03e5-2eaef82879a3.png" group-title="Sports (inter)",Sport_TV.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/215.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/3836be21-02b6-ed7d-767f-292fa5e27b9b.png" group-title="Sports (inter)",Univision_Deportes_USA.stream
-https://paona-ssl.sai8.live/stream41/0x444_univisiondeportesus_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/f88c4cbc-e517-8f66-7f8d-522ecebc6e61.png" group-title="Sports (inter)",Star_Sports_2_Asia.stream
-https://paona-ssl.sai8.live/stream54/0x444_starsport2_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/f54903eb-bbbc-fbb5-2fb5-c09d486df014.png" group-title="Sports (inter)",Digi_Sport_1_Romania.stream
-https://paona-ssl.sai8.live/stream41/0x444_digisport1ro_360p/chunklist_w224426258.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/24f9481d-612b-b061-7ffc-2cf43d193dd5.png" group-title="Sports (inter)",Nash_Football.stream
-https://paona-ssl.sai8.live/stream41/0x444_nashfutbol_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/b678dcd0-e6ef-5283-4a6c-25fb0c4e5f7c.png" group-title="Sports (inter)",Arena_Sport_1_Croatia.stream
-https://paona-ssl.sai8.live/stream53/0x444_arena1croatia_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/4f33f725-a079-b5ed-2c74-924fcc7f00ab.png" group-title="Sports (inter)",Arena_Sport_2_Croatia.stream
-https://paona-ssl.sai8.live/stream53/0x444_arena2croatia_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/03ef4b7c-b486-9388-d22f-4601a5b5f377.png" group-title="Sports (inter)",Arena_Sport_3_Croatia.stream
-https://paona-ssl.sai8.live/stream53/0x444_arena3croatia_360p/chunklist_w638366188.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/43cedd36-694a-5b89-0719-fa8830657421.png" group-title="Sports (inter)",Arena_Sport_4_Croatia.stream
-https://paona-ssl.sai8.live/stream53/0x444_arena4croatia_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/af55a5c0-9f97-f9d3-4fc7-fe19e86b506c.png" group-title="Sports (inter)",Arena_Sport_5_Croatia.stream
-https://paona-ssl.sai8.live/stream53/0x444_arena5croatia_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/ef172c53-416e-3a8e-ea29-5c6a945f12ac.png" group-title="Sports (inter)",Arena_Sport_1_Serbia.stream
-https://paona-ssl.sai8.live/stream54/0x444_arena1serbia_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/385df37f-5d04-5f33-e25c-f26ba3d20a89.png" group-title="Sports (inter)",Arena_Sport_2_Serbia.stream
-https://paona-ssl.sai8.live/stream54/0x444_arena2serbia_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/54924bd6-d9f8-b609-a9cf-f39d2623661f.png" group-title="Sports (inter)",Arena_Sport_3_Serbia.stream
-https://paona-ssl.sai8.live/stream54/0x444_arena3serbia_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/71a4158e-de47-8c82-1f3d-017f4713e456.png" group-title="Sports (inter)",Arena_Sport_4_Serbia.stream
-https://paona-ssl.sai8.live/stream54/0x444_arena4serbia_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/61e9d40f-d171-5b68-5a01-80e5c9199715.png" group-title="Sports (inter)",Arena_Sport_5_Serbia.stream
-https://paona-ssl.sai8.live/stream54/0x444_arena5serbia_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/cd1f1b8d-bfae-c57e-11fd-c42ebbb5819b.png" group-title="Sports (inter)",Sony_TEN2.stream
-https://paona-ssl.sai8.live/stream41/0x444_sonyten2_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/fd13e6c6-2a8f-ecf6-2619-2eaf91966df0.png" group-title="Sports (inter)",SkySports_Budesliga2.stream
-https://paona-ssl.sai8.live/stream54/0x444_skybundes2_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/e9b5ac5f-bb98-8b6f-cf31-f13313964cae.png" group-title="Sports (inter)",SkySports_Budesliga1.stream
-https://paona-ssl.sai8.live/stream54/0x444_skybundes1_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/11149320-41b8-fcec-8055-24960dcd4da9.png" group-title="Sports (inter)",STV_1_Slovenia.stream
-https://paona-ssl.sai8.live/stream54/0x444_stv1slv_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/f3a8c284-fda0-3cc0-8003-4edc3dc65560.png" group-title="Sports (inter)",Canal_9_Denmark.stream
-https://paona-ssl.sai8.live/stream54/0x444_canal9dk_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/f0c209b1-9ed6-c51b-f104-382e723d1ac7.png" group-title="Sports (inter)",Canal_Sport_Poland.stream
-https://paona-ssl.sai8.live/stream54/0x444_canalsportpl_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/9c1ac71c-7b80-b826-70ad-64df8cdd7f3a.png" group-title="Sports (inter)",Eurosport_2_Poland.stream
-https://paona-ssl.sai8.live/stream54/0x444_eurosport2pl_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/8947c7fd-951f-eea4-988d-cbddea61f6c6.png" group-title="Sports (inter)",M4_Sports.stream
-https://paona-ssl.sai8.live/stream54/0x444_m4hu_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/250870a2-9917-bcd9-f734-35fc87f7d981.png" group-title="Sports (inter)",nSport.stream
-https://paona-ssl.sai8.live/stream54/0x444_nsportplus_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/7cea2fbb-9429-45f7-b394-9930f7c7fade.png" group-title="Sports (inter)",eir_Sport2.stream
-http://www.playontube.com:1935/sport/eir_Sport2.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/915715ea-7535-e014-f4d2-abc7c86a2120.png" group-title="Sports (inter)",Sony_SIX.stream
-https://paona-ssl.sai8.live/stream41/0x444_sonysix_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/b5d869a1-1e5a-71ac-90b9-a12f3e601f50.png" group-title="Sports (inter)",Gol.stream
-http://www.playontube.com:1935/sport/Gol.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/550faa8e-df9f-ed7f-cac5-b187e84c89e8.png" group-title="Sports (inter)",ESPN_Deportes_USA.stream
-https://paona-ssl.sai8.live/stream41/0x444_espndeportesus_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/acff94fd-00fe-a721-21a2-a64c49fb4ce6.png" group-title="Sports (inter)",Polsat Sport
-https://paona-ssl.sai8.live/stream41/0x444_polsatpo_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/73a3d0ba-6090-1b24-e6bd-39afd73f340e.png" group-title="Sports (inter)",TV3_Sport1.stream
-http://www.playontube.com:1935/sport/TV3_Sport1.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/ffad07ae-8d7b-650e-39ba-2809091856f0.png" group-title="Sports (inter)",Chelsea TV
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/237.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/0dae4f57-939a-f049-6337-7750f98bc0dd.png" group-title="Sports (inter)",Fight Sport
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/55.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/84701ccc-6e2a-9633-89ac-eb406deb83a5.png" group-title="Sports (inter)",WWE
-https://paona-ssl.sai8.live/stream41/0x444_wwe_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/4d098527-0954-474c-c0c8-9e5151a88004.png" group-title="Sports (inter)",LFCTV.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/184.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/a7233411-b8e8-0e5f-4f88-7ef6a95d4d9f.png" group-title="Sports (inter)",MUTV.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/189.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/0abb7fe1-4ab9-e5d8-a2a1-c819bce7c8f8.png" group-title="Sports (inter)",NBC_Golf.stream
-http://www.playontube.com:1935/sport/NBC_Golf.streamm/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/54d63195-5940-a89e-9783-cde029a18e2a.jpg" group-title="Sports (inter)",Setanta_Sports.stream
-http://www.playontube.com:1935/sport/Setanta_Sports.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/2a8317c6-d290-07d6-d717-74041532e8e5.jpg" group-title="Sports (inter)",At The Races
-http://www.playontube.com:1935/sport/At_The_Races.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/dc62e4b6-88c3-428d-91ac-78531023fecd.jpg" group-title="Sports (inter)",Motorvision
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/188.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/b99c5c82-5370-55e5-cacb-b54f83137fa2.png" group-title="Sports (inter)",Racing UK
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/195.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/956c6e1f-4161-2a21-8db6-9b135a532589.jpg" group-title="Sports (inter)",Sports_Action.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/217.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/67be3185-2ae4-3b44-0f07-38e062dbc07c.png" group-title="Sports (inter)",More 4
-http://27.254.64.112:1935/thflixCH/More_4.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/f965172d-9465-a65e-351c-446ffee6cf79.jpg" group-title="Sports (inter)",TG4
-http://27.254.64.112:1935/thflixCH/TG4.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/971957a5-dab7-093f-1128-409ea44b68e5.png" group-title="Sports (inter)",ArenaSport1.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/133.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/a5c0c24c-78f4-dfa7-d7b0-7335758ba01d.png" group-title="Sports (inter)",ArenaSport2.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/132.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/cfedd42d-05c2-735e-15b8-19c9a1eab7d6.png" group-title="Sports (inter)",ArenaSport3.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/134.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/6f5ccdbe-c4e5-2103-1bc6-85fae8cc77cd.jpg" group-title="Sports (inter)",BeINSports_USA.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/159.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/b8537306-c72e-19ac-a3e5-2b3104251bf7.jpg" group-title="Sports (inter)",SportNet_1.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/216.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/1b4d05b6-fc40-f498-b976-6dcee98a7b2b.jpg" group-title="Sports (inter)",Challenge.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/165.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/ee06133e-b4c1-3d91-5739-2242cfbde413.gif" group-title="Sports (inter)",Eurosport_FR.stream
-http://www.playontube.com:1935/sport/Eurosport_FR.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/48299e0d-c75e-6eca-25bb-609141305f57.jpg" group-title="Sports (inter)",Eurosport_2_FR.stream
-http://www.playontube.com:1935/sport/Eurosport_2_FR.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/07591219-c56d-9f73-7358-994f8fe8e676.png" group-title="Sports (inter)",PFC.stream
-https://paona-ssl.sai8.live/stream41/0x444_pfc_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/f20c7e8a-afcc-c440-391c-a47d6dd2894d.png" group-title="Sports (inter)",SPORT_TV1.stream
-https://paona-ssl.sai8.live/stream41/0x444_sporttv1_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/2e0fe726-dac7-3b35-f03b-bc9e425e487c.png" group-title="Sports (inter)",SPORT_TV2.stream
-https://paona-ssl.sai8.live/stream41/0x444_sporttv2_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/bab96dbf-199a-25b9-4c8e-cd22370bc203.png" group-title="Sports (inter)",SPORT_TV3.stream
-https://paona-ssl.sai8.live/stream41/0x444_sporttv3_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/debaace9-967d-4d9c-d677-453ab2072994.png" group-title="Sports (inter)",SPORT_TV4.stream
-https://paona-ssl.sai8.live/stream41/0x444_sporttv4_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/2a198bf5-84dd-fc0b-644f-5853b0101f67.png" group-title="Sports (inter)",SPORT_TV5.stream
-https://paona-ssl.sai8.live/stream41/0x444_sporttv5_360p/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/d67baf16-233b-c116-778a-2aa1f30d3df6.png" group-title="Sports (inter)",Sony TV
-http://www.playontube.com:1935/sport/Sony_Channel.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/2cfa0461-4081-4507-e079-98789385c5f4.png" group-title="Variety",Travel Channel Thailand
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/109.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/e5c41dc4-38c6-ea08-7949-caa16cc299f0.png" group-title="Variety",Star Chinese Channel
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/101.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/555c3615-6a8f-5874-814b-ea72675b3444.png" group-title="Variety",Asian Food Channel
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/17.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/51d69ff1-dab4-6744-d0c1-73ba9726821f.png" group-title="Variety",BBC Life Style
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/19.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/92115f06-7227-0eef-9cca-61e1db11b39f.png" group-title="Variety",Televaldarno RTV38
-http://27.254.64.112:1935/thflixCH/RTL_CBS.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/fe7105b5-5bbd-56f7-9e0c-111034f805fb.png" group-title="Variety",CHIC's
-http://27.254.64.112:1935/thflixCH/CHIC_s.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/a827db4d-f42e-c295-93ab-833769d2acae.png" group-title="Variety",arirang
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/16.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/fbc7bcf7-2269-f180-7a63-7f123e8d2941.png" group-title="Variety",True X-zyte
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/120.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/1d5e679a-a2fc-5b2e-2400-95a3ec3656c5.png" group-title="Variety",AXN HD
-http://27.254.64.112:1935/thflixCH/AXN_HD.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/9e5e9352-c1a6-6d28-d71b-8120b3b96528.png" group-title="Variety",Reality HD
-http://27.254.64.112:1935/thflixCH/Reality_HD.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/f49f88a9-69b8-102a-d3b4-bb936e5ff04b.jpg" group-title="Variety",DIVA Universal
-http://27.254.64.112:1935/thflixCH/DIVA_Universal.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/1a325a07-25fe-e07a-0eae-cb2b665e809c.png" group-title="Variety",Entertainment
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/51.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/29b1328a-570d-b552-d386-a8d007d62b82.jpg" group-title="Variety",E4
-http://27.254.64.112:1935/thflixCH/E4.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/8d08e552-6e95-a0cd-317b-a5241ea1630d.jpg" group-title="Variety",ITV 1
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/70.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/098dccba-a1dd-4dd6-5037-f095c9f6e5ca.jpg" group-title="Variety",ITV 2
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/71.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/c0957715-7e1d-01f0-4daa-b9019e5b7675.jpg" group-title="Variety",ITV 3
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/72.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/d9ac2064-13f8-821c-f3dd-3208e7afcd14.jpg" group-title="Variety",ITV 4
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/73.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/1f063be0-3ebc-b3fe-b9e8-713e29f06874.png" group-title="Variety",RTE One
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/94.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/6a09ee40-f0ec-c5a5-d37f-aaba24f7c1b9.png" group-title="Variety",RTE Two
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/95.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/4ee2f4bf-c237-8d2a-a074-716a0a84dff6.jpg" group-title="Variety",Jewelry Channel
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/75.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/8d192c84-c937-fab7-b11a-416e8e3b2ff6.jpg" group-title="Variety",Lifetime
-http://27.254.64.112:1935/thflixCH/Lifetime.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/dc852fa1-fbf4-8e78-e438-cbfbdbd69d6d.png" group-title="Variety",TV5 Monde
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/121.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/845d1892-f2f5-6336-4017-d8bc7403b611.png" group-title="Variety",C3TV
-http://27.254.64.112:1935/thflixCH/3e.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/cbb63796-1d16-54c6-30e7-d3876b424dbc.png" group-title="Variety",Chintu TV
-http://27.254.64.112:1935/thflixCH/Sun_TV.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/d5a686b1-32d5-6e0c-507e-d464314c5b9e.png" group-title="Documentary",BBC One
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/21.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/ed779561-7b33-3670-9955-1225d77ec4f4.png" group-title="Documentary",Smart SME Channel
-http://27.254.64.112:1935/thflixCH/Smart_SME_Channel.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/9b6cab6c-f704-0d93-b3bb-db741f6a9f37.png" group-title="Documentary",True Explore Wild
-http://27.254.64.112:1935/thflixCH/True_Explore_Wild.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/d0c01248-7d62-57f9-257a-c8c34efed101.png" group-title="Documentary",True Explore Sci
-http://27.254.64.112:1935/thflixCH/True_Explore_Sci.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/94930c5b-7f47-b7ac-8a40-f93c3a182a43.png" group-title="Documentary",True Explore Life
-http://27.254.64.112:1935/thflixCH/True_Explore_Life.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/7abe0dda-e15e-4ed6-336e-b7a6860ddac1.png" group-title="Documentary",Discovery HD World
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/42.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/7baa41e6-43a0-f9ea-5fbc-c41c3e554653.png" group-title="Documentary",fyi
-http://27.254.64.112:1935/thflixCH/Discovery_Turbo.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/832028e9-99c5-fb34-8f16-6107e145dcee.png" group-title="Documentary",CI HD
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/36.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/da81790f-ef01-d38b-5bac-dc452782ee32.png" group-title="Documentary",TLC
-http://27.254.64.112:1935/thflixCH/TLC.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/bba7c9f0-3802-6705-7956-1bf21b8f3d3a.jpg" group-title="Documentary",CCTV9
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/33.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/69b92d76-f83a-17b7-4a39-e3b8d88a2407.png" group-title="Documentary",NATGEO PEOPLE
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/84.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/2d3f3057-ea3c-c0de-e2f9-ad2cceceb5af.png" group-title="Documentary",NATGEO WILD HD
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/85.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/43343ad5-ecf5-4bf6-945d-e1c576b2ee55.png" group-title="Documentary",NATIONAL GEOGRAPHIC CHANNEL
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/87.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/d749a2ad-74c0-868b-0252-e8ba3a879325.png" group-title="Documentary",BBC Two
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/22.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/39714f64-0aaa-cc9b-ac14-7dd2a3802934.png" group-title="Documentary",H history
-http://27.254.64.112:1935/thflixCH/History_Channel_HD.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/f9810d19-e366-2130-c06b-7364bebf18af.png" group-title="Documentary",H2 history
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/68.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/b694832d-9f81-a802-c0f4-364bf78fafca.png" group-title="Documentary",Discovery Channel
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/41.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/1a1b426e-61f0-9516-ebd6-f72931bec163.png" group-title="Documentary",Animal Planet HD
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/15.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/cf79c1ae-8791-6612-0899-53899fc1a0f2.png" group-title="Documentary",BBC earth
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/18.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/69624ea4-ce29-4f88-5b27-4d3bae8e56ee.png" group-title="Cartoon",Boomerang
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/24.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/26297489-c6bf-363e-7170-8f3c7cc1b410.png" group-title="Cartoon",Ja Ting Ja
-http://symc-cdn01.bkk02.violin.co.th:1935/liveedge/292277314577_600/chunklist_w1127263653.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/ba9aaac1-60f2-1d44-5d07-c81a22754828.png" group-title="Cartoon",Cartoon Network
-http://27.254.64.112:1935/thflixCH/Cartoon_Network.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/5626a834-824c-05ce-42ba-1d996b167142.png" group-title="Cartoon",Disney Channel
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/45.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/f201ea37-e8c2-7c4d-5e0e-bf8fa91a74a6.png" group-title="Cartoon",True Spark Jump
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/117.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/35b7180b-171a-ea26-d467-368e63c9ef8c.png" group-title="Cartoon",True Spark play
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/118.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/9fb0f3be-be68-597f-24ea-3310bed18d04.png" group-title="Cartoon",Cbeebies
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/28.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/c6d3fe32-d4af-31f7-883e-bf2dcaf1c733.jpg" group-title="Cartoon",Comedy Central
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/39.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/dc9ffcf9-284c-b2d0-88f1-9ba1eb35f996.jpg" group-title="Cartoon",Disney Junior
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/46.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/8b2e82ca-7763-f56a-4545-4baa6731d226.png" group-title="Cartoon",Nick Jr.
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/89.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/875a6a93-1829-cd8d-5608-4a29f8047ee2.png" group-title="Cartoon",Disney XD
-http://27.254.64.112:1935/thflixCH/Disney_XD.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/cecd225e-1b89-edf8-0fc2-c7dcdfa9745a.png" group-title="Cartoon",Discovery Kids
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/43.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/3296a871-a736-9dba-6296-cbdaffee6eaa.png" group-title="Cartoon",Cartoon Network Tamil
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/26.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/3c6e0506-9135-7f8e-1d00-843d0c0c46be.png" group-title="Music",Youchannel
-http://p1.adintrend.com/live/ch36/i/ch36i.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/e2186f00-6f7e-5d8b-7195-f968fd098fd8.png" group-title="Music",Sabaidee TV
-http://p1.adintrend.com/live/ch35/i/ch35i.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/582e8001-3f7d-a3ad-c9df-ea3bb6e60ab3.png" group-title="Music",m20 TV
-http://m2otv-lh.akamaihd.net/i/m2oTv_1@186074/index_600_av-p.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/f2299261-bac8-aa38-4767-b96a88cd44f5.png" group-title="Music",Radio Italia Tv
-http://radioitaliatv-lh.akamaihd.net/i/radioitaliatv_1@329645/index_720x480_av-p.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/34fc8e22-8531-6378-f845-f54363863a77.png" group-title="Music",Capital TV
-http://ooyalahd2-f.akamaihd.net/i/globalradio01_delivery@156521/index_1500_av-p.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/b01a5663-1534-0427-895c-a2c9fd4cc3ee.png" group-title="Music",Muzzone
-http://live.muzzone.cdnvideo.ru/muzzone/muzzone.sdp/chunklist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/d9a4492d-cd24-ce10-4647-3360caad9681.png" group-title="Music",Heart TV
-http://ooyalahd2-f.akamaihd.net/i/globalradio02_delivery@156522/index_1500_av-p.m3u8?sd=10
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/878c61f5-dfce-dede-2cca-54b8be852831.png" group-title="Music",Virgin TV
-http://wow01.105.net/live/virgin1/chunklist_w304875402.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/79e0e52d-e317-2ce1-b172-aecb1e8512fc.png" group-title="Music",MTV China
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/83.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/f699d1ee-357a-cbbd-b002-e957bd1758b8.png" group-title="Music",MTV Live HD
-http://27.254.64.112:1935/thflixCH/MTV_Live_HD.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/3c18c3c3-7d76-285a-a3c0-8ce950915e8b.png" group-title="Music",Very TV
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/123.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/1bfab8d8-2487-d208-3dab-b1f7e58aeb23.png" group-title="Music",ThaiTha
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/106.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/65b53a31-826e-8cf4-807e-31e6757ede84.png" group-title="Music",Topline
-http://vip.login.in.th:1935/ToplineChannel/ToplineChannel/chunklist_w295180102.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/cc277b61-93dd-310f-57cc-abf748854db3.jpg" group-title="Music",HLN
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/69.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/cedc4be0-b955-02cd-1c85-b15970d9594a.png" group-title="News",France24
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/62.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/b717975b-3a20-75b1-8357-22ba05ccde01.png" group-title="News",London  Live HD
-http://bcoveliveios-i.akamaihd.net/hls/live/217434/3083279840001/master.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/60764207-3287-20a1-2870-c508af5b3585.png" group-title="News",TV2 News
-http://tv2danmark-tv2news-live.hls.adaptive.level3.net/tv2danmark/tv2news/master3200kbps.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/f1b9d7fa-f0fb-ddc0-3382-6442343e23ee.png" group-title="News",TV2 Nord
-http://tv2danmark-tv2nord-live.hls.adaptive.level3.net/tv2danmark/tv2nord/master3200kbps.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/8b26ae49-1dd0-f09c-e558-10db7737cca1.png" group-title="News",TV2 Zulu
-http://tv2danmark-tv2zulu-live.hls.adaptive.level3.net/tv2danmark/tv2zulu/master3200kbps.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/49195b6d-36bc-231e-5af7-fae28e66eba4.png" group-title="News",Italian HD
-http://dwstream3-lh.akamaihd.net/i/dwstream3_live@124409/index_4_av-p.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/84a579be-4bd0-220f-67ff-acf0c760401f.png" group-title="News",RTL TVI HD
-http://rtltvi-lh.akamaihd.net/i/TVI_1@319659/master.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/75a3733f-68c3-a622-f49b-adf5f312c359.png" group-title="News",DW latino America
-http://dwstream3-lh.akamaihd.net:80/i/dwstream3_live@124409/index_1_av-b.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/437b490d-a948-6ea9-b59b-a5c19d4f865e.png" group-title="News",Sky Tg24
-http://skyianywhere2-i.akamaihd.net/hls/live/200275/tg24/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/82e4b045-bc8c-e88a-f033-621da87e96e2.png" group-title="News",Rai News
-http://b2everyrai-lh.akamaihd.net/i/rainews_1@179616/index_1200_av-p.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/7019de6e-06ec-4869-9925-c77722570c9c.png" group-title="News",TNN 24
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/108.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/5f671d60-e6f4-4093-52d5-f00a6ed71c30.png" group-title="News",BBC World NEWS
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/23.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/d79e2850-e06d-91ce-562a-3e6b6b38ac7d.png" group-title="News",Money Channel
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/80.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/aba469e3-cfc1-795f-f04d-667a3b0e850b.png" group-title="News",CCTV4
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/32.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/f3d6501d-5966-6483-d25b-7b3aa7c08860.png" group-title="News",Euronews
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/52.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/699cce5e-7ddd-d76f-a244-0ff20f2dcc78.png" group-title="News",Sky News HD
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/97.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/d5ef17e8-7a57-a6af-a35c-87a69410f966.png" group-title="News",TNN2
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/107.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/466bf766-f3fd-af2c-f2b7-ca5fd561d7b4.jpg" group-title="News",CNBC Asia
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/37.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/9100f57f-d7c1-08b9-b662-6533973cd921.jpg" group-title="News",CNN
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/38.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/47244034-ad78-8166-451d-3b3c3db42fb9.jpg" group-title="News",Channel 4
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/35.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/2fa2a473-fdbf-0a4d-5f6a-eaff08423b62.jpg" group-title="News",Phoenix InfoNews
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/91.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/8e5092ea-94a2-a5f5-8d7c-b9497bbff691.png" group-title="News",FOX NEWS
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/60.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/7f5e1aba-00c8-94c2-601a-f01270f32c47.png" group-title="News",NHK World
-http://27.254.64.112:1935/thflixCH/NHK_World_TV.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/046976d6-bb0a-88bb-1dce-d9a308ce51ff.png" group-title="FreeTv",3HD.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/127.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/8536c129-ed8c-a75f-d43b-10a9d4f66c9a.png" group-title="FreeTv",3SD.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/128.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/20f8cc83-77ed-2866-347d-87e554ff45c8.png" group-title="FreeTv",3Family.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/126.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/0eb8c519-75c5-c780-d9ab-7ddaa9477da2.png" group-title="FreeTv",5HD.stream
-http://27.254.62.62:8081/live/tv5stream/chunks.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/5a92ff5a-6f21-7b4d-689e-c39330a8f3fa.png" group-title="FreeTv",7HD.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/130.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/acfb89fa-f33e-4437-5511-06a57fdf228c.png" group-title="FreeTv",MCOTFamily.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/186.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/d0d4010d-e703-beca-1150-cf7db89ca891.png" group-title="FreeTv",MCOT_HD.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/185.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/b49a1941-99b8-4c73-7373-e06801609d3c.png" group-title="FreeTv",One_HD.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/193.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/ba7929ce-d3d3-3d13-89f5-dba1f728fdd5.png" group-title="FreeTv",8HD.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/131.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/6b503f99-7bd1-1122-13be-5a979a646931.png" group-title="FreeTv",NOW 26
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/90.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/16b3efbe-eb59-f8cd-0ae3-0302211f2e88.png" group-title="FreeTv",GMM Channel
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/64.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/8cca2276-2af2-b378-cf7a-44bd3211f949.png" group-title="FreeTv",Mono29.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/187.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/bbcdc44e-a5bc-20fe-d425-f86a4d79c5e8.png" group-title="FreeTv",SPRING NEWS
-http://1457077260.cat-cdn.i-iptv.com/T1457077260/ngrp:livestream_all/chunklist_w690392530_b3628000.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/1090c50a-710a-f412-62e1-729f594e04d5.png" group-title="FreeTv",Nation_TV.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/86.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/cccb5bd9-93fe-6231-23d4-ff7073f69964.png" group-title="FreeTv",True4U.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/222.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/706e2501-4357-5171-84c2-701de7bb3dcf.png" group-title="FreeTv",Workpoint_TV.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/251.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/eca5fddc-16ec-8524-20a4-9a4100eef676.png" group-title="FreeTv",NBT
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/192.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/5f5da067-3cb8-5b67-2192-c63231938a01.png" group-title="FreeTv",PPTV_HD.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/194.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/576b8f36-ebc8-3415-cf8e-addcfb28d015.png" group-title="FreeTv",Thairath.stream
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/218.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/e1daa436-a5d6-2f85-f6a7-97b5871fa3c9.png" group-title="FreeTv",Channel 2 SD
-http://stream.rs.co.th/ch2-hi/index.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/19ddf1e7-afd7-826a-045d-5f36d0c47b81.png" group-title="FreeTv",Amarin HD
-http://s2.live14.com/stream/5195e80fe1ed0/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/a1425aab-2824-51ae-9b1e-d71a92a23dd1.png" group-title="FreeTv",New TV
-http://newtv.cdn.byteark.com/live/playlist_576p/index.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/d8d983ae-51eb-55d3-539e-d26a535db490.png" group-title="FreeTv",Thai PBS HD
-http://thaipbs-live.cdn.byteark.com/live/playlist_720p/index.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/4c9e239c-f394-d424-9ddb-e2d50d5fc8f2.png" group-title="FreeTv",VOICE TV
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/242.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/e40a5a02-50a9-c7ed-09c9-da22b311104f.png" group-title="FreeTv",Bright SD
-http://live4.netdesignhost.com/brighttvlive/brighttvlive/chunklist_w1279225761.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/2fabe3e9-fc3d-ac09-4f50-6fe990ea9a6e.png" group-title="FreeTv",Channel 8
-http://111.223.51.4/desktop/ch8_720p/chunklist_w1360842135.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/cf2cbdd6-d464-e59e-e2b5-dcf07d8b392b.png" group-title="FreeTv",True Plook Panya
-http://p1.adintrend.com/live/ch27/i/ch27i.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/423d3140-6513-aeee-0bf2-fc9328f705e2.png" group-title="CableTv",4050 Channel
-http://symc-cdn02.bkk01.violin.co.th:1935/liveedge/307908917552_600/chunklist_w1551051983.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/36cd62f2-6350-d96c-1d42-36df136e07dd.png" group-title="CableTv",ASTV
-http://news1.live14.com/stream/news1_hi.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/8341f9dd-ffc9-c896-fcda-361d5ed5f5fa.png" group-title="CableTv",Miracle Channel
-http://27.254.64.112:1935/thflixCH/Miracle_Channe.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/b10c66c1-fbbb-a7c0-ed53-d9ac687f76ae.png" group-title="CableTv",Fahwonmai
-http://live.blueskychannel.tv:1935/bluesky_live/myStream/chunklist_w1955887453.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/cd8fc209-39ef-19d6-575b-6b1706a4be11.png" group-title="CableTv",TCC Tv
-http://edge3-bkk.3bb.co.th:1935/tcctv_ch002/tcctv02.stream_live1/chunklist_w1014473550.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/5a9d8305-bcbd-e99d-27cd-94562103b161.png" group-title="CableTv",DramaDopa Tv
-http://27.254.64.112:1935/thflixCH/Drama.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/fb6bd6a9-9c01-27a5-4fc3-ddaaed25040f.png" group-title="CableTv",5 Star (UK)
-http://27.254.64.112:1935/thflixCH/5_Star.stream/playlist.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/560e8af3-55d8-0ef2-dc27-377bb59ebd29.jpg" group-title="CableTv",Al_Jazeera
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/13.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/3385a4a9-79da-21e4-441c-170c279a1eca.jpg" group-title="CableTv",Alibi
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/14.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/6b9ea016-e9cd-b688-3a05-9e0cca432702.png" group-title="CableTv",DDTV
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/40.m3u8
-#EXTINF:-1  tvg-logo="http://cdn.thflix.com/6d0c8e6b-7a58-0c87-82a9-7b6fe577a73c.jpg" group-title="CableTv",TVB
-http://103.253.75.90:25461/live/thflixCH/L0ujk6zZ7N/122.m3u8
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/27.jpg?1531383333",æ’‡Õ ‰Õ
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277143069_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/144.png?1531383333",Zee Nung
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/315765423410_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/29.jpg?1531383333",‡«‘√Ï§æÕ¬∑Ï
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277227873_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/156.png?1531383333",Boomerang
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307331126227_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/51.jpg?1531383333",°“√ÏµŸπ§≈—∫
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277442241_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/122.png?1531383333",‚¡‚π 29
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/315464298259_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/73.jpg?1531383333",‡ÕÁ¡ ·™π·π≈
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307914532200_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/64.png?1531383333",JKN DRAMAX
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307049146346_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/46.jpg?1531383333",‚¡‚πæ≈— 
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277210572_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/49.jpg?1531383333",®Í–∑‘ß®“
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277314577_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/115.jpg?1531383333",™ËÕß 3
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307947436081_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/111.jpg?1531383333",™ËÕß 5
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308661309596_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/116.jpg?1531383333",™ËÕß 7
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308091128717_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/114.jpg?1531383333",™ËÕß 9
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307803302519_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/69.jpg?1531383333",∑’«’¥’ ‚¡‚¡Ë
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307482135598_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/43.png?1531383333",∑’«’‰¥‡√Á§ 1
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277218305_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/56.png?1531383333",™ÈÕª·™π·π≈
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307475366613_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/92.png?1531383333",∑’«’‰¥‡√Á§ 2
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277301601_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/68.png?1531383333",∑’«’‰¥‡√Á§ 3
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307338422399_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/52.jpg?1531383333",¡“¬“
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277384635_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/177.png?1531383333",BT ∫—π‡∑‘ß‰∑¬
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/314900283448_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/575.png?1531383333",¿“√µ–
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/306898197082_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/47.jpg?1531383333",Œ‘µ ‡µ™—Ëπ
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277377754_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/138.png?1531383333",·´∫ ·™π·π≈
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308058215552_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/91.jpg?1531383333",§Ÿ≈ ™“·π≈
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308504386732_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/59.png?1531383333",‡°…µ√π‘« Ï
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307764682277_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/131.png?1531383333",Õ’ “π∫È“π‡√“
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307626143200_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/190.jpg?1531383333",TOP TV
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277147460_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/95.png?1531383333",Wish Channel
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307934616741_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/169.png?1531383333",SHOP&SHOW
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308065531544_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/55.png?1531383333",·øπ∑’«’
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308045591837_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/133.png?1531383333",®‘«‡«≈≈’Ë
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/315615227218_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/139.png?1531383333",AKTION (·Õ§™—Ëπ)
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/315045428317_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/199.png?1531383333",ASIAN MOVIE
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/315313275845_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/195.png?1531383333",THAI CCTV
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277350688_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/569.png?1531383333",DOONEE SERIES
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277212865_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/572.png?1531383333",Champion
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308052293648_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/126.png?1531383333",TIGER SHOPPING
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/315038363336_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/54.png?1531383333",≈”‚¢ß
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277382735_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/555.jpg?1531383333",Super Star
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277130159_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/103.png?1531383333",UMM TV
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277378213_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/102.png?1531383333",TIME TV
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308655127406_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/72.jpg?1531383333",∑ÍÕª‰≈πÏ ∑’«’
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307770397742_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/208.png?1531383333",‚™§¥’∑’«’
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277355406_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/142.png?1531383333",Unity
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/315621128979_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/76.png?1531383333",°Ÿ√Ÿ∑’«’
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308347215683_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/57.png?1531383333",TVD (MIRROR CH)
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307619115741_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/192.png?1531383333",π“´Ë“∑’«’
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307193391648_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/578.png?1531383333",‡∫‘Ëß¥’ ∑’«’ 
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308668286790_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/60.png?1531383333",40-50
+http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307908917552_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+
