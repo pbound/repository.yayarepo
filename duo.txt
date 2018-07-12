@@ -1,151 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
 #EXTM3U
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/27.jpg?1531383333",æ’‡Õ ‰Õ
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/27.jpg?1531388946",‡∏û‡∏µ‡πÄ‡∏≠‡∏™‡πÑ‡∏≠
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277143069_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/144.png?1531383333",Zee Nung
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/144.png?1531388946",Zee Nung
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/315765423410_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/29.jpg?1531383333",‡«‘√Ï§æÕ¬∑Ï
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/29.jpg?1531388946",‡πÄ‡∏ß‡∏¥‡∏£‡πå‡∏Ñ‡∏û‡∏≠‡∏¢‡∏ó‡πå
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277227873_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/156.png?1531383333",Boomerang
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/156.png?1531388946",Boomerang
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307331126227_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/51.jpg?1531383333",°“√ÏµŸπ§≈—∫
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/51.jpg?1531388946",‡∏Å‡∏≤‡∏£‡πå‡∏ï‡∏π‡∏ô‡∏Ñ‡∏•‡∏±‡∏ö
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277442241_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/122.png?1531383333",‚¡‚π 29
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/122.png?1531388946",‡πÇ‡∏°‡πÇ‡∏ô 29
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/315464298259_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/73.jpg?1531383333",‡ÕÁ¡ ·™π·π≈
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/73.jpg?1531388946",‡πÄ‡∏≠‡πá‡∏° ‡πÅ‡∏ä‡∏ô‡πÅ‡∏ô‡∏•
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307914532200_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/64.png?1531383333",JKN DRAMAX
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/64.png?1531388946",JKN DRAMAX
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307049146346_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/46.jpg?1531383333",‚¡‚πæ≈— 
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/46.jpg?1531388946",‡πÇ‡∏°‡πÇ‡∏ô‡∏û‡∏•‡∏±‡∏™
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277210572_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/49.jpg?1531383333",®Í–∑‘ß®“
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/49.jpg?1531388946",‡∏à‡πä‡∏∞‡∏ó‡∏¥‡∏á‡∏à‡∏≤
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277314577_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/115.jpg?1531383333",™ËÕß 3
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/115.jpg?1531388946",‡∏ä‡πà‡∏≠‡∏á 3
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307947436081_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/111.jpg?1531383333",™ËÕß 5
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/111.jpg?1531388946",‡∏ä‡πà‡∏≠‡∏á 5
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308661309596_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/116.jpg?1531383333",™ËÕß 7
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/116.jpg?1531388946",‡∏ä‡πà‡∏≠‡∏á 7
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308091128717_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/114.jpg?1531383333",™ËÕß 9
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/114.jpg?1531388946",‡∏ä‡πà‡∏≠‡∏á 9
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307803302519_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/69.jpg?1531383333",∑’«’¥’ ‚¡‚¡Ë
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/69.jpg?1531388946",‡∏ó‡∏µ‡∏ß‡∏µ‡∏î‡∏µ ‡πÇ‡∏°‡πÇ‡∏°‡πà
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307482135598_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/43.png?1531383333",∑’«’‰¥‡√Á§ 1
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/43.png?1531388946",‡∏ó‡∏µ‡∏ß‡∏µ‡πÑ‡∏î‡πÄ‡∏£‡πá‡∏Ñ 1
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277218305_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/56.png?1531383333",™ÈÕª·™π·π≈
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/56.png?1531388946",‡∏ä‡πâ‡∏≠‡∏õ‡πÅ‡∏ä‡∏ô‡πÅ‡∏ô‡∏•
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307475366613_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/92.png?1531383333",∑’«’‰¥‡√Á§ 2
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/92.png?1531388946",‡∏ó‡∏µ‡∏ß‡∏µ‡πÑ‡∏î‡πÄ‡∏£‡πá‡∏Ñ 2
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277301601_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/68.png?1531383333",∑’«’‰¥‡√Á§ 3
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/68.png?1531388946",‡∏ó‡∏µ‡∏ß‡∏µ‡πÑ‡∏î‡πÄ‡∏£‡πá‡∏Ñ 3
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307338422399_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/52.jpg?1531383333",¡“¬“
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/52.jpg?1531388946",‡∏°‡∏≤‡∏¢‡∏≤
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277384635_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/177.png?1531383333",BT ∫—π‡∑‘ß‰∑¬
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/177.png?1531388946",BT ‡∏ö‡∏±‡∏ô‡πÄ‡∏ó‡∏¥‡∏á‡πÑ‡∏ó‡∏¢
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/314900283448_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/575.png?1531383333",¿“√µ–
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/575.png?1531388946",‡∏†‡∏≤‡∏£‡∏ï‡∏∞
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/306898197082_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/47.jpg?1531383333",Œ‘µ ‡µ™—Ëπ
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/47.jpg?1531388946",‡∏Æ‡∏¥‡∏ï‡∏™‡πÄ‡∏ï‡∏ä‡∏±‡πà‡∏ô
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277377754_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/138.png?1531383333",·´∫ ·™π·π≈
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/138.png?1531388946",‡πÅ‡∏ã‡∏ö ‡πÅ‡∏ä‡∏ô‡πÅ‡∏ô‡∏•
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308058215552_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/91.jpg?1531383333",§Ÿ≈ ™“·π≈
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/91.jpg?1531388946",‡∏Ñ‡∏π‡∏• ‡∏ä‡∏≤‡πÅ‡∏ô‡∏•
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308504386732_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/59.png?1531383333",‡°…µ√π‘« Ï
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/59.png?1531388946",‡πÄ‡∏Å‡∏©‡∏ï‡∏£‡∏ô‡∏¥‡∏ß‡∏™‡πå
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307764682277_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/131.png?1531383333",Õ’ “π∫È“π‡√“
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/131.png?1531388946",‡∏≠‡∏µ‡∏™‡∏≤‡∏ô‡∏ö‡πâ‡∏≤‡∏ô‡πÄ‡∏£‡∏≤
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307626143200_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/190.jpg?1531383333",TOP TV
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/190.jpg?1531388946",TOP TV
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277147460_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/95.png?1531383333",Wish Channel
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/95.png?1531388946",Wish Channel
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307934616741_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/169.png?1531383333",SHOP&SHOW
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/169.png?1531388946",SHOP&SHOW
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308065531544_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/55.png?1531383333",·øπ∑’«’
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/55.png?1531388946",‡πÅ‡∏ü‡∏ô‡∏ó‡∏µ‡∏ß‡∏µ
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308045591837_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/133.png?1531383333",®‘«‡«≈≈’Ë
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/133.png?1531388946",‡∏à‡∏¥‡∏ß‡πÄ‡∏ß‡∏•‡∏•‡∏µ‡πà
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/315615227218_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/139.png?1531383333",AKTION (·Õ§™—Ëπ)
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/139.png?1531388946",AKTION (‡πÅ‡∏≠‡∏Ñ‡∏ä‡∏±‡πà‡∏ô)
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/315045428317_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/199.png?1531383333",ASIAN MOVIE
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/199.png?1531388946",ASIAN MOVIE
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/315313275845_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/195.png?1531383333",THAI CCTV
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/195.png?1531388946",THAI CCTV
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277350688_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/569.png?1531383333",DOONEE SERIES
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/569.png?1531388946",DOONEE SERIES
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277212865_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/572.png?1531383333",Champion
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/572.png?1531388946",Champion
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308052293648_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/126.png?1531383333",TIGER SHOPPING
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/126.png?1531388946",TIGER SHOPPING
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/315038363336_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/54.png?1531383333",≈”‚¢ß
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/54.png?1531388946",‡∏•‡∏≥‡πÇ‡∏Ç‡∏á
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277382735_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/555.jpg?1531383333",Super Star
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/555.jpg?1531388946",Super Star
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277130159_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/103.png?1531383333",UMM TV
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/103.png?1531388946",UMM TV
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277378213_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/102.png?1531383333",TIME TV
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/102.png?1531388946",TIME TV
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308655127406_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/72.jpg?1531383333",∑ÍÕª‰≈πÏ ∑’«’
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/72.jpg?1531388946",‡∏ó‡πä‡∏≠‡∏õ‡πÑ‡∏•‡∏ô‡πå ‡∏ó‡∏µ‡∏ß‡∏µ
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307770397742_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/208.png?1531383333",‚™§¥’∑’«’
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/208.png?1531388946",‡πÇ‡∏ä‡∏Ñ‡∏î‡∏µ‡∏ó‡∏µ‡∏ß‡∏µ
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277355406_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/142.png?1531383333",Unity
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/142.png?1531388946",Unity
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/315621128979_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/76.png?1531383333",°Ÿ√Ÿ∑’«’
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/76.png?1531388946",‡∏Å‡∏π‡∏£‡∏π‡∏ó‡∏µ‡∏ß‡∏µ
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308347215683_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/57.png?1531383333",TVD (MIRROR CH)
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/57.png?1531388946",TVD (MIRROR CH)
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307619115741_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/192.png?1531383333",π“´Ë“∑’«’
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/192.png?1531388946",‡∏ô‡∏≤‡∏ã‡πà‡∏≤‡∏ó‡∏µ‡∏ß‡∏µ
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307193391648_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/578.png?1531383333",‡∫‘Ëß¥’ ∑’«’ 
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/578.png?1531388946",‡πÄ‡∏ö‡∏¥‡πà‡∏á‡∏î‡∏µ ‡∏ó‡∏µ‡∏ß‡∏µ 
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308668286790_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/60.png?1531383333",40-50
+#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/60.png?1531388946",40-50
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307908917552_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
