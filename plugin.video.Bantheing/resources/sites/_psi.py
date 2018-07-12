@@ -9,7 +9,8 @@ def loadblance(host):
     # print response
     return response.split('=')[1]
 
-def getstreams(url):
+def getstreams():
+    url = b64decode('aHR0cDovL3BzaXR2LnR2L2FwaS9DaGFubmVscw==')
     HEADERS = urllib.urlencode({'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
                                 'Referer': baseurl})
     response = requests.get(url)
@@ -24,3 +25,9 @@ def getstreams(url):
         churl = urlString + '|%s' % HEADERS
         strmlist.append({"url": churl, "title": ch['name'],'thumbnail':ch['logo']})
     return strmlist
+
+
+
+
+
+# get_tfch()

@@ -29,6 +29,7 @@ def get_main():
 
     plugintools.add_item(title=u'Slect Hosts', action='showhosts')
     plugintools.add_item(title=u'ค้นหา หนัง', action='showsearch')
+    xbmc.executebuiltin('Container.SetViewMode(502)')
     plugintools.close_item_list()
 
 
@@ -133,12 +134,6 @@ def get_searchstreams(title,thumbnail):
 
     ntitle = title[0:title.find('(')-1].replace(' ', '+')
     ntitle = re.sub('[^a-zA-Z0-9 +]','',ntitle)#.encode('utf8','ignore')
-    # xbmcgui.Dialog().ok('test', str(type(ntitle)),ntitle)
-    # arg(title)
-    # strmList = Mya.get_searchall(title)
-    # ntitle = title[0:title.find(')') + 1].replace(' ', '+')
-    # ntitle = title[0:title.find('(')].replace(' ', '+')
-    # ntitle = title
     siteslist = getsiteslist()
     num_urls = len(siteslist)
 
@@ -180,19 +175,42 @@ def get_streams(url,thumbnail,title):
             plugintools.add_item(title=stitle, action='stream',url=stream.get('url'),thumbnail=urllib.unquote(thumbnail).decode('utf8'))
     plugintools.close_item_list()
 
-def get_tv(url):
-    # xbmcgui.Dialog().ok('get_stream', title)
-    # arg(title)
-    from resources.sites import _psi
-    strmList = _psi.getstreams(url)
 
-    for stream in strmList:
-        stitle = stream.get('title')
-        # stitle = stitle.decode('utf8')
-        # plugintools.add_item(title=u'stitle', action='stream',url=stream.get('url'),thumbnail=stream.get('thumbnail'))
-        plugintools.add_item(title=stitle, action='stream',url=stream.get('url'),thumbnail=stream.get('thumbnail'))
+def get_tv():
+    plugintools.add_item(title=u'TV1', action='showchannel',thumbnail='http://live.psitv.tv/img/logo_psi.png')
+    plugintools.add_item(title=u'TV2', action='showchannel', thumbnail='http://thflix.com/menu-left/images/logo.png')
+    plugintools.add_item(title=u'TV3', action='showchannel', thumbnail='http://home.trueid.net/assets/images/logo-trueid.png')
     xbmc.executebuiltin('Container.SetViewMode(500)')
     plugintools.close_item_list()
+
+def get_channel(title):
+    try:
+        # xbmcgui.Dialog().ok('get_stream', 'title')
+        # arg(title)
+        from resources.sites import _psi, _2vison, _thfx
+        if title == 'TV1':
+            strmList = _psi.getstreams()
+        elif title == 'TV2':
+            strmList = _thfx.getstreams()
+        elif title == 'TV3':
+            strmList = _2vison.get_chlist()
+
+        for stream in strmList:
+            url = stream.get('url')
+            thumb = stream.get('thumbnail')
+            if thumb == None:
+                thumb = ""
+            if url  == None :
+                url = ''
+            stitle = stream.get('title')
+
+            # stitle = stitle.decode('utf8')
+            # plugintools.add_item(title=u'stitle', action='stream',url=stream.get('url'),thumbnail=stream.get('thumbnail'))
+            plugintools.add_item(title=stitle, action='streamtv',url=url,thumbnail=thumb)
+        xbmc.executebuiltin('Container.SetViewMode(500)')
+        plugintools.close_item_list()
+    except OSError:
+        None
 
 def get_quality(url,thumbnail,title):
     # savelast(url=url, title=title, thumbnail=thumbnail,action = 'streamslist')
@@ -206,38 +224,38 @@ def get_quality(url,thumbnail,title):
     plugintools.close_item_list()
 
 def stream(url,title,thumbnail):
-    # xbmcgui.Dialog().ok('strems', url)
     resolved_url = my_resolved.run(url)
     if resolved_url is None:
-    # if 'upf' in url:
-        # resolved_url = upf(url.replace("upfile",'upf'))
-    # elif "leoplay" in url:
-    #     resolved_url = select(url)
-        # resolved_url = Mya.leo(url)
-    # else:
         final=urlresolver.HostedMediaFile(url)
 
         new_url=final.get_url()
         resolved_url=urlresolver.resolve(new_url)
-    # xbmcgui.Dialog().ok('final url',str(resolved_url))
     if resolved_url == False:
         resolved_url = url
     path=resolved_url
-    # xbmcgui.Dialog().ok('final url', str(path))
-    # path = urlresolver.HostedMediaFile(url).resolve()
     li = xbmcgui.ListItem(label=title, iconImage=thumbnail, thumbnailImage=thumbnail,path=path)
     li.setInfo(type='Video', infoLabels={ "Title": str(title) })
     xbmc.Player().play(path,li)
 
-    # listitem = xbmcgui.ListItem("My Jam TV")
-    # listitem.setInfo('video', {'Title': 'My Jam TV', 'Genre': 'Music Video'})
-    # xbmc.Player().play(path, listitem)
+def streamtv(url,title,thumbnail):
+    # xbmcgui.Dialog().ok('strems', url)
+    if 'true' in url:
+        from resources.sites._2vison import getsubstream
+        furl =getsubstream(url)
+    elif 'co.th' in url:
+        furl = url
+    else:
+
+        furl = 'plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=' + url
+
+    path=furl
+    li = xbmcgui.ListItem(label=title, iconImage=thumbnail, thumbnailImage=thumbnail,path=path)
+    li.setInfo(type='Video', infoLabels={ "Title": str(title) })
+    xbmc.Player().play(path,li)
 
 
 
 def arg(title):
-    # strm_url = 'https://drive.google.com/file/d/0Bz2BdKVoSbSwbVBGQUQ2VVMxcDQ/preview'
-    # path = str(urlresolver.HostedMediaFile(strm_url).resolve())
     line1 = sys.argv[0]
     line2 = "title="+title
     line3 = "arg[2]="+sys.argv[2]
@@ -263,16 +281,6 @@ def get_search():
     selecturl = xbmcgui.Dialog().select('Select Sites', menuItems)
 
     qry = get_keyboard('ค้นหา',default='')
-    # xbmcgui.Dialog().ok('test', str(slist[0][selecturl]))
-    # siteslist =  getsiteslist()
-
-
-    # if select == -1:
-    #     return None
-    #     break
-    # else:
-    #     return menuItems[select]
-    # strmList = importsite(url, 'getstreams')
 
     surl = slist[0][selecturl]
     showsList = importsite(surl,'getsearch',title=qry)
@@ -288,7 +296,6 @@ def get_search():
 
 def get_last():
     try:
-        # epList = importsite(url, youget='getepisode')
         showsList = loadlast()
         for show in showsList:
             plugintools.add_item(title=show.get('title'),action=show.get('action'),url=show.get('url'),thumbnail=show.get('thumbnail'))
@@ -330,14 +337,12 @@ def run():
     elif action == 'qualitylist':
         get_quality(params.get('url'),params.get('thumbnail'),params.get('title'))
     elif action == 'showTV':
-        get_tv(params.get('url'))
+        get_tv()
+    elif action == 'showchannel':
+        get_channel(params.get('title'))
     elif action == 'stream':
-        # stream(urllib.unquote_plus(params.get('url')),params.get('title'),params.get('thumbnail'))
         stream(params.get('url'), params.get('title'), params.get('thumbnail'))
+    elif action == 'streamtv':
+        streamtv(params.get('url'), params.get('title'), params.get('thumbnail'))
 
 run()
-# if __name__ == '__main__':
-# print get_sites()
-    # get_main()
-    # get_shows('https://www.movie2free.com/top-imdb/')
-    # get_searchstreams('who am i','ddd')

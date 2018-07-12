@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.Bantheing" name=".oO( ... )" version="1.0.124" provider-name="The yaya Team">
+<addon id="plugin.video.Bantheing" name=".oO( ... )" version="1.0.2" provider-name="The yaya Team">
   <requires>
  <import addon="xbmc.python" version="2.1.0"/>
  <import addon="script.module.beautifulsoup4"/>
@@ -21,6 +21,21 @@
  <language>en</language>
  <disclaimer></disclaimer>
   </extension>
+</addon>
+
+<addon id="plugin.video.f4mTester" name="f4mTester" version="2.7.2" provider-name="Shani">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.video.F4mProxy" version="2.7.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>f4mTester</summary>
+        <description></description>
+        <platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="plugin.video.Fseries" name="Fseries" version="1.0.1" provider-name="YaYa Team">
