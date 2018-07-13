@@ -38,7 +38,7 @@ def getmov(url):
     return movieslist
 
 def getstreams(url,title=None):
-    # orgtitle = get_title(title)
+    orgtitle = get_title(title)
     # xbmcgui.Dialog().ok('test',title,orgtitle)
     if url is not None:
         r = requests.get(url)
@@ -50,7 +50,7 @@ def getstreams(url,title=None):
         # print (player)
         strmlist = []
         for i,surl in enumerate(player,1):
-            if 'container' in surl:
+            # if 'container' in surl:
                 if i == 1:  # cheak soundtrack with player
                     sound = u'พากย์ไทย'
                 else:
@@ -69,8 +69,8 @@ def getstreams(url,title=None):
                     # strhost = strm[0]
                     # strhost = strhost[strhost.find('//')+2:strhost.find('.')].capitalize()
                     strmlist.append({"url": strm[0], "title": title})
-            else:
-                strmlist.append({"url": surl, "title": '037HD >> ' + chksrv(surl) + orgtitle})
+            # else:
+            #     strmlist.append({"url": surl, "title": '037HD >> ' + chksrv(surl) + orgtitle})
 
     return strmlist
 def getsearch(title):
