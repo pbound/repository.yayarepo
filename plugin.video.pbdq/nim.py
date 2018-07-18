@@ -74,7 +74,11 @@ def download_subtitle(url):
     fi.close()
 
 def getquality(url):
-    response = requests.get(url)
+    headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:45.0) Gecko/20100101 Firefox/45.0',
+               'Referer': srbaseurl,
+               'Origin': baseurl
+               }
+    response = requests.get(url, headers=headers)
     jdata = json.loads(response.text)
     qualist = jdata['data']['stream']['url']
     # print type(qualist)
