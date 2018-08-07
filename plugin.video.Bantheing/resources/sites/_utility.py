@@ -16,8 +16,8 @@ addoname = addon.getAddonInfo('name')
 addonid = addon.getAddonInfo('id')
 addonpath= addon.getAddonInfo('path')
 tmpjson= addonpath+r'\lib\btjson'
-numword = (('zero','0'),('one','1'),('two','2'),('nine','9'))
-webseries = ('utaseries','kseries', 'subthai', 'series-onlines')
+numword = (('zero','0'),('two','2'),('nine','9'))
+webseries = ('utaseries','kseries', 'series-onlines','fanseries','series24hr','doonee')
 def name2site(word):
     for nw in numword:
         s = nw[0]
@@ -151,7 +151,7 @@ def getsiteslist():
             hname = name2site(names)
             hurl = 'https://www.' + hname.lower() + '.com'
             hgenre = is_series(hname)
-            slist.append({"url": hurl, "title": hname.capitalize() ,"genre":hgenre})
+            slist.append({"url": hurl, "title": hname.capitalize(), 'thumbnail':pt +'/img/'+hname.lower() + '.png',"genre":hgenre})
     return slist
 
 def getsiteserieslist_b():

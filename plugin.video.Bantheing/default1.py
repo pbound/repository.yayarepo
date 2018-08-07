@@ -39,9 +39,11 @@ def get_sites():
     for site in slist:
         genre = site.get('genre')
         if genre == 'series':
-            plugintools.add_item(title=site.get('title'), action='showseriesgenre', url=site.get('url'))
+            plugintools.add_item(title=site.get('title'), action='showseriesgenre', url=site.get('url'),
+                                 thumbnail=site.get('thumbnail'))
         else:
-            plugintools.add_item(title=site.get('title'),action='showgenre',url=site.get('url'))
+            plugintools.add_item(title=site.get('title'), action='showgenre', url=site.get('url'),
+                                 thumbnail=site.get('thumbnail'))
     plugintools.add_item(title=u'Last 10 views ', action='showlast')
     plugintools.close_item_list()
 

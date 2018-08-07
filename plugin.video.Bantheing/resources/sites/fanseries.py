@@ -4,8 +4,9 @@ from bs4 import BeautifulSoup
 from _utility import y_soup, y_reguests, chksrv, get_title
 
 def getgenre():
-    soup = y_soup('http://www.subthai.co/')
-    ul = soup.find(id="menu-item-151384")
+    soup = y_soup('http://www.fanseries.co/')
+    ul = soup.find(id="menu-item-184632")
+    # print ul
     ul = ul.find_next_siblings('li')
     seriesList = []
     for link in ul:
@@ -107,6 +108,7 @@ def k_stream(url):
     url = s[0]
     return url
 if __name__ == '__main__':
+    getgenre()
 
 #print yandex("https://yadi.sk/i/cF7-Y0tGhZ94G")
 # print getEpisodes("http://www.asia4hb.com/view/my-dear-cat")
@@ -119,4 +121,4 @@ if __name__ == '__main__':
 # print getstreams('http://www.kseries.co/clip/58836/')
 # print exactkSeries('http://www.kseries.co/clip/58836/')
 #     print getseries('http://www.subthai.co/category/korea-series/')
-    print getstreams('http://www.serieshot.co/p/8817566/')
+#     print getstreams('http://www.serieshot.co/p/8817566/')
