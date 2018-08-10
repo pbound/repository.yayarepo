@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from _utility import y_soup, y_reguests, chksrv, get_title
 
 def getgenre():
-    soup = y_soup('http://www.series24hr.com/')
+    soup = y_soup('https://www.seriesgamo.com/')
     ul = soup.find(id="menu-home2")
     # print ul
     # ul = ul.find_next_siblings('li')
