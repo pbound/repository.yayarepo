@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import json, requests
 
-url = 'http://m1-c7b6348b4abb8b2bd546b0425bc71fe3.hopto.org:3000/user/tvShowShelf/liveShelf/getallcat'
+url = 'http://38.37.unlimit-livestream.com:3000/user/tvShowShelf/liveShelf/getallcat'
 response = requests.get(url)
 todos = json.loads(response.text)
 collections = todos['result']['collections']

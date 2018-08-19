@@ -189,12 +189,14 @@ def get_channel(title):
     try:
         # xbmcgui.Dialog().ok('get_stream', 'title')
         # arg(title)
-        from resources.sites import _psi, _2vison, _thfx
         if title == 'TV1':
+            from resources.sites import _psi
             strmList = _psi.getstreams()
         elif title == 'TV2':
+            from resources.sites import _thfx
             strmList = _thfx.getstreams()
         elif title == 'TV3':
+            from resources.sites import _2vison
             strmList = _2vison.get_chlist()
 
         for stream in strmList:
