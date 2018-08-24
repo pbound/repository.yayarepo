@@ -182,6 +182,8 @@ def get_tv():
     plugintools.add_item(title=u'TV1', action='showchannel',thumbnail='http://live.psitv.tv/img/logo_psi.png')
     plugintools.add_item(title=u'TV2', action='showchannel', thumbnail='http://thflix.com/menu-left/images/logo.png')
     plugintools.add_item(title=u'TV3', action='showchannel', thumbnail='http://home.trueid.net/assets/images/logo-trueid.png')
+    plugintools.add_item(title=u'TV4', action='showchannel',
+                         thumbnail='https://lh3.googleusercontent.com/TtiB9niJIaQwqn4n7RWXdoprigigN-K_Mm8rnE_F57BdknYufywwKDzeMcoaZKSbRaw=s180-rw')
     xbmc.executebuiltin('Container.SetViewMode(500)')
     plugintools.close_item_list()
 
@@ -198,6 +200,9 @@ def get_channel(title):
         elif title == 'TV3':
             from resources.sites import _2vison
             strmList = _2vison.get_chlist()
+        elif title == 'TV4':
+            from resources.sites import _2idtv
+            strmList = _2idtv.get_chlist()
 
         for stream in strmList:
             url = stream.get('url')
@@ -243,20 +248,44 @@ def stream(url,title,thumbnail):
 
 def streamtv(url,title,thumbnail):
     # xbmcgui.Dialog().ok('strems', url)
-    if 'true' in url:
+    if 'tv.true' in url:
         from resources.sites._2vison import getsubstream
-        furl =getsubstream(url)
+        furl = getsubstream(url)
     elif 'co.th' in url:
         furl = url
+    elif 'dmpapi2' in url:
+        from resources.sites._2idtv import getsubstream
+
+        if getsubstream(url)[1]:  ##### Check mpd file streaming
+            smurl = getsubstream(url)[0]
+            lc_url = getsubstream(url)[1]
+            plaympd(smurl, lc_url, title, thumbnail)
+            exit()
+
+        else:
+            furl = getsubstream(url)[0]
     else:
 
         furl = 'plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=' + url
 
-    path=furl
-    li = xbmcgui.ListItem(label=title, iconImage=thumbnail, thumbnailImage=thumbnail,path=path)
-    li.setInfo(type='Video', infoLabels={ "Title": str(title) })
-    xbmc.Player().play(path,li)
+    path = furl
+    # xbmcgui.Dialog().ok('final url', str(path))
+    # path = urlresolver.HostedMediaFile(url).resolve()
+    li = xbmcgui.ListItem(label=title, iconImage=thumbnail, thumbnailImage=thumbnail, path=path)
+    li.setInfo(type='Video', infoLabels={"Title": str(title)})
+    xbmc.Player().play(path, li)
 
+
+def plaympd(path, lc_url, title, thumbnail):
+    play_item = xbmcgui.ListItem(label=title, iconImage=thumbnail, thumbnailImage=thumbnail, path=path)
+    play_item.setProperty('inputstream.adaptive.license_type', 'com.widevine.alpha')
+    play_item.setProperty('inputstream.adaptive.license_key', lc_url + '||R{SSM}|')
+    play_item.setProperty('inputstream.adaptive.manifest_type', 'mpd')
+    play_item.setProperty('inputstreamaddon', 'inputstream.adaptive')
+    play_item.setMimeType('application/dash+xml')
+    play_item.setContentLookup(False)
+    xbmc.Player().play(path, play_item)
+    #
 
 
 def arg(title):
