@@ -51,9 +51,9 @@ def getseries(url):
     return seriesList
 
 def getepisode(url):
-    # print url
+    if 'http' in url: url = url.replace(baseurl,'')
     url = baseurl + url
-    epurl = url[:-5]
+    epurl = url[:url.find('product_id=')+11]
     # print epurl
     response = requests.get(url)
     jdata = json.loads(response.text)
@@ -127,7 +127,7 @@ def getnext(url,total):
         offsetnum = int(offsetnum)+12
 
     else:
-        offsetnum = 26
+        offsetnum = 14
     print offsetnum
 
     if offsetnum <= int(total):
