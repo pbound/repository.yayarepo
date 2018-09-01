@@ -1,15 +1,14 @@
 # -*- coding: utf-8 -*-
-import HTMLParser
-import json
 import os
-
-import sys
-
 import re
+import sys
+import json
+import base64
 import requests
 import xbmcaddon
 import xbmcgui
 import plugintools
+import HTMLParser
 from bs4 import BeautifulSoup
 
 addon = xbmcaddon.Addon()
