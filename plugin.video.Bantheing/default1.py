@@ -9,7 +9,7 @@ import xbmcgui
 import plugintools
 import urlresolver
 from resources import my_resolved
-from resources.sites._utility import importsite, y_sites,getsiteslist, site2list,loadlast,savelast
+from resources.sites._utility import importsite, y_sites,getsiteslist, site2list,loadlast,savelast,checktv
 
 addon       = xbmcaddon.Addon()
 addonname   = addon.getAddonInfo('name')
@@ -184,6 +184,8 @@ def get_tv():
     plugintools.add_item(title=u'TV3', action='showchannel', thumbnail='http://home.trueid.net/assets/images/logo-trueid.png')
     plugintools.add_item(title=u'TV4', action='showchannel',
                          thumbnail='https://lh3.googleusercontent.com/TtiB9niJIaQwqn4n7RWXdoprigigN-K_Mm8rnE_F57BdknYufywwKDzeMcoaZKSbRaw=s180-rw')
+    plugintools.add_item(title=u'TV5', action='showchannel',
+                         thumbnail='https://lh3.googleusercontent.com/ZitE6e8xo2ptVNJRX8M0MEyDr5btN4yARlPy3VDntZGk48PIVLvdqafKMZ0p98huuA=s180')
     xbmc.executebuiltin('Container.SetViewMode(500)')
     plugintools.close_item_list()
 
@@ -201,8 +203,13 @@ def get_channel(title):
             from resources.sites import _2vison
             strmList = _2vison.get_chlist()
         elif title == 'TV4':
+            checktv('_2idtv')
             from resources.sites import _2idtv
             strmList = _2idtv.get_chlist()
+        elif title == 'TV5':
+            checktv('_12tv')
+            from resources.sites import _12tv
+            strmList = _12tv.get_chlist()
 
         for stream in strmList:
             url = stream.get('url')

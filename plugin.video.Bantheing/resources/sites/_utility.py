@@ -9,6 +9,7 @@ import re
 import requests
 import xbmcaddon
 import xbmcgui
+import plugintools
 from bs4 import BeautifulSoup
 
 addon = xbmcaddon.Addon()
@@ -16,6 +17,7 @@ addoname = addon.getAddonInfo('name')
 addonid = addon.getAddonInfo('id')
 addonpath= addon.getAddonInfo('path')
 tmpjson= addonpath+r'\lib\btjson'
+sitepath = addonpath + r'\resources\sites\\'
 numword = (('zero','0'),('two','2'),('nine','9'))
 webseries = ('utaseries','kseries', 'series-onlines','fanseries','seriesgamo','doonee')
 def name2site(word):
@@ -230,3 +232,31 @@ def loadlast():
         # print p
         seriesList.append({'title': lv['title'], 'url': lv['url'],'thumbnail':lv['thumbnail'],'action':lv['action']})
     return seriesList
+
+def exectv(enckey,filename):
+    filetv = sitepath + filename
+    with open(filetv, 'rb') as fo:
+        enctext = fo.read()
+        fo.close
+    if enckey:
+
+        import _pyaes as pyaes
+
+        enckey = enckey.encode("ascii")
+        missingbytes = 16 - len(enckey)
+        enckey = enckey + (chr(0) * (missingbytes))
+        data = base64.b64decode(enctext)
+        decryptor = pyaes.new(enckey, pyaes.MODE_ECB, IV=None)
+        data = decryptor.decrypt(data)
+        data = HTMLParser.HTMLParser().unescape(data)
+        with open(filetv + ".py", 'wb') as fo:
+            fo.write(data)
+            fo.close
+
+def checktv(tvname):
+
+    if tvname + '.py' not in os.listdir(sitepath):
+        pwd = plugintools.keyboard_input('', 'In put pass')
+        exectv(pwd, tvname)
+    else:
+        pass
