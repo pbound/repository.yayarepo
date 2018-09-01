@@ -271,6 +271,9 @@ def streamtv(url,title,thumbnail):
 
         else:
             furl = getsubstream(url)[0]
+    elif not url.startswith('http'):
+        from resources.sites._12tv import getm3u
+        furl = getm3u(url)
     else:
 
         furl = 'plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=' + url
