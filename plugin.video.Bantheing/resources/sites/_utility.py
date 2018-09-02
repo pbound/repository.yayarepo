@@ -16,7 +16,7 @@ addoname = addon.getAddonInfo('name')
 addonid = addon.getAddonInfo('id')
 addonpath= addon.getAddonInfo('path')
 tmpjson= addonpath+r'\lib\btjson'
-sitepath = addonpath + r'\resources\sites\\'
+sitepath = addonpath + '/resources/sites/'
 numword = (('zero','0'),('two','2'),('nine','9'))
 webseries = ('utaseries','kseries', 'series-onlines','fanseries','seriesgamo','doonee')
 def name2site(word):
