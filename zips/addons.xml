@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.Bantheing" name=".oO( ... )" version="1.0.244" provider-name="The yaya Team">
+<addon id="plugin.video.Bantheing" name=".oO( ... )" version="1.0.3" provider-name="The yaya Team">
   <requires>
  <import addon="xbmc.python" version="2.1.0"/>
  <import addon="script.module.beautifulsoup4"/>
@@ -17,6 +17,12 @@
     <description lang="en">
     Watch asians series.
 	</description>
+	 <assets>
+
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+
+    </assets>
     <platform>all</platform>
  <language>en</language>
  <disclaimer></disclaimer>

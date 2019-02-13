@@ -19,16 +19,9 @@ nextimg = addonpath + r'\lib\img\next.jpg'
 
 
 def get_main():
-    from resources.sites import movie2free
-    mainlist = movie2free.getgenre()
-
-    for ctg in mainlist:
-        plugintools.add_item(title=ctg.get('title'),action='showsearchmovie',url=ctg.get('url'))
-    plugintools.add_item(title=u'TV', action='showTV', url='http://psitv.tv/api/Channels')
-    # plugintools.add_item(title=u'ซีรีส์เกาหลี', action='showseries', url='http://www.kseries.co/category/korea-series/')
-
-    plugintools.add_item(title=u'Slect Hosts', action='showhosts')
-    plugintools.add_item(title=u'ค้นหา หนัง', action='showsearch')
+    plugintools.add_item(title=u'TV', action='showTV', url='http://psitv.tv/api/Channels',thumbnail='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKEnivgmG2z2cUlO0Rcw4GBz-UqfXJ11pTV7ssBh51lqSSYGHmNw')
+    plugintools.add_item(title=u'Series&Movies', action='showhosts',thumbnail='http://mynotl.com/sites/welland/files/field/image/film-series-logo.jpg')
+    plugintools.add_item(title=u'ค้นหา หนัง', action='showsearch',thumbnail='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjo0TdD4Mgh3hBgKces3bv6e1WqbeH6msGWXj_9vGKwICjBy6Yfw')
     xbmc.executebuiltin('Container.SetViewMode(502)')
     plugintools.close_item_list()
 
@@ -180,12 +173,11 @@ def get_streams(url,thumbnail,title):
 
 def get_tv():
     plugintools.add_item(title=u'TV1', action='showchannel',thumbnail='http://live.psitv.tv/img/logo_psi.png')
-    plugintools.add_item(title=u'TV2', action='showchannel', thumbnail='http://thflix.com/menu-left/images/logo.png')
-    plugintools.add_item(title=u'TV3', action='showchannel', thumbnail='http://home.trueid.net/assets/images/logo-trueid.png')
+    plugintools.add_item(title=u'TV2', action='showchannel', thumbnail='https://www.mvtv.co.th/wp-content/uploads/2019/01/mvtv-official-logo.png')
+    plugintools.add_item(title=u'TV3', action='showchannel', thumbnail='https://image.makewebeasy.net/makeweb/0/HSqZMq6g7/DefaultData/Untitled_1_1.png')
     plugintools.add_item(title=u'TV4', action='showchannel',
                          thumbnail='https://lh3.googleusercontent.com/TtiB9niJIaQwqn4n7RWXdoprigigN-K_Mm8rnE_F57BdknYufywwKDzeMcoaZKSbRaw=s180-rw')
-    plugintools.add_item(title=u'TV5', action='showchannel',
-                         thumbnail='https://lh3.googleusercontent.com/ZitE6e8xo2ptVNJRX8M0MEyDr5btN4yARlPy3VDntZGk48PIVLvdqafKMZ0p98huuA=s180')
+
     xbmc.executebuiltin('Container.SetViewMode(500)')
     plugintools.close_item_list()
 
@@ -194,14 +186,14 @@ def get_channel(title):
         # xbmcgui.Dialog().ok('get_stream', 'title')
         # arg(title)
         if title == 'TV1':
-            from resources.sites import _psi
-            strmList = _psi.getstreams()
+            from resources.sites import _fixit
+            strmList = _fixit.getstreams()
         elif title == 'TV2':
-            from resources.sites import _thfx
-            strmList = _thfx.getstreams()
+            from resources.sites import _mvtv
+            strmList =  _mvtv.get_chlist()
         elif title == 'TV3':
-            from resources.sites import _2vison
-            strmList = _2vison.get_chlist()
+            from resources.sites import _loox
+            strmList = _loox.get_chlist()
         elif title == 'TV4':
             checktv('_2idtv')
             from resources.sites import _2idtv
