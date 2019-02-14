@@ -172,7 +172,7 @@ def get_streams(url,thumbnail,title):
 
 
 def get_tv():
-    plugintools.add_item(title=u'TV1', action='showchannel',thumbnail='http://live.psitv.tv/img/logo_psi.png')
+    plugintools.add_item(title=u'TV1', action='showchannel',thumbnail='https://i3.wp.com/psisat.com/site/wp-content/uploads/2018/09/logo-psi2018.png')
     plugintools.add_item(title=u'TV2', action='showchannel', thumbnail='https://www.mvtv.co.th/wp-content/uploads/2019/01/mvtv-official-logo.png')
     plugintools.add_item(title=u'TV3', action='showchannel', thumbnail='https://image.makewebeasy.net/makeweb/0/HSqZMq6g7/DefaultData/Untitled_1_1.png')
     plugintools.add_item(title=u'TV4', action='showchannel',
@@ -250,8 +250,8 @@ def streamtv(url,title,thumbnail):
     if 'tv.true' in url:
         from resources.sites._2vison import getsubstream
         furl = getsubstream(url)
-    elif 'co.th' in url:
-        furl = url
+    # elif 'co.th' in url:
+    #     furl = url
     elif 'dmpapi2' in url:
         from resources.sites._2idtv import getsubstream
 
@@ -268,8 +268,8 @@ def streamtv(url,title,thumbnail):
         furl = getm3u(url)
     else:
 
-        furl = 'plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=' + url
-
+        # furl = 'plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=' + url
+        furl = url
     path = furl
     # xbmcgui.Dialog().ok('final url', str(path))
     # path = urlresolver.HostedMediaFile(url).resolve()
