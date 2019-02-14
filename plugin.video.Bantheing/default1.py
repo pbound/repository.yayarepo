@@ -260,9 +260,12 @@ def streamtv(url,title,thumbnail):
             lc_url = getsubstream(url)[1]
             plaympd(smurl, lc_url, title, thumbnail)
             exit()
-
         else:
             furl = getsubstream(url)[0]
+            
+    elif  url.isdigit():
+        from resources.sites._fixit import getchadetail
+        furl =getchadetail(url)
     elif not url.startswith('http'):
         from resources.sites._12tv import getm3u
         furl = getm3u(url)
