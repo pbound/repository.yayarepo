@@ -262,7 +262,7 @@ def streamtv(url,title,thumbnail):
             exit()
         else:
             furl = getsubstream(url)[0]
-            
+
     elif  url.isdigit():
         from resources.sites._fixit import getchadetail
         furl =getchadetail(url)

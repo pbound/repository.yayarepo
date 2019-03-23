@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 
 def getMenu():
-    r = requests.get('http://www.kseries.co/')
+    r = requests.get('https://www.ksubtv.co/')
     soup = BeautifulSoup(r.text, 'html5lib')
     soup.prettify()
     ul = soup.find(id="menu-item-105338")
@@ -133,5 +133,5 @@ def k_stream(url):
 # print exteact_stream('http://www.kseries.co/clip/play.php?id=1390602&width=1005&height=540&dh=29-10&dh2=29-9&n=0')
 # print  k_stream('http://www.kseries.co/clip/58836/')
 # print getStreams('http://www.kseries.co/clip/58836/')
-# print exactkSeries('http://www.kseries.co/clip/58836/')
-# print getSeries('http://www.kseries.co/?s=man')
+# print exactkSeries('http://www.ksubtv.co/clip/58836/')
+# print getSeries('https://www.ksubtv.co/?s=man')
