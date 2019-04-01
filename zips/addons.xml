@@ -72,7 +72,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.kseries" name="Kseries" version="1.0.3" provider-name="YaYa Team">
+<addon id="plugin.video.kseries" name="Kseries" version="1.0.4" provider-name="YaYa Team">
   <requires>
  <import addon="xbmc.python" version="2.1.0"/>
  <import addon="script.module.beautifulsoup4"/>
