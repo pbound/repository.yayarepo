@@ -177,7 +177,12 @@ def get_tv():
     plugintools.add_item(title=u'TV3', action='showchannel', thumbnail='https://image.makewebeasy.net/makeweb/0/HSqZMq6g7/DefaultData/Untitled_1_1.png')
     plugintools.add_item(title=u'TV4', action='showchannel',
                          thumbnail='https://lh3.googleusercontent.com/TtiB9niJIaQwqn4n7RWXdoprigigN-K_Mm8rnE_F57BdknYufywwKDzeMcoaZKSbRaw=s180-rw')
-
+    plugintools.add_item(title=u'TV5', action='showchannel',
+                         thumbnail='https://lh3.googleusercontent.com/ZitE6e8xo2ptVNJRX8M0MEyDr5btN4yARlPy3VDntZGk48PIVLvdqafKMZ0p98huuA=s180')
+    plugintools.add_item(title=u'TV6', action='showchannel',
+                         thumbnail='https://scontent.fbkk5-4.fna.fbcdn.net/v/t1.0-9/29104254_1854937651196677_3353442213391499264_n.jpg?_nc_cat=110&_nc_ht=scontent.fbkk5-4.fna&oh=92f437fe2c8d9f5fd1b6bff77bd9507b&oe=5D5452AF')
+    plugintools.add_item(title=u'TV7', action='showchannel',
+                         thumbnail='https://i0.wp.com/www.we-play.tv/wp-content/uploads/2018/11/logo.png')
     xbmc.executebuiltin('Container.SetViewMode(500)')
     plugintools.close_item_list()
 
@@ -202,6 +207,12 @@ def get_channel(title):
             checktv('_12tv')
             from resources.sites import _12tv
             strmList = _12tv.get_chlist()
+        elif title == 'TV6':
+            from resources.sites import _mclubtv
+            strmList = _mclubtv.get_chlist()
+        elif title == 'TV7':
+            from resources.sites import _weplaytv
+            strmList = _weplaytv.get_chlist()
 
         for stream in strmList:
             url = stream.get('url')
@@ -252,6 +263,13 @@ def streamtv(url,title,thumbnail):
         furl = getsubstream(url)
     # elif 'co.th' in url:
     #     furl = url
+    elif './live?' in url:
+        from resources.sites._mclubtv import getm3u
+        furl = getm3u(url)
+    elif 'we-play' in url:
+        from resources.sites._weplaytv import getm3u
+        furl = getm3u(url)
+
     elif 'dmpapi2' in url:
         from resources.sites._2idtv import getsubstream
 
@@ -262,7 +280,7 @@ def streamtv(url,title,thumbnail):
             exit()
         else:
             furl = getsubstream(url)[0]
-
+            
     elif  url.isdigit():
         from resources.sites._fixit import getchadetail
         furl =getchadetail(url)
