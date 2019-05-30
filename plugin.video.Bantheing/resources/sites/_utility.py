@@ -10,6 +10,7 @@ import xbmcgui
 import plugintools
 import HTMLParser
 from bs4 import BeautifulSoup
+import _pyaes as pyaes
 
 addon = xbmcaddon.Addon()
 addoname = addon.getAddonInfo('name')
@@ -239,7 +240,7 @@ def exectv(enckey,filename):
         fo.close
     if enckey:
 
-        import _pyaes as pyaes
+        # import _pyaes as pyaes
 
         enckey = enckey.encode("ascii")
         missingbytes = 16 - len(enckey)
@@ -259,3 +260,17 @@ def checktv(tvname):
         exectv(pwd, tvname)
     else:
         pass
+
+def Decrypt(encryptedData):
+    # import _AES as AES
+    key = '6mj9qr0bvx4sdlst'
+    iv = 'huop2e5qz68vgpzb'
+    encryptedData = base64.b64decode(encryptedData)
+    cipher = pyaes.new(key, pyaes.MODE_CBC, iv)
+    ret = _unpad(cipher.decrypt(encryptedData))
+    ret = ret.decode(encoding="utf-8")
+    return ret
+
+def _unpad(s):
+    return s[:-ord(s[len(s)-1:])]
+

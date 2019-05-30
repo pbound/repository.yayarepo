@@ -1,17 +1,8 @@
-import HTMLParser
-import json
 import re
 import urllib
-import urllib2
-
 import requests
-# play = 	var baselink = curServer;
-# 	var folder = curFolder;
-# 	var bitRate = channelsNumberList[curSelectID].channel.bitrates[curSelectBitRate].value;
-# 	var streamid = channelsNumberList[curSelectID].channel.streamer;
-# 	var urlString = "http://" + baselink + ":1935/" + folder + "/" + streamid +
-# 									"_" + bitRate + "/playlist.m3u8";
-# '
+import base64
+from _utility import Decrypt
 from bs4 import BeautifulSoup
 
 
@@ -32,9 +23,9 @@ headers = {
             # 'User-Agent': 'okhttp/3.8.0'
 
             }
-
+baseurl = base64.b64decode('aHR0cHM6Ly93d3cubW92aWVjbHViaGQudHY=')
 def get_chlist():
-    r= requests.get('https://www.movieclubhd.tv/th/live',headers=headers)
+    r= requests.get(baseurl+'/th/live',headers=headers)
     # print r.content
     soup = BeautifulSoup(r.text, 'html5lib')
     soup.prettify()
@@ -60,26 +51,18 @@ def get_chlist():
 
 
 def getm3u(link):
-    url = 'https://www.movieclubhd.tv/th/' + link.replace('.','')
+    url = baseurl+'/th/' + link.replace('.','')
     source = requests.get(url, headers=headers)
-    link = re.compile('linkPlay = "([^"]+)";').findall(source.text)
+    link = re.compile('moviecluby."([^"]+)"').findall(source.text)
     # print link[0]
+    linkplay = Decrypt(link[0])
     HEADERS = urllib.urlencode({
         'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
-        'Referer': 'https://www.movieclubhd.tv/th/live?channel=mcothd_480p',
+        'Referer': baseurl,
     })
-    return link[0] + '|%s' % HEADERS
+    return linkplay + '|%s' % HEADERS
     # return link[0]
 
 
 if __name__ == '__main__':
-    # print getchunklist('http://symc-cdn02.bkk04.violin.co.th:1935/liveedge/292277143069_300/playlist.m3u8')
-    # souptest()
-    # willdel('http://psitv.tv/api/Channels')
-    # jsontest('http://psitv.tv/api/Channels')
-    # getchalist()
-    # get_sesion()
-    # getpost()
-    # print test_2()
-    print getm3u('./live?channel=00_skynetsport6')
-    get_chlist()
+    pass
