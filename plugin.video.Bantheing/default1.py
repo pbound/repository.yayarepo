@@ -183,6 +183,8 @@ def get_tv():
                          thumbnail='https://scontent.fbkk5-4.fna.fbcdn.net/v/t1.0-9/29104254_1854937651196677_3353442213391499264_n.jpg?_nc_cat=110&_nc_ht=scontent.fbkk5-4.fna&oh=92f437fe2c8d9f5fd1b6bff77bd9507b&oe=5D5452AF')
     plugintools.add_item(title=u'TV7', action='showchannel',
                          thumbnail='https://i0.wp.com/www.we-play.tv/wp-content/uploads/2018/11/logo.png')
+    plugintools.add_item(title=u'TV8', action='showchannel',
+                         thumbnail='https://scontent.fbkk22-2.fna.fbcdn.net/v/t1.0-1/15780666_1039555132820647_7174041289293035783_n.png?_nc_cat=105&_nc_ht=scontent.fbkk22-2.fna&oh=c0f70260f8927451d4d86c7490ec0540&oe=5D931C5F')
     xbmc.executebuiltin('Container.SetViewMode(500)')
     plugintools.close_item_list()
 
@@ -213,6 +215,9 @@ def get_channel(title):
         elif title == 'TV7':
             from resources.sites import _weplaytv
             strmList = _weplaytv.get_chlist()
+        elif title == 'TV8':
+            from resources.sites import _dstv
+            strmList = _dstv.get_chlist()
 
         for stream in strmList:
             url = stream.get('url')
@@ -269,7 +274,9 @@ def streamtv(url,title,thumbnail):
     elif 'we-play' in url:
         from resources.sites._weplaytv import getm3u
         furl = getm3u(url)
-
+    elif '17:1935' in url:
+        from resources.sites._dstv import getm3u
+        furl = getm3u(url)
     elif 'dmpapi2' in url:
         from resources.sites._2idtv import getsubstream
 
