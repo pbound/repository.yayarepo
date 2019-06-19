@@ -10,7 +10,7 @@ def get_categories():
     catgList = kaddon.getMenu()
     for ctg in catgList:
         plugintools.add_item(title=ctg.get('title'),action='showseries',url=ctg.get('url'))
-    plugintools.add_item(title=u'ค้นหา ซีรีส์เกาหลี', action='showsearch', url='http://www.ksubtv.co/?s=')
+    plugintools.add_item(title=u'ค้นหา ซีรีส์เกาหลี', action='showsearch', url='http://www.kseries.co/?s=')
     plugintools.close_item_list()
 
 def get_search(url):
@@ -48,14 +48,15 @@ def get_episodes(url,thumbnail):
     if epsList == []:
         epsList = kaddon.getSpecialEpisodes(url)
     for episode in epsList:
-        plugintools.add_item(title=episode.get('title'),action='streamslist',url=episode.get('url'),thumbnail=urllib.unquote(thumbnail).decode('utf8'))
+        plugintools.add_item(title=episode.get('title'),action='streamslist',url=episode.get('url'),thumbnail=thumbnail)
+        # xbmc.executebuiltin('Container.SetViewMode(500)')
     plugintools.close_item_list()
 
 
 def get_streams(url,title,thumbnail):
     strmList = kaddon.exactkSeries(url)
     for stream in strmList:
-        plugintools.add_item(title=stream.get('title'),action='stream',url=stream.get('url'),thumbnail=urllib.unquote(thumbnail).decode('utf8'))
+        plugintools.add_item(title=stream.get('title'),action='stream',url=stream.get('url'),thumbnail=thumbnail)
     plugintools.close_item_list()
     
 def stream(url,title,thumbnail):
@@ -63,8 +64,6 @@ def stream(url,title,thumbnail):
         path = urlresolver.HostedMediaFile(url).resolve()
     elif 'ok.ru' in url:
         path = urlresolver.HostedMediaFile(url).resolve()
-    # elif 'vimeo.akamaized.net' in url:
-    #     path = urlresolver.HostedMediaFile(url).resolve()
     else:
         path = url
     li = xbmcgui.ListItem(label=title, iconImage=thumbnail, thumbnailImage=thumbnail,path=path)
