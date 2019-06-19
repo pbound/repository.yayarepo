@@ -158,22 +158,6 @@ def get_mov(link):
 
     return seclist# r.encoding = "utf-8"
 
-def get_next():
-    ofs = 390
-    # url = 'https://www.movieclubhd.tv/th/search/index?term=iron'
-    url = urlapi + 'vdo/series_category/?limit=30&offset=0&category=5&X-API-KEY=qx3zCittLUGs4arjaopxri2xPGUcANUq'
-    # url = 'http://tv.movieclubhd.tv/th/category/all/80/1110'
-    r = requests.get(url).json()
-    total = r['num_rows']
-    ofs = int(ofs) +  30
-    print total
-    print ofs
-    if total > ofs :
-        print ofs
-
-    # itemslist = []
-    # for items in a:
-    #     print items
 
 
 def getsearch(arg):
@@ -260,7 +244,7 @@ def getstreams(link):
     uid =  randint(1000,2200)
     slink = b64decode(link)
     url = urlapi + 'buildSecurelink/key?user_id=' + str(uid) + '&' + key
-    # url = 'https://app.movieclub.tv/api/buildSecurelink/key?user_id=2000&X-API-KEY=qx3zCittLUGs4arjaopxri2xPGUcANUq'
+   
     ste = requests.get(url).json()
     ste  = ste['res']
     return slink + ste
@@ -274,28 +258,4 @@ if __name__ == '__main__':
     # test_op()
     # getstreams()
     pass
-    # get_mov()
-    print get_select('http://tv.movieclubhd.tv/th/movie/9952')
-    # print get_select('https://www.movieclubhd.tv/th/series/10114')
-    # get_series('813')
-    # get_series('8953')
-    # print get_ep('https://app.movieclub.tv/api/vdo/series?series_id=10114&X-API-KEY=qx3zCittLUGs4arjaopxri2xPGUcANUq','link_series_soundtrack')
-    # getsearch('iron')
-    # print getgenre()
-    # get_category('https://www.movieclubhd.tv/th/series-category/all')
-    # get_category('http://www.movieclubhd.tv/th/recently')
-    # get_category('http://tv.movieclubhd.tv/th/category/all/80')
-    # print get_category('https://www.movieclubhd.tv/th/search/index?term=iron')
-    # get_next()
-    # get_showsoup('http://tv.movieclubhd.tv/th/movie-category/all')
-    # print get_category('https://www.movieclubhd.tv/th/recently')
-    # get_section('/get_section/5c6387dfaae7315caac04d3b/')
-    # get_section('/get_section/5c92dd6ebf6aee388570c5bd/')
-    # get_section('/get_section/5b403fa4d817de591a0afffe/')
-    # get_section()
-    # get_sub('https://www.movieclubhd.tv/th/series/10393')
-    # get_sub('https://www.movieclubhd.tv/th/series/4178/soundtrack')
-    # get_ep()
-    # print getsearch('man')
-    # print getstreams('/get_item/5ab1c1a8aae73108e87b8204/')
-    # print getstreams('/get_item/597b8fe77ed5a24e45c3ab12/')
+   
