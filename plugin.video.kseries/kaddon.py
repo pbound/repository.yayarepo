@@ -30,9 +30,16 @@ def getSeries(url):
         img = item.find('img')
         seriesList.append({'title': img.get('alt'), 'url': img.parent.get('href'), 'thumbnail': img.get('src')})
 
-    next = soup.find('a', {'class': 'nextpostslink'})
+    next = soup.find('span', {'class': 'pages'})
+
     if next != None:
-        seriesList.append({'title': u"Next", 'url': next.get('href')})
+        cp = int(next.text.split(' ')[1])
+        lp  = int(next.text.split(' ')[-1])
+        if lp > cp :
+            np = int(cp) + 1
+            # print np
+            nurl = url.replace(str(cp),str(np))
+            seriesList.append({'title': u"Next", 'url': nurl})
     return seriesList
 
 
