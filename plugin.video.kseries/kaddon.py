@@ -37,8 +37,11 @@ def getSeries(url):
         lp  = int(next.text.split(' ')[-1])
         if lp > cp :
             np = int(cp) + 1
+            if 'page' in url:
             # print np
-            nurl = url.replace(str(cp),str(np))
+                nurl = url.replace(str(cp),str(np))
+            else:
+                nurl =  url + 'page/' + str(np)
             seriesList.append({'title': u"Next", 'url': nurl})
     return seriesList
 
