@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.kseries" name="Kseries" version="1.0.47" provider-name="YaYa Team">
+<addon id="plugin.video.kseries" name="Kseries" version="1.0.48" provider-name="YaYa Team">
   <requires>
  <import addon="xbmc.python" version="2.1.0"/>
  <import addon="script.module.beautifulsoup4"/>
