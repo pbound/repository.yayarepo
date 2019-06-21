@@ -1,19 +1,18 @@
 # -*- coding: utf-8 -*-
-import requests,re,urllib,os,json,binascii,sys
+import requests,re
 from bs4 import BeautifulSoup
-
+from base64 import b64decode
+base_url =  b64decode('aHR0cDovL3d3dy5rc2VyaWVzLnR2Lw==')
 
 def getMenu():
-    r = requests.get('http://www.kseries.tv/')
+    r = requests.get(base_url)
     soup = BeautifulSoup(r.text, 'html5lib')
     soup.prettify()
     ul = soup.find(id="menu-item-105338")
     ul = ul.find_next_siblings('li')
     seriesList = []
     for link in ul:
-        news = link.find('a').get('href')
-        if news != 'http://news.kseries.tv/':
-            seriesList.append({'title': link.text.replace('\n', ''), 'url': link.find('a').get('href')})
+        seriesList.append({'title': link.text.replace('\n', ''), 'url': link.find('a').get('href')})
     return seriesList
 
 
@@ -70,10 +69,6 @@ def getStreams(url):
     return sourceList
 
 
-
-
-
-
 def exactkSeries(url):
     r = requests.get(url)
     r.encoding = "utf-8"
@@ -112,17 +107,13 @@ def kstream(url,id):
             if '\'' not in csrc:
                 if 'LoadingCircleYouTube'in csrc:
                  csrc= gsrc[0]
+                elif 'cdn.7series.co' in  csrc:
+                    csrc = csrc + '|Referer=%s' % url
                 strmList.append({'label': strm.get('label'), 'curl': csrc})
     return strmList
 
-
-
-
-
-
 def k_stream(url):
     r = requests.get(url)
-    # s = re.compile('file.."(.*?)"').findall(r.text)
     s = re.compile('<source src="([^"]+)"').findall(r.text)
     url = s[0]
     return url
