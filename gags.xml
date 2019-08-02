@@ -9,12 +9,6 @@
 <Utube>UCaAZ2O-1wvipTqdbFv2cJJQ</Utube> 
 <thumbnail>https://yt3.ggpht.com/a/AGF-l79wMAk3lJrPgkhVw6QRx8JpiOqwRAMTobJKow=s288-mo-c-c0xffffffff-rj-k-no</thumbnail>
 </item>
-<item>
-<title>[COLOR cyan]TV Playlist[/COLOR]</title>
-<thumbnail>http://www.kapampangankupagmaragulkuintl.com/wp-content/uploads/2016/12/youtube.png</thumbnail>
-<link>http://ignorame</link>
-<externallink>https://www.dropbox.com/s/l0acugkkscuuvcn/14762461431164.txt?dl=1$$LSProEncKey=**********$$</externallink>
-</item>
 
 <item>
 <title>[COLOR cyan]TV Playlist[/COLOR]</title>
@@ -86,9 +80,46 @@
 <externallink>https://www.dropbox.com/s/04djnthmfxcphai/python%20.txt?dl=1</externallink>
 </item> 
 
+
+<item>
+<title>[COLOR cyan]KSeries[/COLOR]</title>
+<thumbnail>http://www.kseries.co/wp-content/themes/kseries/asset/images/logo.png</thumbnail>
+<link>http://ignorame</link>
+<externallink>https://www.dropbox.com/s/gy4os07u4vnv420/KSeries.xml?dl=1</externallink>
+</item>
+
 <item>
 <title>[COLOR cyan]AJ supee[/COLOR]</title>
 <thumbnail>http://www.kseries.co/wp-content/themes/kseries/asset/images/logo.png</thumbnail>
 <link>http://ignorame</link>
 <externallink>https://www.dropbox.com/s/2hjdckpytzk6zck/ajsupee.xml?dl=1</externallink>
 </item>	
+<item>
+<title>[COLOR YelloW]KTV[/COLOR]</title>
+<link>$doregex[showch]</link>
+
+<regex>
+<name>showch</name>
+<listrepeat><![CDATA[
+<title>[COLOR cyan][showch.param2][/COLOR]</title>
+<link>$doregex[makelist2]</link> 
+<thumbnail>http://www.youtv24.net/sites/bw[showch.param3]</thumbnail>
+]]></listrepeat>
+<expres>a class=.ch1.*?stream="(.*?)".*\n.*?title="(.*?)".*\s.*img.src=..(.*?)"</expres>
+<page>http://www.youtv24.net/sites/bw/index.php?tg=1ch&ca=0</page>
+<referer>http://coolntv.com/</referer>
+</regex>
+
+<regex>
+<name>makelist2</name>
+<!-- <listrepeat><![CDATA[
+<title>[COLOR cyan][makelist2.param1][/COLOR]</title>
+<link>makelist2.param1</link> 
+<thumbnail>http://www.seriesbar.com/images/logo.png</thumbnail>
+]]></listrepeat> -->
+<expres>file:."([^"]+)"</expres>
+<page>http://www.youtv24.net/sites/bw/pages/pc/pc_view.php?ch=[showch.param1]&num=1</page>
+<referer>http://www.youtv24.net/sites/bw/index.php?tg=1ch&ca=0</referer>
+</regex>
+
+</item>
