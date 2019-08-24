@@ -34,7 +34,7 @@ http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277314577_600/playlist.m3u
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307947436081_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
 #EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/111.jpg?1531388946",ช่อง 5
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308661309596_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+http://61.91.12.34:1935/live/smil:tv5adaptive.smil/playlist.m3u8
 
 #EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/116.jpg?1531388946",ช่อง 7
 http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308091128717_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
