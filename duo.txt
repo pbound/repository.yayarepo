@@ -1,152 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 #EXTM3U
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/27.jpg?1531388946",พีเอสไอ
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277143069_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="69", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/true-premier-football-hd5.jpg",True Premier Football HD5
+https://vip.dufree4k.com/02_PremierHD5_720p/chunklist.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/144.png?1531388946",Zee Nung
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/315765423410_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="68", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/true-premier-football-hd4.jpg",True Premier Football HD4
+https://vip.dufree4k.com/02_PremierHD4_720p/chunklist.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/29.jpg?1531388946",เวิร์คพอยท์
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277227873_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="67", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/true-premier-football-hd3.jpg",True Premier Football HD3
+https://vip.dufree4k.com/02_PremierHD5_720p/chunklist.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/156.png?1531388946",Boomerang
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307331126227_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="66", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/true-premier-football-hd2.jpg",True Premier Football HD2
+https://vip.dufree4k.com/02_PremierHD2_720p/chunklist.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/51.jpg?1531388946",การ์ตูนคลับ
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277442241_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="65", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/true-premier-football-hd1.jpg",True Premier Football HD1
+https://vip.dufree4k.com/02_PremierHD1_720p/chunklist.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/122.png?1531388946",โมโน 29
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/315464298259_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="55", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/tvb.jpg",TVB
+http://dosod.tv:8081/live/TVB/playlist.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/73.jpg?1531388946",เอ็ม แชนแนล
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307914532200_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="54", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/hbo.png",HBO
+https://stream.xpeer-cdn.com/02_HBOHD_720p/chunklist.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/64.png?1531388946",JKN DRAMAX
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307049146346_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="53", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/hbosignature.png",HBOSignature
+https://stream2.xpeer-cdn.com/02_HBOSignature_720p/chunklist.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/46.jpg?1531388946",โมโนพลัส
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277210572_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="52", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/hbohit.png",HBOHit
+https://stream2.xpeer-cdn.com/02_HBOHit_720p/chunklist.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/49.jpg?1531388946",จ๊ะทิงจา
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277314577_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="51", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/red-byhbo-hd.png",RED byhbo HD
+https://stream2.xpeer-cdn.com/02_RedbyHBO_720p/chunklist.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/115.jpg?1531388946",ช่อง 3
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307947436081_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="41", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/axn.jpg",AXN
+http://dosod.tv:8081/live/AXN/playlist.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/111.jpg?1531388946",ช่อง 5
-http://61.91.12.34:1935/live/smil:tv5adaptive.smil/playlist.m3u8
+#EXTINF:-1  tvg-chno="40", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/h2-hd.jpg",h2 HD
+http://88iptv.org/true/link/bm2vlj8rB3J&.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/116.jpg?1531388946",ช่อง 7
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308091128717_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="39", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/fox-life.jpg",Fox Life
+http://dosod.tv:8081/live/Fox_Movie/playlist.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/114.jpg?1531388946",ช่อง 9
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307803302519_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="38", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/fox.jpg",FOX 
+http://dosod.tv:8081/live/Fox_Thai/playlist.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/69.jpg?1531388946",ทีวีดี โมโม่
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307482135598_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="37", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/fx.jpg",FX
+http://dosod.tv:8081/live/Fox_Action/playlist.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/43.png?1531388946",ทีวีไดเร็ค 1
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277218305_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="35", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/fox-crime.jpg",FOX CRIME
+https://stream4.xpeer-cdn.com/02_FoxCrimeHD_TH_720p/chunklist.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/56.png?1531388946",ช้อปแชนแนล
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307475366613_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="34", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/natgeo-graphic.jpg",Natgeo Graphic
+http://88iptv.org/true/link/ma6D5ppgRb7&.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/92.png?1531388946",ทีวีไดเร็ค 2
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277301601_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="33", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/natgeo-wild.jpg",Natgeo Wild
+https://stream4.xpeer-cdn.com/02_NatGeoWild_TH_720p/chunklist.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/68.png?1531388946",ทีวีไดเร็ค 3
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307338422399_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="32", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/nat-geo-people.jpg",Nat Geo People
+https://stream5.xpeer-cdn.com/02_NatPeopleHD_720p/chunklist.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/52.jpg?1531388946",มายา
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277384635_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="25", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/smmtv.png",SMMTV
+http://edge4-bkk.3bb.co.th:1935/SMMTV_Livestream/smmtv_high.stream/playlist.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/177.png?1531388946",BT บันเทิงไทย
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/314900283448_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="23", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-สบายด.png",ช่อง สบายดี
+http://stream.rs.co.th/sbd-hi/index.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/575.png?1531388946",ภารตะ
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/306898197082_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="22", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-2.png",ช่อง 2
+http://stream.rs.co.th/ch2-hi/index.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/47.jpg?1531388946",ฮิตสเตชั่น
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277377754_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="20", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-nation-tv.png",ช่อง Nation TV
+http://live.nationtv.tv/hls/ntv_th_hq.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/138.png?1531388946",แซบ แชนแนล
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308058215552_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="19", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-one.png",ช่อง ONE
+http://183.182.100.184/live/onehd/chunklist.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/91.jpg?1531388946",คูล ชาแนล
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308504386732_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="18", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-true4you.png",ช่อง True4you
+http://183.182.100.184/live/true4u/chunklist.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/59.png?1531388946",เกษตรนิวส์
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307764682277_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="16", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-ctb-tv.png",ช่อง CTB TV 
+http://vip.login.in.th:1935/CTB/CTB/playlist.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/131.png?1531388946",อีสานบ้านเรา
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307626143200_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="15", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-pptv.png",ช่อง PPTV
+http://27.254.130.64:80/feed/chpptvhd/playlist.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/190.jpg?1531388946",TOP TV
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277147460_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="14", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-thaipbs.png",ช่อง ThaiPBS
+http://thaipbs-live.cdn.byteark.com/live/playlist_720p/index.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/95.png?1531388946",Wish Channel
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307934616741_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="13", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชองอมรนทร.png",ช่องอมรินทร์
+http://27.254.130.64:80/feed/chamarin/playlist.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/169.png?1531388946",SHOP&SHOW
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308065531544_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="12", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-mono29.png",ช่อง Mono29
+http://183.182.100.184/live/mono29/chunklist.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/55.png?1531388946",แฟนทีวี
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308045591837_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="11", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-gmm25.png",ช่อง GMM25
+https://stream-03.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_abOxMnDTNgkFAMoci3v0gQ)/dm/3/x6rz4t7/s/live-3.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/133.png?1531388946",จิวเวลลี่
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/315615227218_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="9", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-workpoint.png",ช่อง Workpoint
+http://122.155.205.9/live/workpoint.stream/playlist.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/139.png?1531388946",AKTION (แอคชั่น)
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/315045428317_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="8", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชองไทยรฐ.png",ช่องไทยรัฐ
+http://live.thairath.co.th/trtv2/playlist_720p/index.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/199.png?1531388946",ASIAN MOVIE
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/315313275845_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="7", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-newtv.png",ช่อง NewTV
+http://newtv.cdn.byteark.com/live/playlist_576p/index.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/195.png?1531388946",THAI CCTV
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277350688_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="5", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-9.png",ช่อง 9
+http://27.254.130.64:80/feed/chmcothd/playlist.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/569.png?1531388946",DOONEE SERIES
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277212865_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="4", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-8.png",ช่อง 8
+http://stream.rs.co.th/ch8-hi/index.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/572.png?1531388946",Champion
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308052293648_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="3", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-7.png",ช่อง 7
+http://27.254.130.64:80/feed/ch7hd/playlist.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/126.png?1531388946",TIGER SHOPPING
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/315038363336_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="2", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-5.png",ช่อง 5
+http://27.254.130.64:80/feed/ch5hd/playlist.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/54.png?1531388946",ลำโขง
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277382735_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
+#EXTINF:-1  tvg-chno="1", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-3.png",ช่อง 3
+http://27.254.130.64:80/feed/ch3hd/playlist.m3u8
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/555.jpg?1531388946",Super Star
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277130159_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/103.png?1531388946",UMM TV
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277378213_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
-
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/102.png?1531388946",TIME TV
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308655127406_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
-
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/72.jpg?1531388946",ท๊อปไลน์ ทีวี
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307770397742_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
-
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/208.png?1531388946",โชคดีทีวี
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/292277355406_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
-
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/142.png?1531388946",Unity
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/315621128979_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
-
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/76.png?1531388946",กูรูทีวี
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308347215683_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
-
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/57.png?1531388946",TVD (MIRROR CH)
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307619115741_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
-
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/192.png?1531388946",นาซ่าทีวี
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307193391648_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
-
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/578.png?1531388946",เบิ่งดี ทีวี 
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/308668286790_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
-
-#EXTINF:-1  tvg-logo="http://api.psitv.tv/uploads/channel/60.png?1531388946",40-50
-http://symc-cdn04.bkk02.violin.co.th:1935/liveedge/307908917552_600/playlist.m3u8|Referer=http%3A%2F%2Flive.psitv.tv%2F&User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%3B+Win64%3B+x64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0
 
