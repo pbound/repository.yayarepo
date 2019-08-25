@@ -116,6 +116,3 @@ http://27.254.130.64:80/feed/ch5hd/playlist.m3u8
 
 #EXTINF:-1  tvg-chno="1", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-3.png",ช่อง 3
 http://27.254.130.64:80/feed/ch3hd/playlist.m3u8
-
-
-
