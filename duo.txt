@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 #EXTM3U
 #EXTINF:-1  tvg-chno="69", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/true-premier-football-hd5.jpg",True Premier Football HD5
 https://vip.dufree4k.com/02_PremierHD5_720p/chunklist.m3u8
