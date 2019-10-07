@@ -3,8 +3,7 @@ import requests, re
 from bs4 import BeautifulSoup
 from base64 import b64decode
 
-base_url = b64decode('aHR0cDovL3d3dy5rc2VyaWVzLnR2Lw==')
-
+base_url = b64decode('aHR0cHM6Ly93d3cua3N1YnRoYWkuY28=')
 
 def getMenu():
     print base_url
@@ -12,7 +11,7 @@ def getMenu():
 
     soup = BeautifulSoup(r.text, 'html5lib')
     soup.prettify()
-    ul = soup.find(id="menu-item-105338")
+    ul = soup.find(id="menu-item-151384")
     ul = ul.find_next_siblings('li')
     seriesList = []
     for link in ul:
@@ -27,13 +26,14 @@ def getSeries(url):
     soup = BeautifulSoup(r.text, 'html5lib')
     soup.prettify()
     # print soup
-    li = soup.findAll('a', {"class": "post-thumb"})
+    # li = soup.findAll('a', {"class": "post-thumb"})
+    li = soup.findAll('div', {'class': 'image'})
     # print li
 
     seriesList = []
     for item in li:
         img = item.find('img')
-        seriesList.append({'title': item.get('title'), 'url': img.parent.get('href'), 'thumbnail': img.get('src')})
+        seriesList.append({'title': img.get('alt'), 'url': img.parent.get('href'), 'thumbnail': img.get('src')})
 
     next = soup.find('span', {'class': 'pages'})
 
@@ -77,12 +77,16 @@ def getStreams(url):
 
 
 def exactkSeries(url):
+    # print url
     r = requests.get(url)
     r.encoding = "utf-8"
+    # print r.content.title()
     soup = BeautifulSoup(r.text, 'html5lib')
     soup.prettify()
     inp = soup.findAll('input', {"type": "button"})
     # print inp
+    stitle = soup.find("meta", property="og:title").get('content')
+    # print stitle
     seriesList = []
     for bt in inp:
 
@@ -92,28 +96,36 @@ def exactkSeries(url):
             label = src.get('label')
             if label is None:
                 label = ''
-            title = bt.get('value') + '  ' + label
+            title =  bt.get('value') + '  ' + label + '  ' + stitle
+            # print title
             seriesList.append({'title': title, 'url': src.get('curl')})
     return seriesList
 
 
 def kstream(url, id):
-    url = url.replace('clip/', 'clip/play.php?id=')
+    # print url
+    # url = url.replace('clip/', 'clip/play.php?id=')
+    url = url.replace('p/', 'p/playi.php?id=')
     url = url + '&width=1005&height=540&dh=30-4&dh2=30-3&n=' + id
+    # print url
     r = requests.get(url)
     r.encoding = "utf-8"
+    # print r
     gsrc = re.compile('mobile.*\n.*src="([^"]+)"').findall(r.text)
+    ksrc = re.compile("player.src.*?'([^']+)'").findall(r.text)
     soup = BeautifulSoup(r.text, 'html5lib')
     soup.prettify()
     strmList = []
     src = soup.findAll('source')
     for strm in src:
+        # print strm
         csrc = strm.get('src')
         if 'cliperror' not in csrc:
             if '\'' not in csrc:
                 if 'LoadingCircleYouTube' in csrc:
                     csrc = gsrc[0]
-                elif 'cdn.7series.co' in csrc:
+                if 'loading.mp4' in csrc:
+                    csrc = ksrc[0]
                     csrc = csrc + '|Referer=%s' % url
                 strmList.append({'label': strm.get('label'), 'curl': csrc})
     return strmList
@@ -125,6 +137,10 @@ def k_stream(url):
     url = s[0]
     return url
 
-    # if __name__ == '__main__':
+if __name__ == '__main__':
+    pass
     # getMenu()
-    # print getSeries('https://www.kseries.tv/category/korea-series/')
+    # print getSeries('https://www.ksubthai.co/category/korea-series/')
+    # print getEpisodes('https://www.ksubthai.co/melting-me-softly/')
+    # print getStreams('https://www.ksubthai.co/p/163688/')
+    # print exactkSeries('https://www.ksubthai.co/p/166061/')

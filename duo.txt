@@ -17,7 +17,7 @@ https://live.dufree4k.com/02_PremierHD1_720p/chunklist.m3u8
 #EXTINF:-1  tvg-chno="55", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/tvb.jpg",TVB
 http://dosod.tv:8081/live/TVB/playlist.m3u8
 
-#EXTINF:-1  tvg-chno="54", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/hbo.png",HBO
+#EXTINF:-1  tvg-chno="54", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/hbo.png", group-title="Movie;Inter", HBO
 https://tv.xpeer-cdn.com/02_HBOHD_720p/chunklist.m3u8
 
 #EXTINF:-1  tvg-chno="53", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/hbosignature.png",HBOSignature
@@ -65,53 +65,56 @@ http://stream.rs.co.th/sbd-hi/index.m3u8
 #EXTINF:-1  tvg-chno="22", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-2.png",ช่อง 2
 http://stream.rs.co.th/ch2-hi/index.m3u8
 
-#EXTINF:-1  tvg-chno="20", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-nation-tv.png",ช่อง Nation TV
+#EXTINF:-1  tvg-chno="20", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-nation-tv.png", group-title="Digital TV",ช่อง Nation TV
 http://live.nationtv.tv/hls/ntv_th_hq.m3u8
 
-#EXTINF:-1  tvg-chno="19", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-one.png",ช่อง ONE
+#EXTINF:-1  tvg-chno="19", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-one.png", group-title="Digital TV",ช่อง ONE
 http://183.182.100.184/live/onehd/chunklist.m3u8
 
-#EXTINF:-1  tvg-chno="18", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-true4you.png",ช่อง True4you
+#EXTINF:-1  tvg-chno="18", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-true4you.png", group-title="Digital TV",ช่อง True4you
 http://183.182.100.184/live/true4u/chunklist.m3u8
 
-#EXTINF:-1  tvg-chno="16", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-ctb-tv.png",ช่อง CTB TV 
+#EXTINF:-1  tvg-chno="16", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-ctb-tv.png", group-title="Movie",ช่อง CTB TV 
 http://vip.login.in.th:1935/CTB/CTB/playlist.m3u8
 
-#EXTINF:-1  tvg-chno="15", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-pptv.png",ช่อง PPTV
+#EXTINF:-1  tvg-chno="15", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-pptv.png", group-title="Digital TV",ช่อง PPTV
 http://27.254.130.64:80/feed/chpptvhd/playlist.m3u8
 
-#EXTINF:-1  tvg-chno="14", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-thaipbs.png",ช่อง ThaiPBS
+#EXTINF:-1  tvg-chno="14", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-thaipbs.png", group-title="Digital TV",ช่อง ThaiPBS
 http://thaipbs-live.cdn.byteark.com/live/playlist_720p/index.m3u8
 
-#EXTINF:-1  tvg-chno="13", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชองอมรนทร.png",ช่องอมรินทร์
+#EXTINF:-1  tvg-chno="13", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชองอมรนทร.png", group-title="Digital TV",ช่องอมรินทร์
 http://27.254.130.64:80/feed/chamarin/playlist.m3u8
 
-#EXTINF:-1  tvg-chno="12", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-mono29.png",ช่อง Mono29
+#EXTINF:-1  tvg-chno="12", tvg-logo="http://image.free.in.th/v/2013/in/180810010159.jpg", group-title="Movie",ช่อง Mono Puls
+https://edge4-bkk.3bb.co.th:9443/MonoPlus_LiveHLS/monoplusLive_HLS720p.stream/playlist.m3u8
+
+#EXTINF:-1  tvg-chno="12", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-mono29.png", group-title="Movie;Digital TV",ช่อง Mono29
 http://183.182.100.184/live/mono29/chunklist.m3u8
 
-#EXTINF:-1  tvg-chno="11", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-gmm25.png",ช่อง GMM25
+#EXTINF:-1  tvg-chno="11", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-gmm25.png", group-title="Digital TV",ช่อง GMM25
 https://stream-03.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_abOxMnDTNgkFAMoci3v0gQ)/dm/3/x6rz4t7/s/live-3.m3u8
 
-#EXTINF:-1  tvg-chno="9", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-workpoint.png",ช่อง Workpoint
+#EXTINF:-1  tvg-chno="9", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-workpoint.png", group-title="Digital TV",ช่อง Workpoint
 http://122.155.205.9/live/workpoint.stream/playlist.m3u8
 
-#EXTINF:-1  tvg-chno="8", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชองไทยรฐ.png",ช่องไทยรัฐ
+#EXTINF:-1  tvg-chno="8", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชองไทยรฐ.png", group-title="Digital TV",ช่องไทยรัฐ
 http://live.thairath.co.th/trtv2/playlist_720p/index.m3u8
 
-#EXTINF:-1  tvg-chno="7", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-newtv.png",ช่อง NewTV
+#EXTINF:-1  tvg-chno="7", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-newtv.png", group-title="Digital TV",ช่อง NewTV
 http://newtv.cdn.byteark.com/live/playlist_576p/index.m3u8
 
-#EXTINF:-1  tvg-chno="5", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-9.png",ช่อง 9
+#EXTINF:-1  tvg-chno="5", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-9.png", group-title="Digital TV",ช่อง 9
 http://27.254.130.64:80/feed/chmcothd/playlist.m3u8
 
-#EXTINF:-1  tvg-chno="4", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-8.png",ช่อง 8
+#EXTINF:-1  tvg-chno="4", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-8.png", group-title="Digital TV",ช่อง 8
 http://stream.rs.co.th/ch8-hi/index.m3u8
 
-#EXTINF:-1  tvg-chno="3", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-7.png",ช่อง 7
+#EXTINF:-1  tvg-chno="3", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-7.png", group-title="Digital TV",ช่อง 7
 http://27.254.130.64:80/feed/ch7hd/playlist.m3u8
 
-#EXTINF:-1  tvg-chno="2", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-5.png",ช่อง 5
+#EXTINF:-1  tvg-chno="2", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-5.png", group-title="Digital TV",ช่อง 5
 http://27.254.130.64:80/feed/ch5hd/playlist.m3u8
 
-#EXTINF:-1  tvg-chno="1", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-3.png",ช่อง 3
+#EXTINF:-1  tvg-chno="1", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-3.png", group-title="Free TV",ช่อง 3
 http://27.254.130.64:80/feed/ch3hd/playlist.m3u8
