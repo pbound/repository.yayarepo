@@ -26,7 +26,7 @@ def getgenre():
     soup.prettify()
     ul = soup.find('ul',{'class':'list-unstyled components'})
     # print ul
-    li = ul.find_all('li')[3:-16]
+    li = ul.find_all('li')[4:-16]
     # print li
     genlist=[]
     for i in li:
