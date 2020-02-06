@@ -102,7 +102,7 @@ http://122.155.205.9/live/workpoint.stream/playlist.m3u8
 http://live.thairath.co.th/trtv2/playlist_720p/index.m3u8
 
 #EXTINF:-1  tvg-chno="7", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-newtv.png", group-title="Digital TV",ช่อง NewTV
-http://newtv.cdn.byteark.com/live/playlist_576p/index.m3u8
+https://www.dailymotion.com/cdn/live/video/x6rz4t7.m3u8?sec=nNitpFpQT3ZsGjdUQuj6iYj27qu9ndOXXNqxhDBr6Pa--MUOrPucwhhr8O_ioZFqZfus2L1ElXorT1_p2LYUPA&redirect=0
 
 #EXTINF:-1  tvg-chno="5", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-9.png", group-title="Digital TV",ช่อง 9
 http://27.254.130.64:80/feed/chmcothd/playlist.m3u8
