@@ -18,7 +18,9 @@ caturl = baseurl + '?r=category/series-category&platform_flag_label=web&area_id=
 # key = "X-API-KEY=qx3zCittLUGs4arjaopxri2xPGUcANUq"
 key = b64decode('WC1BUEktS0VZPXF4M3pDaXR0TFVHczRhcmphb3B4cmkyeFBHVWNBTlVx')
 urlapi = b64decode('aHR0cHM6Ly9hcHAubW92aWVjbHViLnR2L2FwaS8=')
-
+headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+			'Referer': baseurl,
+             'Origin': baseurl}
 def getgenre():
     url = baseurl
     r = requests.get(url)
@@ -44,7 +46,7 @@ def getgenre():
 
 def getvodlist(url):
 
-    r = requests.get(url)
+    r = requests.get(url,headers=headers)
     print r.content
     soup = BeautifulSoup(r.text, 'html5lib')
     soup.prettify()
@@ -90,8 +92,9 @@ def get_select(url):
     itype  = url.split('/')
     mv = itype[4]
     mvid = itype[5]
-    # print mv,mvid
+    print mv,mvid
     link = urlapi + 'vdo/' + mv + '?' + mv + '_id=' + mvid + '&' + key
+    print link
     if 'movie' in mv:
         return get_mov(link)
     else:
@@ -102,7 +105,7 @@ def get_select(url):
 
 
 def get_series(link):
-    hjson = requests.get(link).json()
+    hjson = requests.get(link,headers=headers).json()
     # print hjson
     subjson = hjson['res']
     sublist = []
@@ -125,7 +128,7 @@ def get_ep(url,mmsid):
     # url = url.split('/')
     # itype = url[0]
     # sid = url[1]
-    hjson = requests.get(url).json()
+    hjson = requests.get(url,headers=headers).json()
     # print hjson
     eplist = []
     eps = hjson['res'][mmsid]
@@ -144,7 +147,7 @@ def get_ep(url,mmsid):
 
 
 def get_mov(link):
-    hjson = requests.get(link).json()
+    hjson = requests.get(link,headers=headers).json()
     # print hjson
     items = hjson['res']['link_movie']
     # print len(items)
@@ -169,7 +172,7 @@ def getsearch(arg):
 def getsearchlist(url):
     ofs = url.split('offset=')[1].split('&')[0]
     arg = url.split('term=')[1].split('&')[0]
-    r = requests.get(url).json()
+    r = requests.get(url,headers=headers).json()
 
     total = r['num_rows']
     items = r['res'][1:]
@@ -245,7 +248,7 @@ def getstreams(link):
     slink = b64decode(link)
     url = urlapi + 'buildSecurelink/key?user_id=' + str(uid) + '&' + key
    
-    ste = requests.get(url).json()
+    ste = requests.get(url,headers=headers).json()
     ste  = ste['res']
     return slink + ste
 
@@ -257,5 +260,6 @@ def getstreams(link):
 if __name__ == '__main__':
     # test_op()
     # getstreams()
+
     pass
    
