@@ -39,7 +39,7 @@ http://88iptv.org/true/link/bm2vlj8rB3J&.m3u8
 https://www.livedoomovies.com/02_FOX_Life_HD_720p/chunklist.m3u8
 
 #EXTINF:-1  tvg-chno="38", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/fox.jpg",FOX 
-http://dosod.tv:8081/live/Fox_Thai/playlist.m3u8
+http://bit.ly/32RHZd8
 
 #EXTINF:-1  tvg-chno="37", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/fx.jpg",FX
 http://dosod.tv:8081/live/Fox_Action/playlist.m3u8
@@ -69,7 +69,7 @@ http://stream.rs.co.th/ch2-hi/index.m3u8
 http://live.nationtv.tv/hls/ntv_th_hq.m3u8
 
 #EXTINF:-1  tvg-chno="19", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-one.png", group-title="Digital TV",ช่อง ONE
-http://leechfreetv.ddnslive.com:8081/freelive-edge/_definst_/dtv31_onehd/playlist.m3u8
+http://one31-rlbwkq.cdn.byteark.com/live/playlist.m3u8
 
 #EXTINF:-1   tvg-chno="18",group-title="Digital TV"tvg-logo="https://teevee-hd.com/img/tnn24.png",TNN24
 http://livefreebl-1.ddns.net:8081/freelive-edge/_definst_/tnn24.smil/playlist.m3u8
@@ -116,7 +116,7 @@ http://27.254.130.64:80/feed/chmcothd/playlist.m3u8
 http://stream.rs.co.th/ch8-hi/index.m3u8
 
 #EXTINF:-1  tvg-chno="3", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-7.png", group-title="Digital TV",ช่อง 7
-http://27.254.130.64:80/feed/ch7hd/playlist.m3u8
+http://leechfreetv.ddnslive.com:8081/freelive-edge/_definst_/dtv35_ch7hd/playlist.m3u8
 
 #EXTINF:-1  tvg-chno="2", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-5.png", group-title="Digital TV",ช่อง 5
 http://27.254.130.64:80/feed/ch5hd/playlist.m3u8
