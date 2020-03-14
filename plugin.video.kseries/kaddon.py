@@ -124,7 +124,8 @@ def kstream(url, id):
             if '\'' not in csrc:
                 if 'LoadingCircleYouTube' in csrc:
                     csrc = gsrc[0]
-                if 'loading.mp4' in csrc:
+                # if 'loading.mp4' in csrc:
+                else:
                     csrc = ksrc[0]
                     csrc = csrc + '|Referer=%s' % url
                 strmList.append({'label': strm.get('label'), 'curl': csrc})

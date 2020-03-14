@@ -10,7 +10,7 @@ def get_categories():
     catgList = kaddon.getMenu()
     for ctg in catgList:
         plugintools.add_item(title=ctg.get('title'),action='showseries',url=ctg.get('url'))
-    plugintools.add_item(title=u'ค้นหา ซีรีส์เกาหลี', action='showsearch', url='http://www.kseries.co/?s=')
+    plugintools.add_item(title=u'ค้นหา ซีรีส์เกาหลี', action='showsearch', url='https://www.ksubthai.co/?s=')
     plugintools.close_item_list()
 
 def get_search(url):
