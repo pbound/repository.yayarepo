@@ -1,24 +1,24 @@
 #EXTM3U
 #EXTINF:-1  tvg-chno="69", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/true-premier-football-hd5.jpg",True Premier Football HD5
-https://live.dufree4k.com/02_PremierHD5_720p/chunklist.m3u8
+http://103.208.24.234:1935/thaisport/epl-5.stream/playlist.m3u8
 
 #EXTINF:-1  tvg-chno="68", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/true-premier-football-hd4.jpg",True Premier Football HD4
-https://vip.dufree4k.com/02_PremierHD4_720p/chunklist.m3u8
+http://103.208.24.234:1935/thaisport/epl-4.stream/playlist.m3u8
 
 #EXTINF:-1  tvg-chno="67", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/true-premier-football-hd3.jpg",True Premier Football HD3
-https://vip.dufree4k.com/02_PremierHD5_720p/chunklist.m3u8
+http://103.208.24.234:1935/thaisport/epl-3.stream/playlist.m3u8
 
 #EXTINF:-1  tvg-chno="66", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/true-premier-football-hd2.jpg",True Premier Football HD2
-https://vip.dufree4k.com/02_PremierHD2_720p/chunklist.m3u8
+http://103.208.24.234:1935/thaisport/epl-2.stream/playlist.m3u8
 
 #EXTINF:-1  tvg-chno="65", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/true-premier-football-hd1.jpg",True Premier Football HD1
-https://live.dufree4k.com/02_PremierHD1_720p/chunklist.m3u8
+http://103.208.24.234:1935/thaisport/epl-1.stream/playlist.m3u8
 
 #EXTINF:-1  tvg-chno="55", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/tvb.jpg",TVB
 https://edge2a.v2h-cdn.com/RE_HD/smil:TVB_HD_ABR.smil/chunklist_w223351532_b3564000_sltha.m3u8
 
 #EXTINF:-1  tvg-chno="54", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/hbo.png", group-title="Movie;Inter", HBO
-https://tv.xpeer-cdn.com/02_HBOHD_720p/chunklist.m3u8
+http://cdn1.kodi-live.com:443/movie/hbo_th_720p.stream/playlist.m3u8
 
 #EXTINF:-1  tvg-chno="53", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/hbosignature.png",HBOSignature
 https://tv.xpeer-cdn.com/02_HBOSignature_720p/chunklist.m3u8
@@ -39,7 +39,7 @@ http://88iptv.org/true/link/bm2vlj8rB3J&.m3u8
 https://www.livedoomovies.com/02_FOX_Life_HD_720p/chunklist.m3u8
 
 #EXTINF:-1  tvg-chno="38", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/fox.jpg",FOX 
-http://bit.ly/32RHZd8
+http://160.119.77.50/iptv/sd-fox.stream/playlist.m3u8
 
 #EXTINF:-1  tvg-chno="37", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/fx.jpg",FX
 http://dosod.tv:8081/live/Fox_Action/playlist.m3u8
