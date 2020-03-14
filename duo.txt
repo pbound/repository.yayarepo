@@ -15,7 +15,7 @@ https://vip.dufree4k.com/02_PremierHD2_720p/chunklist.m3u8
 https://live.dufree4k.com/02_PremierHD1_720p/chunklist.m3u8
 
 #EXTINF:-1  tvg-chno="55", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/tvb.jpg",TVB
-http://dosod.tv:8081/live/TVB/playlist.m3u8
+https://edge2a.v2h-cdn.com/RE_HD/smil:TVB_HD_ABR.smil/chunklist_w223351532_b3564000_sltha.m3u8
 
 #EXTINF:-1  tvg-chno="54", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/hbo.png", group-title="Movie;Inter", HBO
 https://tv.xpeer-cdn.com/02_HBOHD_720p/chunklist.m3u8
@@ -36,16 +36,16 @@ http://dosod.tv:8081/live/AXN/playlist.m3u8
 http://88iptv.org/true/link/bm2vlj8rB3J&.m3u8
 
 #EXTINF:-1  tvg-chno="39", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/fox-life.jpg",Fox Life
-http://dosod.tv:8081/live/Fox_Movie/playlist.m3u8
+https://www.livedoomovies.com/02_FOX_Life_HD_720p/chunklist.m3u8
 
 #EXTINF:-1  tvg-chno="38", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/fox.jpg",FOX 
-http://dosod.tv:8081/live/Fox_Thai/playlist.m3u8
+http://bit.ly/32RHZd8
 
 #EXTINF:-1  tvg-chno="37", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/fx.jpg",FX
 http://dosod.tv:8081/live/Fox_Action/playlist.m3u8
 
 #EXTINF:-1  tvg-chno="35", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/fox-crime.jpg",FOX CRIME
-https://tv.xpeer-cdn.com/02_FoxCrimeHD_TH_720p/chunklist.m3u8
+https://www.livedoomovies.com/02_FoxCrimeHD_TH_720p/chunklist.m3u8
 
 #EXTINF:-1  tvg-chno="34", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/natgeo-graphic.jpg",Natgeo Graphic
 http://88iptv.org/true/link/ma6D5ppgRb7&.m3u8
@@ -69,10 +69,13 @@ http://stream.rs.co.th/ch2-hi/index.m3u8
 http://live.nationtv.tv/hls/ntv_th_hq.m3u8
 
 #EXTINF:-1  tvg-chno="19", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-one.png", group-title="Digital TV",ช่อง ONE
-http://183.182.100.184/live/onehd/chunklist.m3u8
+http://one31-rlbwkq.cdn.byteark.com/live/playlist.m3u8
+
+#EXTINF:-1   tvg-chno="18",group-title="Digital TV"tvg-logo="https://teevee-hd.com/img/tnn24.png",TNN24
+http://livefreebl-1.ddns.net:8081/freelive-edge/_definst_/tnn24.smil/playlist.m3u8
 
 #EXTINF:-1  tvg-chno="18", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-true4you.png", group-title="Digital TV",ช่อง True4you
-http://183.182.100.184/live/true4u/chunklist.m3u8
+http://leechfreetv.ddnslive.com:8081/freelive-edge/_definst_/dtv24_true4u/playlist.m3u8
 
 #EXTINF:-1  tvg-chno="16", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-ctb-tv.png", group-title="Movie",ช่อง CTB TV 
 http://vip.login.in.th:1935/CTB/CTB/playlist.m3u8
@@ -86,6 +89,8 @@ http://thaipbs-live.cdn.byteark.com/live/playlist_720p/index.m3u8
 #EXTINF:-1  tvg-chno="13", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชองอมรนทร.png", group-title="Digital TV",ช่องอมรินทร์
 http://27.254.130.64:80/feed/chamarin/playlist.m3u8
 
+
+
 #EXTINF:-1  tvg-chno="12", tvg-logo="http://image.free.in.th/v/2013/in/180810010159.jpg", group-title="Movie",ช่อง Mono Puls
 https://edge4-bkk.3bb.co.th:9443/MonoPlus_LiveHLS/monoplusLive_HLS720p.stream/playlist.m3u8
 
@@ -93,16 +98,16 @@ https://edge4-bkk.3bb.co.th:9443/MonoPlus_LiveHLS/monoplusLive_HLS720p.stream/pl
 http://183.182.100.184/live/mono29/chunklist.m3u8
 
 #EXTINF:-1  tvg-chno="11", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-gmm25.png", group-title="Digital TV",ช่อง GMM25
-https://stream-03.sg1.dailymotion.com/sec(pDyZxTTGl2hc8DOnzK37_abOxMnDTNgkFAMoci3v0gQ)/dm/3/x6rz4t7/s/live-3.m3u8
+http://livefreebl-1.ddns.net:8081/freelive-edge/_definst_/gmmchannel.smil/playlist.m3u8
 
 #EXTINF:-1  tvg-chno="9", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-workpoint.png", group-title="Digital TV",ช่อง Workpoint
-http://122.155.205.9/live/workpoint.stream/playlist.m3u8
+http://leechfreetv.ddnslive.com:8081/freelive-edge/_definst_/dtv23_workpointtv/playlist.m3u8
 
 #EXTINF:-1  tvg-chno="8", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชองไทยรฐ.png", group-title="Digital TV",ช่องไทยรัฐ
 http://live.thairath.co.th/trtv2/playlist_720p/index.m3u8
 
 #EXTINF:-1  tvg-chno="7", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-newtv.png", group-title="Digital TV",ช่อง NewTV
-https://www.dailymotion.com/cdn/live/video/x6rz4t7.m3u8?sec=nNitpFpQT3ZsGjdUQuj6iYj27qu9ndOXXNqxhDBr6Pa--MUOrPucwhhr8O_ioZFqZfus2L1ElXorT1_p2LYUPA&redirect=0
+http://livefreebl-1.ddns.net:8081/freelive-edge/_definst_/newstv.smil/playlist.m3u8
 
 #EXTINF:-1  tvg-chno="5", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-9.png", group-title="Digital TV",ช่อง 9
 http://27.254.130.64:80/feed/chmcothd/playlist.m3u8
@@ -111,7 +116,7 @@ http://27.254.130.64:80/feed/chmcothd/playlist.m3u8
 http://stream.rs.co.th/ch8-hi/index.m3u8
 
 #EXTINF:-1  tvg-chno="3", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-7.png", group-title="Digital TV",ช่อง 7
-http://27.254.130.64:80/feed/ch7hd/playlist.m3u8
+http://leechfreetv.ddnslive.com:8081/freelive-edge/_definst_/dtv35_ch7hd/playlist.m3u8
 
 #EXTINF:-1  tvg-chno="2", tvg-logo="http://apptvhd.esy.es/uploads/tv_image/ชอง-5.png", group-title="Digital TV",ช่อง 5
 http://27.254.130.64:80/feed/ch5hd/playlist.m3u8
