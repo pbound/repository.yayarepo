@@ -86,7 +86,7 @@ def getquality(url):
     for key in qualist:
         # print key
         # print qualist[key]
-        sourcelist.append({"title": key[1:], "url": qualist[key]})
+        sourcelist.append({"title": key[1:], "url": qualist[key].replace('viu_var_thaws','viu_thaws')})
 
     return sourcelist
 
@@ -113,7 +113,7 @@ def getstreams(url,title=None):
 
     ccsproid = curproduct['ccs_product_id']
     # print 'ccs_product_id= ' + ccsproid
-    qurl = stmbaseurl + ccsproid
+    qurl = stmbaseurl + ccsproid+'&language_flag_id=4&duration=180&duration_start=0'
 
     return getquality(qurl)
 
