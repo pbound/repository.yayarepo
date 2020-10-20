@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 # main import's 
 import sys, os, re
 import shutil
@@ -95,12 +95,14 @@ def main():
     # xbmcgui.Dialog().ok('_home',__home)
     shutil.copy(__cwd__ + '/arial.ttf', __spc + '/media/Fonts/arial.ttf')
     # xbmcgui.Dialog().ok('finish', 'success')
-    xbmcgui.Dialog().ok('Sub font', ' Go to player Setting ->Langeuge -> font to use for the text, and refresh font to Arail ')
+    # xbmcgui.Dialog().ok('Sub font', ' Go to player Setting ->Langeuge -> font to use for the text, and refresh font to Arail ')
     # xbmc.executebuiltin("ActivateWindow(InterfaceSettings)",False)
-
+    xbmcgui.Dialog().ok('Sub font',
+                        ' Go to Interface Setting ->Skin -> font to use for the text, and refresh font to Arail ')
+    xbmc.executebuiltin("ActivateWindowAndFocus(interfacesettings,-100,0,-5,0)")
 
     # xbmc.executebuiltin("ActivateWindow()")
-    a  =(xbmc.executebuiltin("ActivateWindowAndFocus(playersettings,-96,0,-71,0)"))
+    # a  =(xbmc.executebuiltin("ActivateWindowAndFocus(playersettings,-96,0,-71,0)"))
     # xbmc.sleep(20000)
     # xbmc.executebuiltin('ActivateWindow(busydialognocancel)')
     # xbmcgui.Window(12000)
