@@ -86,7 +86,7 @@ def getquality(url):
     for key in qualist:
         # print key
         # print qualist[key]
-        sourcelist.append({"title": key[1:], "url": qualist[key].replace('viu_var_thaws','viu_thaws')})
+        sourcelist.append({"title": key[1:], "url": qualist[key].replace('_var_','_')})
 
     return sourcelist
 
