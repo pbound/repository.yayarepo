@@ -17,7 +17,7 @@ def getgenre():
     r.encoding = "utf-8"
     soup = BeautifulSoup(r.text, 'html5lib')
     soup.prettify()
-    ul = soup.find('ul', {'class': "v-nav test"})
+    ul = soup.find('ul', {'class': "v-nav"})
     li = ul.findAll('a', {'class': ''})
     seriesList = []
     # print (li)
