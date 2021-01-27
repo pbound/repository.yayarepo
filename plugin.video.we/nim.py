@@ -105,7 +105,7 @@ def getepisode(url):
         surl = ep.find('a').get('href')
         title = ep.find('a').text
         # url = epurl+ep['product_id']
-        eplist.append({'title':title , 'url': url,
+        eplist.append({'title':title , 'url': surl,
                            'thumbnail': ""})
     return eplist
 def download_subtitle(url):
