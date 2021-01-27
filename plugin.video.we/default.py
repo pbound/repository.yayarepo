@@ -81,7 +81,7 @@ def get_episodes(url,title,thumnail):
         thumb = show.get('thumbnail')
         if thumb == None:
             thumb = ""
-        plugintools.add_item(title=show.get('title')+'  '+ title ,action='stream',url=show.get('url'),thumbnail=thumb)
+        plugintools.add_item(title=show.get('title') ,action='stream',url=show.get('url'),thumbnail=thumb)
 
     plugintools.close_item_list()
 

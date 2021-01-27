@@ -77,7 +77,7 @@ def getseries(url):
         surl = link.get('href')
         thumnail = link.find('img').get('data-src')
         title = link.find('div', {'class': "slide-content"}).h2.text.replace('\n', '')
-        print title,thumnail,surl
+        # print title,thumnail,surl
         sourcelist.append(
             {"title": title, "url": surl, 'thumbnail': thumnail})
 
@@ -204,7 +204,7 @@ def savelast(url,title,thumbnail):
             dict_info = json.load(info_read)
             # plugintools.message('title',str(lasttitle))
             for n in dict_info['list']:
-                print n
+                # print n
                 if lasttitle == n['url']:
                     n_status=True
                     break
