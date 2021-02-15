@@ -139,7 +139,7 @@ def getquality(url):
 
 def getstreams(url,title=None):
     response = requests.get(url)
-    streamurl  = re.compile('"file": "([^"]+)').findall(response.text)
+    streamurl  = re.compile('src: "([^"]+)').findall(response.text)
     HEADERS = urllib.urlencode({
         'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
         'Referer': 'https://www.we-play.tv',
