@@ -13,7 +13,7 @@ fbaseurl = b64decode('aHR0cHM6Ly9kZnA2cmdsZ2pxc3prLmNsb3VkZnJvbnQubmV0L2luZGV4Ln
 stmbaseurl = b64decode('aHR0cHM6Ly9kMWsydXM2NzFxY29hdS5jbG91ZGZyb250Lm5ldC9kaXN0cmlidXRlX3dlYl90aC5waHA/Y2NzX3Byb2R1Y3RfaWQ9')
 caturl = baseurl + '?r=category/series-category&platform_flag_label=web&area_id=4&language_flag_id=4&'
 def getgenre():
-    r = requests.get(baseurl)
+    r = requests.get(b64decode('aHR0cHM6Ly93d3cudml1LmNvbS9vdHQvdGgv'))
     r.encoding = "utf-8"
     soup = BeautifulSoup(r.text, 'html5lib')
     soup.prettify()
