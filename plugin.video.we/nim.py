@@ -139,7 +139,7 @@ def getquality(url):
 
 def getstreams(url,title=None):
     response = requests.get(url)
-    streamurl  = re.compile('"file": "([^"]+)').findall(response.text)
+    streamurl  = re.compile('playlist:.*\s.*\s.*?file:."([^"]+)').findall(response.text)
     HEADERS = urllib.urlencode({
         'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
         'Referer': 'https://www.we-play.tv',
@@ -272,10 +272,24 @@ def get_subtitle(url):
 def read(url):
 
     f = urllib2.urlopen(url)
+    res = requests.get(url)
     data = f.read()
     f.close()
     # print data
     return data
+def read2(url):
+
+    f = requests.get(url)
+    data = f.text
+    data=data.replace('position:50.00%,middle align:middle size:80.00% line:10.00%','').replace('&lrm;','').replace('<c.thai><c.bg_transparent>','').replace('</c.bg_transparent></c.thai>','')
+    f.close()
+    print data
+    return data.encode('utf8')
+def get_subvtt(url):
+    dest = 'ss.srt'
+    fi = open(dest, "w")
+    fi.write(read2(url))
+    fi.close()
 if __name__ == '__main__':
     pass
     # getseries('https://we-play.tv/movies/family')
@@ -285,3 +299,6 @@ if __name__ == '__main__':
     # print getstreams('https://www.we-play.tv/watching/series/reply-1988-2015/season1/ep1')
     # print getsearch("run")
     # getepisode('https://www.we-play.tv/watching/series/run-on-2020/season1/ep12')
+    # download_subtitle('https://app.we-play.tv/uploads/subtitles/507_1681_cnqv961574fl.vtt')
+    # read2('https://app.we-play.tv/uploads/subtitles/507_1681_cnqv961574fl.vtt')
+    # get_subvtt('https://app.we-play.tv/uploads/subtitles/473_1589_e8z3u6at5el7.vtt')
