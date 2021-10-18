@@ -238,7 +238,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.we" name="V-play" version="1.0.2" provider-name="Only me">
+<addon id="plugin.video.we" name="V-play" version="1.0.3" provider-name="Only me">
   <requires>
  <import addon="xbmc.python" version="2.1.0"/>
  <import addon="script.module.beautifulsoup4"/>
