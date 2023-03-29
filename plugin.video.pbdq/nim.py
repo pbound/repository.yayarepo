@@ -17,15 +17,19 @@ def getgenre():
     r.encoding = "utf-8"
     soup = BeautifulSoup(r.text, 'html5lib')
     soup.prettify()
-    ul = soup.find('ul', {'class': "v-nav"})
-    li = ul.findAll('a', {'class': ''})
+    ul = soup.find('ul', {'class': "MuiBox-root css-1vhln11"})
+    print ul
+    li = ul.findAll('a', {'class': 'MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1tqdl5x'})
     seriesList = []
-    # print (li)
+    print (li)
     for link in li:
-        catid = link.get('data-id')
+        catid = link.get('href').split("/")[5]
+        # print link.get('href').split("/")[5]
+
         surl = caturl+'category_id=' + str(catid) + '&length=14'
         # print link.text.replace('\n', '')
         # print link.get('href')
+        # print surl
         seriesList.append({'title': link.text.replace('\n', ''), 'url': surl})
 
     return seriesList
@@ -192,3 +196,4 @@ def loadlast():
         # print p
         seriesList.append({'title': lv['title'], 'url': lv['url'],'thumbnail':lv['thumbnail']})
     return seriesList
+print getgenre()
